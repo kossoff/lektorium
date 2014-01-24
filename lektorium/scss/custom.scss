@@ -1,0 +1,217 @@
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * Do not name this file, "app.scss". If you run a compass update this file can
+ * be wiped out with a compass update. By default, when a compass project is
+ * created the file will be named app.scss. Thus this file is named,
+ * THEMENAME.scss.
+ *
+ * This application file (THEMENAME.scss) is where all the partials are
+ * imported.
+ *
+ * Theme styles are categorized using SMACSS standards. They utilize
+ * categorization of styles into various categories. Those categories are the
+ * following:
+ *
+ * - Base: CSS reset/normalize plus HTML element styling.
+ * - Layout: Macro arrangement of a web page, including any grid systems.
+ * - Component: Dictate minor layout modules or reusable elements.
+ * - State: Describe the appearance of a module in various states.
+ * - Theme: Purely visual optional styling (“look-and-feel”) for a component.
+ *
+ * For more information about this new Drupal css file standard, please review
+ * the following:
+ * - https://drupal.org/node/1887922
+ * - http://smacss.com/
+ */
+
+// Base
+//
+// Init file contains required imports. Here's where we include normalize,
+// foundation and also compass.
+@import "base/init";
+// Import our mixins early so they can be used by other partials.
+@import "base/mixins";
+//
+// Common file is where you place common utility classes to extend or
+// parametrics. Optional file.
+@import "base/common";
+//
+// Fix for some Drupal CSS quirks (Drupalisms).
+@import "base/drupal";
+//
+// Styling for elements.
+@import "base/elements";
+//
+
+// Layout
+//
+// Each section of the document has it's own partial seperated out to improve
+// developer experience. Additionally, grids can be declared in layouts as well.
+@import "layout/header";
+@import "layout/main";
+@import "layout/aside";
+@import "layout/triptych";
+@import "layout/footer";
+
+// Components
+// @import "components/buttons";
+// @import "components/type";
+// @import "components/forms";
+//@import "components/foundation-icons";
+
+// Themes
+// @import "theme/button-light";
+
+body.front {
+  text-align: center;
+
+  header {
+    background: #009AE3;
+    color: white;
+    height: 250px;
+
+    h1#site-name,
+    h2 {
+      color: white;
+    }
+
+    h2 {
+      font-size:  1.6875em;
+    }
+
+    #main-menu {
+      .last {
+
+      }
+    }
+  }
+
+  .main {
+    background: white;
+
+    .panel-pane {
+      min-height: 500px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+
+      h2 {
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+
+      h2.pane-title {
+
+      }
+
+      h2.pane-title:after {
+        display: block;
+        content:url(../images/row.png);
+        overflow: auto;
+        overflow-x: hidden;
+      }
+    }
+
+    .pane-views-medialibrary-front-block {
+      background: #EAEAEA;
+
+      .lecture-description {
+        display: block;
+        padding: 1em;
+        background: #009AE3;
+        margin-top: .1em;
+        margin-bottom: 2em;
+        text-align: left;
+        min-height: 2em;
+
+        a {
+          color: white;
+        }
+      }
+    }
+
+    .pane-content {
+      @extend .row !optional;
+    }
+  }
+  .view-medialibrary-front {
+    .views-content{
+      @extend .row !optional;
+    }
+  }
+}
+
+#main-menu {
+  @extend .right !optional;
+}
+
+footer {
+  background: #16171A;
+  color: white;
+  text-align: left;
+  padding-top: 1em;
+
+  ul.menu {
+//      @extend .right !optional;
+    padding-top: 1em;
+
+    li {
+        list-style-type: none;
+        padding:.5em;
+
+        a {
+          color: white;
+        }
+    }
+  }
+}
+
+
+/*
+Sticky Footer Solution
+by Steve Hatcher
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;}
+
+/* must declare 0 margins on everything, also for main layout components use padding, not
+vertical margins (top and bottom) to add spacing, else those margins get added to total height
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+.page {min-height: 100%;}
+
+.wrapper-main {overflow:auto;
+  padding-bottom: 180px;}  /* must be same height as the footer */
+
+footer {position: relative;
+  margin-top: -180px; /* negative value of footer height */
+  height: 180px;
+  clear:both;}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+  <style type="text/css">
+    #wrap {display:table;height:100%}
+  </style>
+<![endif]-->
+
+*/
