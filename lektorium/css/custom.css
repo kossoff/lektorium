@@ -7433,7 +7433,7 @@ body.front header h2.site-slogan {
   padding-top: 100px;
 }
 /* line 82, ../scss/custom.scss */
-body.front header h1 {
+body.front header h1#site-name {
   font-size: 3.75em;
 }
 /* line 86, ../scss/custom.scss */
