@@ -212,7 +212,7 @@
       </div>
     <?php endif; ?>
   </footer> -->
-  <footer>
+<!--  <footer>
     <section class="row">
     <?php if (!empty($page['footer'])): ?>
       <div class="footer large-12 columns">
@@ -220,7 +220,7 @@
       </div>
     <?php endif; ?>
     </section>
-  </footer>
+  </footer>-->
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>

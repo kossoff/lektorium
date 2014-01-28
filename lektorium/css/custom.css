@@ -7418,49 +7418,55 @@ a.th {
 /* line 67, ../scss/custom.scss */
 body.front {
   text-align: center;
+  font-size: 110%;
 }
-/* line 70, ../scss/custom.scss */
+/* line 71, ../scss/custom.scss */
 body.front header {
   background: #009AE3;
   color: white;
-  height: 250px;
+  min-height: 550px;
 }
-/* line 76, ../scss/custom.scss */
+/* line 77, ../scss/custom.scss */
 body.front header h1#site-name,
-body.front header h2 {
+body.front header h2.site-slogan {
   color: white;
+  padding-top: 100px;
 }
-/* line 80, ../scss/custom.scss */
+/* line 82, ../scss/custom.scss */
+body.front header h1 {
+  font-size: 3.75em;
+}
+/* line 86, ../scss/custom.scss */
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 91, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 body.front .main {
   background: white;
 }
-/* line 94, ../scss/custom.scss */
+/* line 100, ../scss/custom.scss */
 body.front .main .panel-pane {
-  min-height: 500px;
+  min-height: 550px;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 99, ../scss/custom.scss */
+/* line 105, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
-/* line 108, ../scss/custom.scss */
+/* line 114, ../scss/custom.scss */
 body.front .main .panel-pane h2.pane-title:after {
   display: block;
   content: url(../images/row.png);
   overflow: auto;
   overflow-x: hidden;
 }
-/* line 116, ../scss/custom.scss */
+/* line 122, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block {
   background: #EAEAEA;
 }
-/* line 119, ../scss/custom.scss */
+/* line 125, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description {
   display: block;
   padding: 1em;
@@ -7470,28 +7476,42 @@ body.front .main .pane-views-medialibrary-front-block .lecture-description {
   text-align: left;
   min-height: 2em;
 }
-/* line 128, ../scss/custom.scss */
+/* line 134, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description a {
   color: white;
 }
+/* line 151, ../scss/custom.scss */
+body.front .view-courses .description {
+  text-align: left;
+  padding-left: 1em;
+}
+/* line 157, ../scss/custom.scss */
+body.front .view-footer {
+  margin-top: 1em;
+}
 
-/* line 149, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
+body.section-media .lecture {
+  padding-bottom: 1em;
+}
+
+/* line 172, ../scss/custom.scss */
 footer {
   background: #16171A;
   color: white;
   text-align: left;
   padding-top: 1em;
 }
-/* line 155, ../scss/custom.scss */
+/* line 178, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 159, ../scss/custom.scss */
+/* line 182, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 163, ../scss/custom.scss */
+/* line 186, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
@@ -7502,7 +7522,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 178, ../scss/custom.scss */
+/* line 201, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7511,24 +7531,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 184, ../scss/custom.scss */
+/* line 207, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 186, ../scss/custom.scss */
+/* line 209, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 188, ../scss/custom.scss */
+/* line 211, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 191, ../scss/custom.scss */
+/* line 214, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -7538,7 +7558,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 197, ../scss/custom.scss */
+/* line 220, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
