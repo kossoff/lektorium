@@ -190,6 +190,81 @@ footer {
   }
 }
 
+body.section-media {
+  #edit-type-wrapper,
+  #edit-date-wrapper,
+  #edit-title-wrapper {
+    display: none;
+  }
+  .views-exposed-widget.views-widget-filter-type {
+    .form-item {
+      float: left;
+      padding-right:1em;
+    }
+  }
+
+  #mefibs-form-dates-edit-date-wrapper {
+    label {
+      float: left;
+    }
+    div.views-widget {
+      float: left;
+    }
+  }
+  #edit-field-date-recorded-value-min-wrapper,
+  #edit-field-date-recorded-value-max-wrapper {
+    float: left;
+  }
+
+  .views-exposed-widget.views-widget-filter-field_date_recorded_value {
+    #edit-field-date-recorded-value-min-wrapper,
+    #edit-field-date-recorded-value-max-wrapper {
+      //float: left;
+      //display: inline-block;
+    }
+
+    label {
+      float: left;
+      padding-right:1em;
+    }
+    .description {
+      display: none;
+    }
+  }
+
+  #edit-subject-wrapper,
+  #edit-university-wrapper {
+    padding-bottom:2em;
+
+    label {
+      font-size: 110%;
+      padding-bottom: 1em;
+      padding-left:1em;
+    }
+
+    .views-widget {
+      label.option {
+        font-size: 90%;
+        padding-bottom:0;
+        padding-left:0;
+      }
+    }
+  }
+
+  #edit-university-wrapper {
+    .form-item {
+      display: table-row;
+
+      input,
+      label {
+        display: table-cell;
+        margin-right: .2em;
+        margin-top:1em;
+      }
+    }
+  }
+
+}
 
 /*
 Sticky Footer Solution

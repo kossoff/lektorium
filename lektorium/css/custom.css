@@ -7516,13 +7516,77 @@ footer ul.menu li a {
   color: white;
 }
 
+/* line 196, ../scss/custom.scss */
+body.section-media #edit-type-wrapper,
+body.section-media #edit-date-wrapper,
+body.section-media #edit-title-wrapper {
+  display: none;
+}
+/* line 200, ../scss/custom.scss */
+body.section-media .views-exposed-widget.views-widget-filter-type .form-item {
+  float: left;
+  padding-right: 1em;
+}
+/* line 207, ../scss/custom.scss */
+body.section-media #mefibs-form-dates-edit-date-wrapper label {
+  float: left;
+}
+/* line 210, ../scss/custom.scss */
+body.section-media #mefibs-form-dates-edit-date-wrapper div.views-widget {
+  float: left;
+}
+/* line 215, ../scss/custom.scss */
+body.section-media #edit-field-date-recorded-value-min-wrapper,
+body.section-media #edit-field-date-recorded-value-max-wrapper {
+  float: left;
+}
+/* line 226, ../scss/custom.scss */
+body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value label {
+  float: left;
+  padding-right: 1em;
+}
+/* line 230, ../scss/custom.scss */
+body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value .description {
+  display: none;
+}
+/* line 236, ../scss/custom.scss */
+body.section-media #edit-subject-wrapper,
+body.section-media #edit-university-wrapper {
+  padding-bottom: 2em;
+}
+/* line 239, ../scss/custom.scss */
+body.section-media #edit-subject-wrapper label,
+body.section-media #edit-university-wrapper label {
+  font-size: 110%;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+/* line 246, ../scss/custom.scss */
+body.section-media #edit-subject-wrapper .views-widget label.option,
+body.section-media #edit-university-wrapper .views-widget label.option {
+  font-size: 90%;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+/* line 255, ../scss/custom.scss */
+body.section-media #edit-university-wrapper .form-item {
+  display: table-row;
+}
+/* line 259, ../scss/custom.scss */
+body.section-media #edit-university-wrapper .form-item input,
+body.section-media #edit-university-wrapper .form-item label {
+  display: table-cell;
+  margin-right: .2em;
+  margin-top: 1em;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 201, ../scss/custom.scss */
+/* line 276, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7531,24 +7595,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 207, ../scss/custom.scss */
+/* line 282, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 209, ../scss/custom.scss */
+/* line 284, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 211, ../scss/custom.scss */
+/* line 286, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 214, ../scss/custom.scss */
+/* line 289, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -7558,7 +7622,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 220, ../scss/custom.scss */
+/* line 295, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
