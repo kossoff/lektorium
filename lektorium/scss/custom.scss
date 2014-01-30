@@ -266,6 +266,21 @@ body.section-media {
 
 }
 
+body.node-type-speaker {
+  h1 {
+    margin-top:0;
+    line-height: 1;
+  }
+  .field-name-field-speaker-photo {
+    @extend .left !optional;
+    padding-right:1em;
+  }
+
+  .field-name-field-view-courses {
+    clear: both;
+  }
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher

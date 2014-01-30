@@ -531,7 +531,7 @@ img {
 }
 
 /* line 333, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
-.left {
+.left, body.node-type-speaker .field-name-field-speaker-photo {
   float: left !important;
 }
 
@@ -5671,7 +5671,7 @@ label.error {
   right: -28px;
 }
 /* line 99, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-.joyride-tip-guide .joyride-nub.left {
+.joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo {
   left: -28px;
 }
 
@@ -5791,7 +5791,7 @@ label.error {
     right: -28px;
   }
   /* line 204, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-  .joyride-tip-guide .joyride-nub.left {
+  .joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo {
     border-color: black !important;
     border-top-color: transparent !important;
     border-left-color: transparent !important;
@@ -7580,13 +7580,27 @@ body.section-media #edit-university-wrapper .form-item label {
   margin-top: 1em;
 }
 
+/* line 270, ../scss/custom.scss */
+body.node-type-speaker h1 {
+  margin-top: 0;
+  line-height: 1;
+}
+/* line 274, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-speaker-photo {
+  padding-right: 1em;
+}
+/* line 279, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses {
+  clear: both;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 276, ../scss/custom.scss */
+/* line 291, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7595,24 +7609,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 282, ../scss/custom.scss */
+/* line 297, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 284, ../scss/custom.scss */
+/* line 299, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 286, ../scss/custom.scss */
+/* line 301, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 289, ../scss/custom.scss */
+/* line 304, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -7622,7 +7636,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 295, ../scss/custom.scss */
+/* line 310, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
