@@ -531,7 +531,10 @@ img {
 }
 
 /* line 333, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
-.left, body.node-type-speaker .field-name-field-speaker-photo {
+.left, body.node-type-speaker .field-name-field-speaker-photo,
+body.node-type-speaker .field-name-field-picture,
+body.node-type-course .field-name-field-speaker-photo,
+body.node-type-course .field-name-field-picture {
   float: left !important;
 }
 
@@ -5671,7 +5674,13 @@ label.error {
   right: -28px;
 }
 /* line 99, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-.joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo {
+.joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+.joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-picture,
+body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-picture,
+.joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-speaker-photo,
+body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+.joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-picture,
+body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-picture {
   left: -28px;
 }
 
@@ -5791,7 +5800,13 @@ label.error {
     right: -28px;
   }
   /* line 204, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-  .joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo {
+  .joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+  .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-picture,
+  body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-picture,
+  .joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-speaker-photo,
+  body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+  .joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-picture,
+  body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-picture {
     border-color: black !important;
     border-top-color: transparent !important;
     border-left-color: transparent !important;
@@ -7580,18 +7595,59 @@ body.section-media #edit-university-wrapper .form-item label {
   margin-top: 1em;
 }
 
-/* line 270, ../scss/custom.scss */
-body.node-type-speaker h1 {
+/* line 271, ../scss/custom.scss */
+body.node-type-speaker h1,
+body.node-type-course h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 274, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-speaker-photo {
+/* line 276, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-speaker-photo,
+body.node-type-speaker .field-name-field-picture,
+body.node-type-course .field-name-field-speaker-photo,
+body.node-type-course .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 279, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses {
+/* line 282, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses,
+body.node-type-speaker .field-name-field-view-lectures,
+body.node-type-course .field-name-field-view-courses,
+body.node-type-course .field-name-field-view-lectures {
   clear: both;
+}
+/* line 285, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses .views-row,
+body.node-type-speaker .field-name-field-view-lectures .views-row,
+body.node-type-course .field-name-field-view-courses .views-row,
+body.node-type-course .field-name-field-view-lectures .views-row {
+  background: #009AE3;
+  font-size: 90%;
+  float: left;
+  max-width: 220px;
+  margin: 0 .4em .8em 0;
+  padding-bottom: .8em;
+}
+/* line 293, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses .views-row a,
+body.node-type-speaker .field-name-field-view-lectures .views-row a,
+body.node-type-course .field-name-field-view-courses .views-row a,
+body.node-type-course .field-name-field-view-lectures .views-row a {
+  color: white;
+}
+/* line 299, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
+body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university,
+body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
+body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
+body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university,
+body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-course .field-name-field-view-courses .views-row .views-field-title,
+body.node-type-course .field-name-field-view-courses .views-row .views-field-field-university,
+body.node-type-course .field-name-field-view-courses .views-row .views-field-field-subject,
+body.node-type-course .field-name-field-view-lectures .views-row .views-field-title,
+body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-university,
+body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-subject {
+  padding: .8em .8em 0 .8em;
 }
 
 /*
@@ -7600,7 +7656,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 291, ../scss/custom.scss */
+/* line 313, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7609,24 +7665,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 297, ../scss/custom.scss */
+/* line 319, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 299, ../scss/custom.scss */
+/* line 321, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 301, ../scss/custom.scss */
+/* line 323, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 304, ../scss/custom.scss */
+/* line 326, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -7636,7 +7692,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 310, ../scss/custom.scss */
+/* line 332, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
