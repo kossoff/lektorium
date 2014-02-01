@@ -210,6 +210,25 @@ body.section-media {
     }
   }
 
+  #mefibs-form-search-edit-type-wrapper {
+    div.form-item {
+      padding:4px;
+      margin: 0 2px 0 2px;
+
+      input {
+        display: none;
+      }
+    }
+    div.form-item.highlight {
+      background: #009AE3;
+
+      label {
+        color: white;
+      }
+    }
+  }
+
+
   h2.lecture-title {
     font-size: 1.125em;
   }
@@ -292,7 +311,8 @@ body.section-media {
   }
 
   #edit-subject-wrapper,
-  #edit-university-wrapper {
+  #edit-university-wrapper,
+  #edit-field-redaction-tid-wrapper {
     padding-bottom:2em;
 
     label {
