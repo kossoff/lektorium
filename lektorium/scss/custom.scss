@@ -64,6 +64,10 @@
 // Themes
 // @import "theme/button-light";
 
+.top-bar-section li a:not(.button).active {
+    background: url("../images/triangle.png") no-repeat 50% 100% #009AE3;
+}
+
 body.front {
   text-align: center;
   font-size: 110%;
