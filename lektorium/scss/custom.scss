@@ -59,7 +59,7 @@
 // @import "components/buttons";
 // @import "components/type";
 // @import "components/forms";
-//@import "components/foundation-icons";
+@import "components/foundation-icons";
 
 // Themes
 // @import "theme/button-light";
@@ -212,6 +212,22 @@ body.section-media {
 
   h2.lecture-title {
     font-size: 1.125em;
+  }
+
+  .counter {
+    margin-top:1em;
+  }
+
+  #views-exposed-form-media-library-panel-pane-medialibrary-mefibs-form-dates {
+    margin-left: 200px;
+  }
+
+  #total {
+    color: #4D4D4D;
+    font-size: 0.875em;
+    font-weight: bold;
+    position: relative;
+    top: -2.4em;
   }
 
   #edit-type-wrapper,
