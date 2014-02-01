@@ -202,6 +202,12 @@ footer {
 body.section-media {
   #views-exposed-form-media-library-panel-pane-medialibrary {
     margin-top:4em;
+
+    div.highlight {
+      label {
+        color: #009AE3;
+      }
+    }
   }
 
   h2.lecture-title {
