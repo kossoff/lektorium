@@ -7500,57 +7500,63 @@ a.th {
 }
 
 /* line 71, ../scss/custom.scss */
+.top-bar-section ul li > a {
+  font-size: 110%;
+  font-weight: normal;
+}
+
+/* line 76, ../scss/custom.scss */
 body.front {
   text-align: center;
   font-size: 110%;
 }
-/* line 75, ../scss/custom.scss */
+/* line 80, ../scss/custom.scss */
 body.front header {
   background: #009AE3;
   color: white;
   min-height: 550px;
 }
-/* line 81, ../scss/custom.scss */
+/* line 86, ../scss/custom.scss */
 body.front header h1#site-name,
 body.front header h2.site-slogan {
   color: white;
   padding-top: 100px;
 }
-/* line 86, ../scss/custom.scss */
+/* line 91, ../scss/custom.scss */
 body.front header h1#site-name {
   font-size: 3.75em;
 }
-/* line 90, ../scss/custom.scss */
+/* line 95, ../scss/custom.scss */
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 101, ../scss/custom.scss */
+/* line 106, ../scss/custom.scss */
 body.front .main {
   background: white;
 }
-/* line 104, ../scss/custom.scss */
+/* line 109, ../scss/custom.scss */
 body.front .main .panel-pane {
   min-height: 550px;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 109, ../scss/custom.scss */
+/* line 114, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
-/* line 118, ../scss/custom.scss */
+/* line 123, ../scss/custom.scss */
 body.front .main .panel-pane h2.pane-title:after {
   display: block;
   content: url(../images/row.png);
   overflow: auto;
   overflow-x: hidden;
 }
-/* line 126, ../scss/custom.scss */
+/* line 131, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block {
   background: #EAEAEA;
 }
-/* line 129, ../scss/custom.scss */
+/* line 134, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description {
   display: block;
   padding: 1em;
@@ -7560,86 +7566,94 @@ body.front .main .pane-views-medialibrary-front-block .lecture-description {
   text-align: left;
   min-height: 2em;
 }
-/* line 138, ../scss/custom.scss */
+/* line 143, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description a {
   color: white;
 }
-/* line 155, ../scss/custom.scss */
+/* line 160, ../scss/custom.scss */
 body.front .view-courses .description {
   text-align: left;
   padding-left: 1em;
 }
-/* line 161, ../scss/custom.scss */
+/* line 166, ../scss/custom.scss */
 body.front .view-footer {
   margin-top: 1em;
 }
 
-/* line 167, ../scss/custom.scss */
+/* line 172, ../scss/custom.scss */
 body.section-media .lecture {
   padding-bottom: 1em;
 }
 
-/* line 176, ../scss/custom.scss */
+/* line 181, ../scss/custom.scss */
 footer {
   background: #16171A;
   color: white;
   text-align: left;
   padding-top: 1em;
 }
-/* line 182, ../scss/custom.scss */
+/* line 187, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 186, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 190, ../scss/custom.scss */
+/* line 195, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
-/* line 201, ../scss/custom.scss */
+/* line 203, ../scss/custom.scss */
+body.section-media #views-exposed-form-media-library-panel-pane-medialibrary {
+  margin-top: 4em;
+}
+/* line 207, ../scss/custom.scss */
+body.section-media h2.lecture-title {
+  font-size: 1.125em;
+}
+/* line 214, ../scss/custom.scss */
 body.section-media #edit-type-wrapper,
 body.section-media #edit-date-wrapper,
 body.section-media #edit-title-wrapper,
 body.section-media #edit-combine-wrapper {
   display: none;
 }
-/* line 205, ../scss/custom.scss */
+/* line 218, ../scss/custom.scss */
 body.section-media a.toggler {
   margin-top: 16px;
   margin-left: 16px;
 }
-/* line 215, ../scss/custom.scss */
+/* line 228, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-type .form-item {
   float: left;
   padding-right: 1em;
 }
-/* line 222, ../scss/custom.scss */
+/* line 235, ../scss/custom.scss */
 body.section-media #mefibs-form-dates-edit-date-wrapper label {
   float: left;
 }
-/* line 225, ../scss/custom.scss */
+/* line 238, ../scss/custom.scss */
 body.section-media #mefibs-form-dates-edit-date-wrapper div.views-widget {
   float: left;
 }
-/* line 230, ../scss/custom.scss */
+/* line 243, ../scss/custom.scss */
 body.section-media #edit-field-date-recorded-value-min-wrapper,
 body.section-media #edit-field-date-recorded-value-max-wrapper {
   float: left;
 }
-/* line 241, ../scss/custom.scss */
+/* line 254, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value label {
   float: left;
   padding-right: 1em;
 }
-/* line 245, ../scss/custom.scss */
+/* line 258, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value .description {
   display: none;
 }
-/* line 250, ../scss/custom.scss */
+/* line 263, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value #mefibs-form-dates-edit-date-max-datepicker-popup-2,
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value #mefibs-form-dates-edit-date-min-datepicker-popup-2 {
   background: #E9E9E9;
@@ -7648,30 +7662,30 @@ body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded
   margin: 0;
   padding: 0;
 }
-/* line 260, ../scss/custom.scss */
+/* line 273, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper,
 body.section-media #edit-university-wrapper {
   padding-bottom: 2em;
 }
-/* line 263, ../scss/custom.scss */
+/* line 276, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper label,
 body.section-media #edit-university-wrapper label {
   font-size: 110%;
   padding-bottom: 1em;
   padding-left: 1em;
 }
-/* line 270, ../scss/custom.scss */
+/* line 283, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper .views-widget label.option,
 body.section-media #edit-university-wrapper .views-widget label.option {
   font-size: 90%;
   padding-bottom: 0;
   padding-left: 0;
 }
-/* line 279, ../scss/custom.scss */
+/* line 292, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item {
   display: table-row;
 }
-/* line 283, ../scss/custom.scss */
+/* line 296, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item input,
 body.section-media #edit-university-wrapper .form-item label {
   display: table-cell;
@@ -7679,7 +7693,7 @@ body.section-media #edit-university-wrapper .form-item label {
   margin-top: 1em;
 }
 
-/* line 298, ../scss/custom.scss */
+/* line 311, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-university main,
@@ -7687,7 +7701,7 @@ body.node-type-subject main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 301, ../scss/custom.scss */
+/* line 314, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-university h1,
@@ -7696,7 +7710,7 @@ body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 306, ../scss/custom.scss */
+/* line 319, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-university .field,
@@ -7705,7 +7719,7 @@ body.node-type-lecture .field {
   padding-bottom: 1em;
   clear: both;
 }
-/* line 312, ../scss/custom.scss */
+/* line 325, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -7718,7 +7732,7 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 317, ../scss/custom.scss */
+/* line 330, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-university .field-name-field-lectures a,
@@ -7727,7 +7741,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 325, ../scss/custom.scss */
+/* line 338, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-course .field-name-field-view-courses,
@@ -7740,7 +7754,7 @@ body.node-type-lecture .field-name-field-view-courses,
 body.node-type-lecture .field-name-field-view-lectures {
   clear: both;
 }
-/* line 328, ../scss/custom.scss */
+/* line 341, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-course .field-name-field-view-courses .views-row,
@@ -7759,7 +7773,7 @@ body.node-type-lecture .field-name-field-view-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 338, ../scss/custom.scss */
+/* line 351, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row a,
 body.node-type-speaker .field-name-field-view-lectures .views-row a,
 body.node-type-course .field-name-field-view-courses .views-row a,
@@ -7772,7 +7786,7 @@ body.node-type-lecture .field-name-field-view-courses .views-row a,
 body.node-type-lecture .field-name-field-view-lectures .views-row a {
   color: white;
 }
-/* line 344, ../scss/custom.scss */
+/* line 357, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
@@ -7817,7 +7831,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 364, ../scss/custom.scss */
+/* line 377, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -7826,24 +7840,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 370, ../scss/custom.scss */
+/* line 383, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 372, ../scss/custom.scss */
+/* line 385, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 374, ../scss/custom.scss */
+/* line 387, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 377, ../scss/custom.scss */
+/* line 390, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -7853,7 +7867,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 383, ../scss/custom.scss */
+/* line 396, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";

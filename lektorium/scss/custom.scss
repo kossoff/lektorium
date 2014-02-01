@@ -68,6 +68,11 @@
     background: url("../images/triangle.png") no-repeat 50% 100% #009AE3;
 }
 
+.top-bar-section ul li > a {
+  font-size: 110%;
+  font-weight: normal;
+}
+
 body.front {
   text-align: center;
   font-size: 110%;
@@ -195,6 +200,14 @@ footer {
 }
 
 body.section-media {
+  #views-exposed-form-media-library-panel-pane-medialibrary {
+    margin-top:4em;
+  }
+
+  h2.lecture-title {
+    font-size: 1.125em;
+  }
+
   #edit-type-wrapper,
   #edit-date-wrapper,
   #edit-title-wrapper,
