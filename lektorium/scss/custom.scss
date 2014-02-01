@@ -312,7 +312,8 @@ body.section-media {
 
   #edit-subject-wrapper,
   #edit-university-wrapper,
-  #edit-field-redaction-tid-wrapper {
+  #edit-field-redaction-tid-wrapper,
+  #edit-field-lang-tid-wrapper {
     padding-bottom:2em;
 
     label {
@@ -328,6 +329,16 @@ body.section-media {
         padding-left:0;
       }
     }
+  }
+
+  div.form-item-edit-field-lang-tid-5 {
+    background: url("../images/gb.png") 100% 20% no-repeat;
+    width: 125px;
+  }
+
+  div.form-item-edit-field-lang-tid-4 {
+    background: url("../images/ru.png") 100% 20% no-repeat;
+    width: 125px;
   }
 
   #edit-university-wrapper {

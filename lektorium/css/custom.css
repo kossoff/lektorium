@@ -9422,33 +9422,46 @@ body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded
   margin: 0;
   padding: 0;
 }
-/* line 315, ../scss/custom.scss */
+/* line 316, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper,
 body.section-media #edit-university-wrapper,
-body.section-media #edit-field-redaction-tid-wrapper {
+body.section-media #edit-field-redaction-tid-wrapper,
+body.section-media #edit-field-lang-tid-wrapper {
   padding-bottom: 2em;
 }
-/* line 318, ../scss/custom.scss */
+/* line 319, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper label,
 body.section-media #edit-university-wrapper label,
-body.section-media #edit-field-redaction-tid-wrapper label {
+body.section-media #edit-field-redaction-tid-wrapper label,
+body.section-media #edit-field-lang-tid-wrapper label {
   font-size: 110%;
   padding-bottom: 1em;
   padding-left: 1em;
 }
-/* line 325, ../scss/custom.scss */
+/* line 326, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper .views-widget label.option,
 body.section-media #edit-university-wrapper .views-widget label.option,
-body.section-media #edit-field-redaction-tid-wrapper .views-widget label.option {
+body.section-media #edit-field-redaction-tid-wrapper .views-widget label.option,
+body.section-media #edit-field-lang-tid-wrapper .views-widget label.option {
   font-size: 90%;
   padding-bottom: 0;
   padding-left: 0;
 }
 /* line 334, ../scss/custom.scss */
+body.section-media div.form-item-edit-field-lang-tid-5 {
+  background: url("../images/gb.png") 100% 20% no-repeat;
+  width: 125px;
+}
+/* line 339, ../scss/custom.scss */
+body.section-media div.form-item-edit-field-lang-tid-4 {
+  background: url("../images/ru.png") 100% 20% no-repeat;
+  width: 125px;
+}
+/* line 345, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item {
   display: table-row;
 }
-/* line 338, ../scss/custom.scss */
+/* line 349, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item input,
 body.section-media #edit-university-wrapper .form-item label {
   display: table-cell;
@@ -9456,7 +9469,7 @@ body.section-media #edit-university-wrapper .form-item label {
   margin-top: 1em;
 }
 
-/* line 353, ../scss/custom.scss */
+/* line 364, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-university main,
@@ -9464,7 +9477,7 @@ body.node-type-subject main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 356, ../scss/custom.scss */
+/* line 367, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-university h1,
@@ -9473,7 +9486,7 @@ body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 361, ../scss/custom.scss */
+/* line 372, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-university .field,
@@ -9482,7 +9495,7 @@ body.node-type-lecture .field {
   padding-bottom: 1em;
   clear: both;
 }
-/* line 367, ../scss/custom.scss */
+/* line 378, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -9495,7 +9508,7 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 372, ../scss/custom.scss */
+/* line 383, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-university .field-name-field-lectures a,
@@ -9504,7 +9517,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 380, ../scss/custom.scss */
+/* line 391, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-course .field-name-field-view-courses,
@@ -9517,7 +9530,7 @@ body.node-type-lecture .field-name-field-view-courses,
 body.node-type-lecture .field-name-field-view-lectures {
   clear: both;
 }
-/* line 383, ../scss/custom.scss */
+/* line 394, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-course .field-name-field-view-courses .views-row,
@@ -9536,7 +9549,7 @@ body.node-type-lecture .field-name-field-view-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 393, ../scss/custom.scss */
+/* line 404, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row a,
 body.node-type-speaker .field-name-field-view-lectures .views-row a,
 body.node-type-course .field-name-field-view-courses .views-row a,
@@ -9549,7 +9562,7 @@ body.node-type-lecture .field-name-field-view-courses .views-row a,
 body.node-type-lecture .field-name-field-view-lectures .views-row a {
   color: white;
 }
-/* line 399, ../scss/custom.scss */
+/* line 410, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
@@ -9594,7 +9607,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 419, ../scss/custom.scss */
+/* line 430, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -9603,24 +9616,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 425, ../scss/custom.scss */
+/* line 436, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 427, ../scss/custom.scss */
+/* line 438, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 429, ../scss/custom.scss */
+/* line 440, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 432, ../scss/custom.scss */
+/* line 443, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -9630,7 +9643,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 438, ../scss/custom.scss */
+/* line 449, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
