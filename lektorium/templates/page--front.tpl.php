@@ -206,15 +206,15 @@
       </div>
     <?php endif; ?>
   </footer> -->
-<!--  <footer>
-    <section class="row">
+  <footer>
+    <section class="">
     <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12 columns">
+      <div class="footer">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
     </section>
-  </footer>-->
+  </footer>
   <!--/.footer-->
 
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>

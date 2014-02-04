@@ -180,9 +180,19 @@ body.section-media {
 
 footer {
   background: #16171A;
-  color: white;
+  color: grey;
   text-align: left;
   padding-top: 1em;
+  font-size: 80%;
+
+  h2 {
+    color: white;
+    font-size: 100%;
+  }
+
+  p {
+    line-height: 1;
+  }
 
   ul.menu {
 //      @extend .right !optional;
@@ -228,11 +238,14 @@ body.page-mediasearch {
         display: none;
       }
 
+      label {
+        padding: 2px;
+        margin-left: 4px;
+      }
+
       :checked + label {
         background: #009AE3;
         color: white;
-        padding: 2px;
-        margin-left: 4px;
       }
     }
   }
