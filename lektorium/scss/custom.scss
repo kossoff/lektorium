@@ -550,8 +550,23 @@ body.node-type-lecture {
   }
 
   .field-name-field-view-courses,
-  .field-name-field-view-lectures {
+  .field-name-field-view-lectures,
+  .field-name-field-lectures {
     clear: both;
+
+    .lecture {
+      a {
+        margin:0;
+        padding:0;
+      }
+
+      .lecture-title-x a {
+        text-align: left;
+        white-space: normal;
+        height: 60px;
+        padding: .8em .8em 0 .8em;
+      }
+    }
 
     .views-row {
       background:#009AE3;

@@ -9897,30 +9897,80 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 553, ../scss/custom.scss */
+/* line 554, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
+body.node-type-speaker .field-name-field-lectures,
 body.node-type-course .field-name-field-view-courses,
 body.node-type-course .field-name-field-view-lectures,
+body.node-type-course .field-name-field-lectures,
 body.node-type-university .field-name-field-view-courses,
 body.node-type-university .field-name-field-view-lectures,
+body.node-type-university .field-name-field-lectures,
 body.node-type-subject .field-name-field-view-courses,
 body.node-type-subject .field-name-field-view-lectures,
+body.node-type-subject .field-name-field-lectures,
 body.node-type-lecture .field-name-field-view-courses,
-body.node-type-lecture .field-name-field-view-lectures {
+body.node-type-lecture .field-name-field-view-lectures,
+body.node-type-lecture .field-name-field-lectures {
   clear: both;
 }
-/* line 556, ../scss/custom.scss */
+/* line 558, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses .lecture a,
+body.node-type-speaker .field-name-field-view-lectures .lecture a,
+body.node-type-speaker .field-name-field-lectures .lecture a,
+body.node-type-course .field-name-field-view-courses .lecture a,
+body.node-type-course .field-name-field-view-lectures .lecture a,
+body.node-type-course .field-name-field-lectures .lecture a,
+body.node-type-university .field-name-field-view-courses .lecture a,
+body.node-type-university .field-name-field-view-lectures .lecture a,
+body.node-type-university .field-name-field-lectures .lecture a,
+body.node-type-subject .field-name-field-view-courses .lecture a,
+body.node-type-subject .field-name-field-view-lectures .lecture a,
+body.node-type-subject .field-name-field-lectures .lecture a,
+body.node-type-lecture .field-name-field-view-courses .lecture a,
+body.node-type-lecture .field-name-field-view-lectures .lecture a,
+body.node-type-lecture .field-name-field-lectures .lecture a {
+  margin: 0;
+  padding: 0;
+}
+/* line 563, ../scss/custom.scss */
+body.node-type-speaker .field-name-field-view-courses .lecture .lecture-title-x a,
+body.node-type-speaker .field-name-field-view-lectures .lecture .lecture-title-x a,
+body.node-type-speaker .field-name-field-lectures .lecture .lecture-title-x a,
+body.node-type-course .field-name-field-view-courses .lecture .lecture-title-x a,
+body.node-type-course .field-name-field-view-lectures .lecture .lecture-title-x a,
+body.node-type-course .field-name-field-lectures .lecture .lecture-title-x a,
+body.node-type-university .field-name-field-view-courses .lecture .lecture-title-x a,
+body.node-type-university .field-name-field-view-lectures .lecture .lecture-title-x a,
+body.node-type-university .field-name-field-lectures .lecture .lecture-title-x a,
+body.node-type-subject .field-name-field-view-courses .lecture .lecture-title-x a,
+body.node-type-subject .field-name-field-view-lectures .lecture .lecture-title-x a,
+body.node-type-subject .field-name-field-lectures .lecture .lecture-title-x a,
+body.node-type-lecture .field-name-field-view-courses .lecture .lecture-title-x a,
+body.node-type-lecture .field-name-field-view-lectures .lecture .lecture-title-x a,
+body.node-type-lecture .field-name-field-lectures .lecture .lecture-title-x a {
+  text-align: left;
+  white-space: normal;
+  height: 60px;
+  padding: .8em .8em 0 .8em;
+}
+/* line 571, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
+body.node-type-speaker .field-name-field-lectures .views-row,
 body.node-type-course .field-name-field-view-courses .views-row,
 body.node-type-course .field-name-field-view-lectures .views-row,
+body.node-type-course .field-name-field-lectures .views-row,
 body.node-type-university .field-name-field-view-courses .views-row,
 body.node-type-university .field-name-field-view-lectures .views-row,
+body.node-type-university .field-name-field-lectures .views-row,
 body.node-type-subject .field-name-field-view-courses .views-row,
 body.node-type-subject .field-name-field-view-lectures .views-row,
+body.node-type-subject .field-name-field-lectures .views-row,
 body.node-type-lecture .field-name-field-view-courses .views-row,
-body.node-type-lecture .field-name-field-view-lectures .views-row {
+body.node-type-lecture .field-name-field-view-lectures .views-row,
+body.node-type-lecture .field-name-field-lectures .views-row {
   background: #009AE3;
   font-size: 90%;
   display: inline-block;
@@ -9929,56 +9979,76 @@ body.node-type-lecture .field-name-field-view-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 566, ../scss/custom.scss */
+/* line 581, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row a,
 body.node-type-speaker .field-name-field-view-lectures .views-row a,
+body.node-type-speaker .field-name-field-lectures .views-row a,
 body.node-type-course .field-name-field-view-courses .views-row a,
 body.node-type-course .field-name-field-view-lectures .views-row a,
+body.node-type-course .field-name-field-lectures .views-row a,
 body.node-type-university .field-name-field-view-courses .views-row a,
 body.node-type-university .field-name-field-view-lectures .views-row a,
+body.node-type-university .field-name-field-lectures .views-row a,
 body.node-type-subject .field-name-field-view-courses .views-row a,
 body.node-type-subject .field-name-field-view-lectures .views-row a,
+body.node-type-subject .field-name-field-lectures .views-row a,
 body.node-type-lecture .field-name-field-view-courses .views-row a,
-body.node-type-lecture .field-name-field-view-lectures .views-row a {
+body.node-type-lecture .field-name-field-view-lectures .views-row a,
+body.node-type-lecture .field-name-field-lectures .views-row a {
   color: white;
 }
-/* line 571, ../scss/custom.scss */
+/* line 586, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-speaker .field-name-field-lectures .views-row .views-field-title,
+body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-subject,
 body.node-type-course .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-course .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-course .field-name-field-view-lectures .views-row .views-field-title,
 body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-course .field-name-field-lectures .views-row .views-field-title,
+body.node-type-course .field-name-field-lectures .views-row .views-field-field-subject,
 body.node-type-university .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-university .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-university .field-name-field-view-lectures .views-row .views-field-title,
 body.node-type-university .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-university .field-name-field-lectures .views-row .views-field-title,
+body.node-type-university .field-name-field-lectures .views-row .views-field-field-subject,
 body.node-type-subject .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-subject .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-subject .field-name-field-view-lectures .views-row .views-field-title,
 body.node-type-subject .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-subject .field-name-field-lectures .views-row .views-field-title,
+body.node-type-subject .field-name-field-lectures .views-row .views-field-field-subject,
 body.node-type-lecture .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-lecture .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-title,
-body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-subject {
+body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-subject,
+body.node-type-lecture .field-name-field-lectures .views-row .views-field-title,
+body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-subject {
   padding: .8em .8em 0 .8em;
   display: inline-block;
   overflow: hidden;
   height: 40px;
 }
-/* line 581, ../scss/custom.scss */
+/* line 596, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
+body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
 body.node-type-course .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-university a,
+body.node-type-course .field-name-field-lectures .views-row .views-field-field-university a,
 body.node-type-university .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-university .field-name-field-view-lectures .views-row .views-field-field-university a,
+body.node-type-university .field-name-field-lectures .views-row .views-field-field-university a,
 body.node-type-subject .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-subject .field-name-field-view-lectures .views-row .views-field-field-university a,
+body.node-type-subject .field-name-field-lectures .views-row .views-field-field-university a,
 body.node-type-lecture .field-name-field-view-courses .views-row .views-field-field-university a,
-body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-university a {
+body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-university a,
+body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-university a {
   padding: .8em .8em 0 .8em;
   display: block;
   overflow: hidden;
@@ -9993,7 +10063,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 601, ../scss/custom.scss */
+/* line 616, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10002,24 +10072,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 607, ../scss/custom.scss */
+/* line 622, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 609, ../scss/custom.scss */
+/* line 624, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 611, ../scss/custom.scss */
+/* line 626, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 614, ../scss/custom.scss */
+/* line 629, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -10029,7 +10099,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 620, ../scss/custom.scss */
+/* line 635, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
