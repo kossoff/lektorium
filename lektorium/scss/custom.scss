@@ -138,10 +138,10 @@ body.front {
         margin-top: .1em;
         margin-bottom: 2em;
         text-align: left;
-        min-height: 2em;
 
         a {
           color: white;
+          min-height: 2em;
         }
       }
     }
@@ -349,6 +349,27 @@ body.page-mediasearch {
 
   h2.lecture-title {
     font-size: 1.125em;
+    margin-top:0;
+    line-height: 1;
+  }
+
+  .speaker-and-university {
+    font-size: 100%;
+  }
+
+  .teaser {
+    margin-top:.8em;
+    font-size: 90%;
+    display: block;
+    overflow: hidden;
+    line-height: 1 !important;
+    height: 3em;
+
+    p,
+    ul,
+    li {
+      line-height: 1;
+    }
   }
 
   .counter {
@@ -512,7 +533,7 @@ body.node-type-lecture {
 
   .field {
     padding-bottom:1em;
-    clear: both;
+    //clear: both;
   }
 
   .field-name-field-speaker-photo,
