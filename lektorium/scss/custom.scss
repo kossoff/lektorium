@@ -547,15 +547,24 @@ body.node-type-lecture {
       }
 
       .views-field-title,
-      .views-field-field-university,
       .views-field-field-subject {
         padding: .8em .8em 0 .8em;
 
-        display: block;
+        display: inline-block;
         overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        color: white;
+        height: 40px;
+
+      }
+
+      .views-field-field-university {
+        a {
+          padding: .8em .8em 0 .8em;
+          display: block;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: white;
+        }
       }
     }
   }
