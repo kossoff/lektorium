@@ -199,7 +199,94 @@ footer {
   }
 }
 
-body.section-media {
+body.page-mediasearch {
+  .row.collapse.lecture {
+    padding-bottom: 1em;
+  }
+
+  .view-display-id-page_media_search {
+    margin-top:80px;
+  }
+
+  #edit-combine-wrapper {
+    position: absolute;
+    left: 250px;
+    width: 200px;
+  }
+
+  #edit-type-wrapper {
+    position: absolute;
+    left: 450px;
+    width: 450px;
+
+    .form-item {
+      margin-top: 25px;
+      display: inline-block;
+
+      input {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #edit-recorded-wrapper {
+    position: absolute;
+    left:450px;
+    width: 450px;
+    top: 70px;
+
+    #edit-recorded-min-datepicker-popup-1,
+    #edit-recorded-max-datepicker-popup-1 {
+      background: #E9E9E9;
+      height: 20px;
+      width: 80px;
+      padding: 0;
+    }
+  }
+
+  #edit-field-subject-target-id-wrapper {
+    margin-top: 70px;
+  }
+
+  #edit-field-subject-target-id-wrapper,
+  #edit-field-university-target-id-wrapper {
+    label {
+      font-size: 110%;
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .views-widget {
+      .form-item {
+        margin-bottom: 16px;
+      }
+
+      input {
+        margin-bottom: 0;
+      }
+      label {
+        font-size: .875em;
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .view-header {
+    #total {
+      margin: 20px 0 20px 0;
+    }
+  }
+
+  #main-content {
+    .view-display-id-page_media_search {
+
+    }
+  }
+}
+
+body.section-media,
+body.page-mediasearch {
   #views-exposed-form-media-library-panel-pane-medialibrary {
     margin-top:4em;
 
@@ -251,15 +338,15 @@ body.section-media {
     color: #4D4D4D;
     font-size: 0.875em;
     font-weight: bold;
-    position: relative;
-    top: -2.4em;
+    //position: relative;
+    //top: -2.4em;
   }
 
   #edit-type-wrapper,
   #edit-date-wrapper,
   #edit-title-wrapper,
   #edit-combine-wrapper {
-    display: none;
+    //display: none;
   }
 
   a.toggler {
