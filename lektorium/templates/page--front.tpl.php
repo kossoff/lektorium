@@ -11,7 +11,8 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="toggle-topbar menu-icon"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
+            <li class="name"></li>
+            <li class="toggle-topbar"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
             <?php if ($top_bar_main_menu) :?>

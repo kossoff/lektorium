@@ -9444,33 +9444,33 @@ body.front header h1#site-name {
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 106, ../scss/custom.scss */
+/* line 100, ../scss/custom.scss */
 body.front .main {
   background: white;
 }
-/* line 109, ../scss/custom.scss */
+/* line 103, ../scss/custom.scss */
 body.front .main .panel-pane {
   min-height: 550px;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* line 114, ../scss/custom.scss */
+/* line 108, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   margin-top: 1em;
   padding-top: 1em;
 }
-/* line 123, ../scss/custom.scss */
+/* line 117, ../scss/custom.scss */
 body.front .main .panel-pane h2.pane-title:after {
   display: block;
   content: url(../images/row.png);
   overflow: auto;
   overflow-x: hidden;
 }
-/* line 131, ../scss/custom.scss */
+/* line 125, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block {
   background: #EAEAEA;
 }
-/* line 134, ../scss/custom.scss */
+/* line 128, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description {
   display: block;
   padding: 1em;
@@ -9479,27 +9479,27 @@ body.front .main .pane-views-medialibrary-front-block .lecture-description {
   margin-bottom: 2em;
   text-align: left;
 }
-/* line 142, ../scss/custom.scss */
+/* line 136, ../scss/custom.scss */
 body.front .main .pane-views-medialibrary-front-block .lecture-description a {
   color: white;
   min-height: 2em;
 }
-/* line 160, ../scss/custom.scss */
+/* line 154, ../scss/custom.scss */
 body.front .view-courses .description {
   text-align: left;
   padding-left: 1em;
 }
-/* line 166, ../scss/custom.scss */
+/* line 160, ../scss/custom.scss */
 body.front .view-footer {
   margin-top: 1em;
 }
 
-/* line 172, ../scss/custom.scss */
+/* line 166, ../scss/custom.scss */
 body.section-media .lecture {
   padding-bottom: 1em;
 }
 
-/* line 181, ../scss/custom.scss */
+/* line 175, ../scss/custom.scss */
 footer {
   background: #16171A;
   color: grey;
@@ -9507,77 +9507,81 @@ footer {
   padding-top: 1em;
   font-size: 80%;
 }
-/* line 188, ../scss/custom.scss */
+/* line 182, ../scss/custom.scss */
 footer h2 {
   color: white;
   font-size: 100%;
 }
-/* line 193, ../scss/custom.scss */
+/* line 187, ../scss/custom.scss */
 footer p {
   line-height: 1;
 }
-/* line 197, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
+footer a {
+  color: #bdbdbd;
+}
+/* line 195, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 201, ../scss/custom.scss */
+/* line 199, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 205, ../scss/custom.scss */
+/* line 203, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
-/* line 213, ../scss/custom.scss */
+/* line 211, ../scss/custom.scss */
 body.page-mediasearch .row.collapse.lecture, body.page-mediasearch body.front .main .collapse.lecture.pane-content, body.front .main body.page-mediasearch .collapse.lecture.pane-content, body.page-mediasearch body.front .view-medialibrary-front .collapse.lecture.views-content, body.front .view-medialibrary-front body.page-mediasearch .collapse.lecture.views-content {
   padding-bottom: 1em;
 }
-/* line 217, ../scss/custom.scss */
+/* line 215, ../scss/custom.scss */
 body.page-mediasearch .view-display-id-page_media_search {
   margin-top: 80px;
 }
-/* line 221, ../scss/custom.scss */
+/* line 219, ../scss/custom.scss */
 body.page-mediasearch #edit-combine-wrapper {
   position: absolute;
   left: 250px;
   width: 200px;
 }
-/* line 227, ../scss/custom.scss */
+/* line 225, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper {
   position: absolute;
   left: 450px;
   width: 450px;
 }
-/* line 232, ../scss/custom.scss */
+/* line 230, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper .form-item {
   margin-top: 25px;
   display: inline-block;
 }
-/* line 236, ../scss/custom.scss */
+/* line 234, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper .form-item input {
   margin-bottom: 0;
   display: none;
 }
-/* line 241, ../scss/custom.scss */
+/* line 239, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper .form-item label {
   padding: 2px;
   margin-left: 4px;
 }
-/* line 246, ../scss/custom.scss */
+/* line 244, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper .form-item :checked + label {
   background: #009AE3;
   color: white;
 }
-/* line 253, ../scss/custom.scss */
+/* line 251, ../scss/custom.scss */
 body.page-mediasearch #edit-recorded-wrapper {
   position: absolute;
   left: 450px;
   width: 450px;
   top: 70px;
 }
-/* line 260, ../scss/custom.scss */
+/* line 258, ../scss/custom.scss */
 body.page-mediasearch #edit-recorded-wrapper #edit-recorded-min-datepicker-popup-1,
 body.page-mediasearch #edit-recorded-wrapper #edit-recorded-max-datepicker-popup-1 {
   background: #E9E9E9;
@@ -9585,55 +9589,55 @@ body.page-mediasearch #edit-recorded-wrapper #edit-recorded-max-datepicker-popup
   width: 80px;
   padding: 0;
 }
-/* line 268, ../scss/custom.scss */
+/* line 266, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper {
   margin-top: 70px;
 }
-/* line 274, ../scss/custom.scss */
+/* line 272, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper label,
 body.page-mediasearch #edit-field-university-target-id-wrapper label {
   font-size: 110%;
   margin-left: 20px;
   margin-bottom: 10px;
 }
-/* line 281, ../scss/custom.scss */
+/* line 279, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper .views-widget .form-item,
 body.page-mediasearch #edit-field-university-target-id-wrapper .views-widget .form-item {
   margin-bottom: 16px;
 }
-/* line 285, ../scss/custom.scss */
+/* line 283, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper .views-widget input,
 body.page-mediasearch #edit-field-university-target-id-wrapper .views-widget input {
   margin-bottom: 0;
 }
-/* line 288, ../scss/custom.scss */
+/* line 286, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper .views-widget label,
 body.page-mediasearch #edit-field-university-target-id-wrapper .views-widget label {
   font-size: .875em;
   margin-left: 0;
   margin-bottom: 0;
 }
-/* line 294, ../scss/custom.scss */
+/* line 292, ../scss/custom.scss */
 body.page-mediasearch #edit-field-subject-target-id-wrapper .views-widget :checked + label,
 body.page-mediasearch #edit-field-university-target-id-wrapper .views-widget :checked + label {
   color: #009AE3;
 }
-/* line 301, ../scss/custom.scss */
+/* line 299, ../scss/custom.scss */
 body.page-mediasearch .view-header #total {
   margin: 20px 0 20px 0;
 }
 
-/* line 315, ../scss/custom.scss */
+/* line 313, ../scss/custom.scss */
 body.section-media #views-exposed-form-media-library-panel-pane-medialibrary,
 body.page-mediasearch #views-exposed-form-media-library-panel-pane-medialibrary {
   margin-top: 4em;
 }
-/* line 319, ../scss/custom.scss */
+/* line 317, ../scss/custom.scss */
 body.section-media #views-exposed-form-media-library-panel-pane-medialibrary div.highlight label,
 body.page-mediasearch #views-exposed-form-media-library-panel-pane-medialibrary div.highlight label {
   color: #009AE3;
 }
-/* line 325, ../scss/custom.scss */
+/* line 323, ../scss/custom.scss */
 body.section-media #mefibs-form-search-edit-type-wrapper,
 body.page-mediasearch #mefibs-form-search-edit-type-wrapper {
   margin-top: 25px;
@@ -9654,24 +9658,24 @@ body.page-mediasearch #mefibs-form-search-edit-type-wrapper {
     }
     */
 }
-/* line 328, ../scss/custom.scss */
+/* line 326, ../scss/custom.scss */
 body.section-media #mefibs-form-search-edit-type-wrapper input,
 body.page-mediasearch #mefibs-form-search-edit-type-wrapper input {
   margin-bottom: 0 !important;
 }
-/* line 350, ../scss/custom.scss */
+/* line 348, ../scss/custom.scss */
 body.section-media h2.lecture-title,
 body.page-mediasearch h2.lecture-title {
   font-size: 1.125em;
   margin-top: 0;
   line-height: 1;
 }
-/* line 356, ../scss/custom.scss */
+/* line 354, ../scss/custom.scss */
 body.section-media .speaker-and-university,
 body.page-mediasearch .speaker-and-university {
   font-size: 100%;
 }
-/* line 360, ../scss/custom.scss */
+/* line 358, ../scss/custom.scss */
 body.section-media .teaser,
 body.page-mediasearch .teaser {
   margin-top: .8em;
@@ -9681,7 +9685,7 @@ body.page-mediasearch .teaser {
   line-height: 1 !important;
   height: 3em;
 }
-/* line 370, ../scss/custom.scss */
+/* line 368, ../scss/custom.scss */
 body.section-media .teaser p,
 body.section-media .teaser ul,
 body.section-media .teaser li,
@@ -9690,64 +9694,64 @@ body.page-mediasearch .teaser ul,
 body.page-mediasearch .teaser li {
   line-height: 1;
 }
-/* line 375, ../scss/custom.scss */
+/* line 373, ../scss/custom.scss */
 body.section-media .counter,
 body.page-mediasearch .counter {
   margin-top: 1em;
 }
-/* line 379, ../scss/custom.scss */
+/* line 377, ../scss/custom.scss */
 body.section-media #views-exposed-form-media-library-panel-pane-medialibrary-mefibs-form-dates,
 body.page-mediasearch #views-exposed-form-media-library-panel-pane-medialibrary-mefibs-form-dates {
   margin-left: 200px;
 }
-/* line 383, ../scss/custom.scss */
+/* line 381, ../scss/custom.scss */
 body.section-media #total,
 body.page-mediasearch #total {
   color: #4D4D4D;
   font-size: 0.875em;
   font-weight: bold;
 }
-/* line 398, ../scss/custom.scss */
+/* line 396, ../scss/custom.scss */
 body.section-media a.toggler,
 body.page-mediasearch a.toggler {
   margin-top: 16px;
   margin-left: 16px;
 }
-/* line 408, ../scss/custom.scss */
+/* line 406, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-type .form-item,
 body.page-mediasearch .views-exposed-widget.views-widget-filter-type .form-item {
   float: left;
   padding-right: 1em;
 }
-/* line 415, ../scss/custom.scss */
+/* line 413, ../scss/custom.scss */
 body.section-media #mefibs-form-dates-edit-date-wrapper label,
 body.page-mediasearch #mefibs-form-dates-edit-date-wrapper label {
   float: left;
 }
-/* line 418, ../scss/custom.scss */
+/* line 416, ../scss/custom.scss */
 body.section-media #mefibs-form-dates-edit-date-wrapper div.views-widget,
 body.page-mediasearch #mefibs-form-dates-edit-date-wrapper div.views-widget {
   float: left;
 }
-/* line 423, ../scss/custom.scss */
+/* line 421, ../scss/custom.scss */
 body.section-media #edit-field-date-recorded-value-min-wrapper,
 body.section-media #edit-field-date-recorded-value-max-wrapper,
 body.page-mediasearch #edit-field-date-recorded-value-min-wrapper,
 body.page-mediasearch #edit-field-date-recorded-value-max-wrapper {
   float: left;
 }
-/* line 434, ../scss/custom.scss */
+/* line 432, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value label,
 body.page-mediasearch .views-exposed-widget.views-widget-filter-field_date_recorded_value label {
   float: left;
   padding-right: 1em;
 }
-/* line 438, ../scss/custom.scss */
+/* line 436, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value .description,
 body.page-mediasearch .views-exposed-widget.views-widget-filter-field_date_recorded_value .description {
   display: none;
 }
-/* line 443, ../scss/custom.scss */
+/* line 441, ../scss/custom.scss */
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value #mefibs-form-dates-edit-date-max-datepicker-popup-2,
 body.section-media .views-exposed-widget.views-widget-filter-field_date_recorded_value #mefibs-form-dates-edit-date-min-datepicker-popup-2,
 body.page-mediasearch .views-exposed-widget.views-widget-filter-field_date_recorded_value #mefibs-form-dates-edit-date-max-datepicker-popup-2,
@@ -9758,7 +9762,7 @@ body.page-mediasearch .views-exposed-widget.views-widget-filter-field_date_recor
   margin: 0;
   padding: 0;
 }
-/* line 455, ../scss/custom.scss */
+/* line 453, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper,
 body.section-media #edit-university-wrapper,
 body.section-media #edit-field-redaction-tid-wrapper,
@@ -9769,7 +9773,7 @@ body.page-mediasearch #edit-field-redaction-tid-wrapper,
 body.page-mediasearch #edit-field-lang-tid-wrapper {
   padding-bottom: 2em;
 }
-/* line 458, ../scss/custom.scss */
+/* line 456, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper label,
 body.section-media #edit-university-wrapper label,
 body.section-media #edit-field-redaction-tid-wrapper label,
@@ -9782,7 +9786,7 @@ body.page-mediasearch #edit-field-lang-tid-wrapper label {
   padding-bottom: 1em;
   padding-left: 1em;
 }
-/* line 465, ../scss/custom.scss */
+/* line 463, ../scss/custom.scss */
 body.section-media #edit-subject-wrapper .views-widget label.option,
 body.section-media #edit-university-wrapper .views-widget label.option,
 body.section-media #edit-field-redaction-tid-wrapper .views-widget label.option,
@@ -9795,24 +9799,24 @@ body.page-mediasearch #edit-field-lang-tid-wrapper .views-widget label.option {
   padding-bottom: 0;
   padding-left: 0;
 }
-/* line 473, ../scss/custom.scss */
+/* line 471, ../scss/custom.scss */
 body.section-media div.form-item-edit-field-lang-tid-5,
 body.page-mediasearch div.form-item-edit-field-lang-tid-5 {
   background: url("../images/gb.png") 100% 20% no-repeat;
   width: 125px;
 }
-/* line 478, ../scss/custom.scss */
+/* line 476, ../scss/custom.scss */
 body.section-media div.form-item-edit-field-lang-tid-4,
 body.page-mediasearch div.form-item-edit-field-lang-tid-4 {
   background: url("../images/ru.png") 100% 20% no-repeat;
   width: 125px;
 }
-/* line 484, ../scss/custom.scss */
+/* line 482, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item,
 body.page-mediasearch #edit-university-wrapper .form-item {
   display: table-row;
 }
-/* line 488, ../scss/custom.scss */
+/* line 486, ../scss/custom.scss */
 body.section-media #edit-university-wrapper .form-item input,
 body.section-media #edit-university-wrapper .form-item label,
 body.page-mediasearch #edit-university-wrapper .form-item input,
@@ -9821,7 +9825,7 @@ body.page-mediasearch #edit-university-wrapper .form-item label {
   margin-right: .2em;
   margin-top: 1em;
 }
-/* line 496, ../scss/custom.scss */
+/* line 494, ../scss/custom.scss */
 body.section-media .views-field-php,
 body.page-mediasearch .views-field-php {
   color: white;
@@ -9831,26 +9835,26 @@ body.page-mediasearch .views-field-php {
   z-index: 5;
   vertical-align: top;
 }
-/* line 505, ../scss/custom.scss */
+/* line 503, ../scss/custom.scss */
 body.section-media .views-field-php .serp-course,
 body.section-media .views-field-php .its-a-hit,
 body.page-mediasearch .views-field-php .serp-course,
 body.page-mediasearch .views-field-php .its-a-hit {
   padding: 2px;
 }
-/* line 509, ../scss/custom.scss */
+/* line 507, ../scss/custom.scss */
 body.section-media .views-field-php .serp-course,
 body.page-mediasearch .views-field-php .serp-course {
   background: #009AE3;
   margin-bottom: .5em;
 }
-/* line 514, ../scss/custom.scss */
+/* line 512, ../scss/custom.scss */
 body.section-media .views-field-php .its-a-hit,
 body.page-mediasearch .views-field-php .its-a-hit {
   background: orange;
 }
 
-/* line 526, ../scss/custom.scss */
+/* line 524, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-university main,
@@ -9858,7 +9862,7 @@ body.node-type-subject main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 529, ../scss/custom.scss */
+/* line 527, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-university h1,
@@ -9867,7 +9871,7 @@ body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 534, ../scss/custom.scss */
+/* line 532, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-university .field,
@@ -9875,7 +9879,7 @@ body.node-type-subject .field,
 body.node-type-lecture .field {
   padding-bottom: 1em;
 }
-/* line 540, ../scss/custom.scss */
+/* line 538, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -9888,7 +9892,7 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 545, ../scss/custom.scss */
+/* line 543, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-university .field-name-field-lectures a,
@@ -9897,7 +9901,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 554, ../scss/custom.scss */
+/* line 552, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-speaker .field-name-field-lectures,
@@ -9915,7 +9919,7 @@ body.node-type-lecture .field-name-field-view-lectures,
 body.node-type-lecture .field-name-field-lectures {
   clear: both;
 }
-/* line 558, ../scss/custom.scss */
+/* line 556, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture a,
 body.node-type-speaker .field-name-field-view-lectures .lecture a,
 body.node-type-speaker .field-name-field-lectures .lecture a,
@@ -9934,7 +9938,7 @@ body.node-type-lecture .field-name-field-lectures .lecture a {
   margin: 0;
   padding: 0;
 }
-/* line 563, ../scss/custom.scss */
+/* line 561, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture .lecture-title-x a,
 body.node-type-speaker .field-name-field-view-lectures .lecture .lecture-title-x a,
 body.node-type-speaker .field-name-field-lectures .lecture .lecture-title-x a,
@@ -9955,7 +9959,7 @@ body.node-type-lecture .field-name-field-lectures .lecture .lecture-title-x a {
   height: 60px;
   padding: .8em .8em 0 .8em;
 }
-/* line 571, ../scss/custom.scss */
+/* line 569, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-speaker .field-name-field-lectures .views-row,
@@ -9979,7 +9983,7 @@ body.node-type-lecture .field-name-field-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 581, ../scss/custom.scss */
+/* line 579, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row a,
 body.node-type-speaker .field-name-field-view-lectures .views-row a,
 body.node-type-speaker .field-name-field-lectures .views-row a,
@@ -9997,7 +10001,7 @@ body.node-type-lecture .field-name-field-view-lectures .views-row a,
 body.node-type-lecture .field-name-field-lectures .views-row a {
   color: white;
 }
-/* line 586, ../scss/custom.scss */
+/* line 584, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
@@ -10033,7 +10037,7 @@ body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-
   overflow: hidden;
   height: 40px;
 }
-/* line 596, ../scss/custom.scss */
+/* line 594, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
@@ -10063,7 +10067,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 616, ../scss/custom.scss */
+/* line 614, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10072,24 +10076,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 622, ../scss/custom.scss */
+/* line 620, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 624, ../scss/custom.scss */
+/* line 622, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 626, ../scss/custom.scss */
+/* line 624, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 629, ../scss/custom.scss */
+/* line 627, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -10099,7 +10103,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 635, ../scss/custom.scss */
+/* line 633, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
