@@ -9561,7 +9561,7 @@ body.page-mediasearch #edit-type-wrapper {
 }
 /* line 235, ../scss/custom.scss */
 body.page-mediasearch #edit-type-wrapper .form-item {
-  margin-top: 25px;
+  margin-top: 5px;
   display: inline-block;
 }
 /* line 239, ../scss/custom.scss */
@@ -9859,7 +9859,12 @@ body.page-mediasearch .views-field-php .its-a-hit {
   background: orange;
 }
 
-/* line 529, ../scss/custom.scss */
+/* line 525, ../scss/custom.scss */
+body h1 {
+  font-size: 1.5em;
+}
+
+/* line 535, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-university main,
@@ -9867,7 +9872,7 @@ body.node-type-subject main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 532, ../scss/custom.scss */
+/* line 538, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-university h1,
@@ -9876,7 +9881,7 @@ body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 537, ../scss/custom.scss */
+/* line 543, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-university .field,
@@ -9884,7 +9889,7 @@ body.node-type-subject .field,
 body.node-type-lecture .field {
   padding-bottom: 1em;
 }
-/* line 543, ../scss/custom.scss */
+/* line 549, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -9897,7 +9902,7 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 548, ../scss/custom.scss */
+/* line 554, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-university .field-name-field-lectures a,
@@ -9906,7 +9911,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 557, ../scss/custom.scss */
+/* line 563, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-speaker .field-name-field-lectures,
@@ -9924,7 +9929,7 @@ body.node-type-lecture .field-name-field-view-lectures,
 body.node-type-lecture .field-name-field-lectures {
   clear: both;
 }
-/* line 561, ../scss/custom.scss */
+/* line 567, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture a,
 body.node-type-speaker .field-name-field-view-lectures .lecture a,
 body.node-type-speaker .field-name-field-lectures .lecture a,
@@ -9943,7 +9948,7 @@ body.node-type-lecture .field-name-field-lectures .lecture a {
   margin: 0;
   padding: 0;
 }
-/* line 566, ../scss/custom.scss */
+/* line 572, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture .lecture-title-x a,
 body.node-type-speaker .field-name-field-view-lectures .lecture .lecture-title-x a,
 body.node-type-speaker .field-name-field-lectures .lecture .lecture-title-x a,
@@ -9964,7 +9969,7 @@ body.node-type-lecture .field-name-field-lectures .lecture .lecture-title-x a {
   height: 60px;
   padding: .8em .8em 0 .8em;
 }
-/* line 574, ../scss/custom.scss */
+/* line 580, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-speaker .field-name-field-lectures .views-row,
@@ -9988,7 +9993,7 @@ body.node-type-lecture .field-name-field-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 584, ../scss/custom.scss */
+/* line 590, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row a,
 body.node-type-speaker .field-name-field-view-lectures .views-row a,
 body.node-type-speaker .field-name-field-lectures .views-row a,
@@ -10006,7 +10011,7 @@ body.node-type-lecture .field-name-field-view-lectures .views-row a,
 body.node-type-lecture .field-name-field-lectures .views-row a {
   color: white;
 }
-/* line 589, ../scss/custom.scss */
+/* line 595, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
@@ -10042,7 +10047,7 @@ body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-
   overflow: hidden;
   height: 40px;
 }
-/* line 599, ../scss/custom.scss */
+/* line 605, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
@@ -10072,7 +10077,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 619, ../scss/custom.scss */
+/* line 625, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10081,24 +10086,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 625, ../scss/custom.scss */
+/* line 631, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 627, ../scss/custom.scss */
+/* line 633, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 629, ../scss/custom.scss */
+/* line 635, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 632, ../scss/custom.scss */
+/* line 638, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -10108,7 +10113,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 638, ../scss/custom.scss */
+/* line 644, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";

@@ -233,7 +233,7 @@ body.page-mediasearch {
     width: 450px;
 
     .form-item {
-      margin-top: 25px;
+      margin-top: 5px;
       display: inline-block;
 
       input {
@@ -519,6 +519,12 @@ body.page-mediasearch {
     }
   }
 
+}
+
+body {
+  h1 {
+    font-size: 1.5em;
+  }
 }
 
 body.node-type-speaker,
