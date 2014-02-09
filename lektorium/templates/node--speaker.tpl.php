@@ -91,7 +91,7 @@
         'label' => 'hidden',
         'type' => 'image',
         'settings' => array(
-        'image_style' => 'lector300',
+        'image_style' => 'lector_and_university_220x170',
         )
       );
 
