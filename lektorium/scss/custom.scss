@@ -64,10 +64,6 @@
 // Themes
 // @import "theme/button-light";
 
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 
 .top-bar-section li a:not(.button).active {
     background: url("../images/triangle.png") no-repeat 50% 100% #009AE3;
@@ -519,12 +515,6 @@ body.page-mediasearch {
     }
   }
 
-}
-
-body {
-  h1 {
-    font-size: 1.5em;
-  }
 }
 
 body.node-type-speaker,
