@@ -91,7 +91,7 @@
         'label' => 'hidden',
         'type' => 'image',
         'settings' => array(
-        'image_style' => 'mediasearch',
+        'image_style' => 'course_w300',
         )
       );
 
