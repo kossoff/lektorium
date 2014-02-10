@@ -14,11 +14,11 @@
  *   - $content['right']: Content in the right column.
  */
 ?>
-<div class="row collapse" <?php !empty($css_id) ? print 'id="' . $css_id . '"' : ''; ?>>
-  <div class="large-3 columns">
+<div class="row" <?php !empty($css_id) ? print 'id="' . $css_id . '"' : ''; ?>>
+  <div class="large-6 columns">
     <?php print $content['left']; ?>
   </div>
-  <div class="large-9 columns">
+  <div class="large-6 columns">
     <?php print $content['right']; ?>
   </div>
 </div>

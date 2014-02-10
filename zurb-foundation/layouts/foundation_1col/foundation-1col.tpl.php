@@ -12,10 +12,8 @@
  *   $content['middle']: The only panel in the layout.
  */
 ?>
-<!--<div class="row" <?php !empty($css_id) ? print 'id="' . $css_id . '"' : ''; ?>>
-  <div class="large-12 columns">-->
-<div class="" <?php !empty($css_id) ? print 'id="' . $css_id . '"' : ''; ?>>
-  <div class="">
+<div class="row" <?php !empty($css_id) ? print 'id="' . $css_id . '"' : ''; ?>>
+  <div class="large-12 columns">
     <?php print $content['middle']; ?>
   </div>
 </div>
