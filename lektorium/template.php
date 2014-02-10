@@ -189,9 +189,13 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //  }
 //}
 
+
 function lektorium_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'mefibs-form-search-combine') {
-    // HTML5 placeholder attribute
-    $form['mefibs-form-search-combine']['#attributes']['placeholder'] = t('enter search terms');
-  }
+//  drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
+}
+
+function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
+  $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Например: Математика');
+
+  $form['type']['#type'] = 'radios';
 }

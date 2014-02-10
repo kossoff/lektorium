@@ -212,6 +212,31 @@ footer {
   }
 }
 
+
+body.page-medialibrary {
+  #edit-type-wrapper {
+    .form-item {
+      margin-top: 5px;
+      display: inline-block;
+
+      input {
+        margin-bottom: 0;
+        display: none;
+      }
+
+      label {
+        padding: 2px;
+        margin-left: 4px;
+      }
+
+      :checked + label {
+        background: #009AE3;
+        color: white;
+      }
+    }
+  }
+}
+
 body.page-mediasearch {
   .row.collapse.lecture {
     padding-bottom: 1em;
