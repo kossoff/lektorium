@@ -214,6 +214,24 @@ footer {
 
 
 body.page-medialibrary {
+  #views-exposed-form-views-search-page {
+    #edit-search-api-views-fulltext-wrapper,
+    #edit-type-wrapper,
+    .views-reset-button,
+    .views-submit-button {
+      display: none;
+    }
+  }
+
+  #views-exposed-form-views-search-page-1 {
+    #edit-recorded-from-wrapper,
+    #edit-recorded-to-wrapper,
+    #edit-field-lang-wrapper,
+    #edit-field-redaction-wrapper {
+      display: none;
+    }
+  }
+
   #edit-type-wrapper {
     .form-item {
       margin-top: 5px;

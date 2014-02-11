@@ -198,4 +198,23 @@ function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id)
   $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Например: Математика');
 
   $form['type']['#type'] = 'radios';
+
+  $form['recorded_from']['#size'] = 10;
+  $form['recorded_from']['#maxlength'] = 10;
+
+  $form['recorded_to']['#size'] = 10;
+  $form['recorded_to']['#maxlength'] = 10;
+
+/*$options = array(
+    '5' => 'Английский',
+    '4' => 'Русский'
+    );
+*/
+
+//  $form['field_lang']['#type'] = 'checkbox';
+  //$form['field_lang']['#options'] = $options;
+
+//  $form['field_redaction']['#type'] = 'checkboxes';
+  //$form['university_t']['#type'] = 'radios';
+
 }
