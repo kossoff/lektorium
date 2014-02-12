@@ -232,6 +232,17 @@ body.page-medialibrary {
     }
   }
 
+  #edit-recorded-from-wrapper,
+  #edit-recorded-to-wrapper {
+    .form-item-recorded-from-date,
+    .form-item-recorded-to-date{
+      label,
+      .description {
+        display: none;
+      }
+    }
+  }
+
   #edit-type-wrapper {
     .form-item {
       margin-top: 5px;
@@ -250,6 +261,65 @@ body.page-medialibrary {
       :checked + label {
         background: #009AE3;
         color: white;
+      }
+    }
+  }
+
+  // поисковая выдача
+  .view-views-search {
+    .views-row {
+      min-height:104px;
+
+      .views-field-php {
+        position: relative;
+        margin-left: -15px;
+        top: 10px;
+        height: 0;
+        width: 80px;
+        z-index: 1;
+
+        .badge {
+          color: white;
+          display: inline-block;
+          padding: 0 8px;
+          margin-bottom: 4px;
+        }
+
+        .its-a-hit {
+          background: orange;
+        }
+
+        .new {
+          background: pink;
+        }
+
+        .serp-course {
+          background:#009AE3;
+        }
+
+      }
+
+      .views-field-nothing {
+        margin-bottom: .5em;
+
+        h2 {
+          font-weight: normal;
+          line-height: 1;
+          margin-top: 0;
+        }
+
+        .columns {
+          padding: 0 !important;
+        }
+
+       /* .small-3 {
+          a {
+            display: block;
+            background: grey;
+            width: 185px;
+            height: 104px;
+          }
+        }*/
       }
     }
   }
