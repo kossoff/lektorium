@@ -235,7 +235,7 @@ body.page-medialibrary {
   #edit-recorded-from-wrapper,
   #edit-recorded-to-wrapper {
     .form-item-recorded-from-date,
-    .form-item-recorded-to-date{
+     .form-item-recorded-to-date{
       label,
       .description {
         display: none;
@@ -303,9 +303,17 @@ body.page-medialibrary {
         margin-bottom: .5em;
 
         h2 {
+          font-size: 1.14em;
           font-weight: normal;
           line-height: 1;
           margin-top: 0;
+        }
+
+        #body-desc {
+          font-size: 90%;
+          line-height: 1em;
+          padding-top: 1em;
+          overflow: hidden;
         }
 
         .columns {
