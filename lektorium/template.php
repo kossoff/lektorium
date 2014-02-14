@@ -205,13 +205,9 @@ function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id)
   $form['recorded_to']['#size'] = 9;
   $form['recorded_to']['#maxlength'] = 10;
 
-/*$options = array(
-    '5' => 'Английский',
-    '4' => 'Русский'
-    );
-*/
 
-//  $form['field_lang']['#type'] = 'checkbox';
+//  $form['field_lang']['#type'] = 'checkboxes';
+
   //$form['field_lang']['#options'] = $options;
 
 //  $form['field_redaction']['#type'] = 'checkboxes';
