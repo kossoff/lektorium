@@ -10036,7 +10036,7 @@ body.page-medialibrary #edit-university-t-wrapper .form-item input,
 body.page-medialibrary #edit-university-t-wrapper .form-item label {
   display: table-cell;
   margin-right: .2em;
-  margin-top: 1em;
+  margin-top: .6em;
 }
 /* line 351, ../scss/custom.scss */
 body.page-medialibrary #edit-lang-wrapper .form-type-bef-checkbox {
