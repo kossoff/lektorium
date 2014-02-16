@@ -64,9 +64,11 @@
 // Themes
 // @import "theme/button-light";
 
+$l-blue: #009AE3;
+
 
 .top-bar-section li a:not(.button).active {
-    background: url("../images/triangle.png") no-repeat 50% 100% #009AE3;
+    background: url("../images/triangle.png") no-repeat 50% 100% $l-blue;
 }
 
 .top-bar-section ul li > a {
@@ -83,7 +85,7 @@ body.front {
   font-size: 110%;
 
   header {
-    background: #009AE3;
+    background: $l-blue;
     color: white;
     min-height: 550px;
 
@@ -133,7 +135,7 @@ body.front {
       .lecture-description {
         display: block;
         padding: 1em;
-        background: #009AE3;
+        background: $l-blue;
         margin-top: .1em;
         margin-bottom: 2em;
         text-align: left;
@@ -281,7 +283,7 @@ body.page-medialibrary {
       }
 
       :checked + label {
-        color: #009AE3;
+        color: $l-blue;
       }
     }
   }
@@ -302,7 +304,7 @@ body.page-medialibrary {
       }
 
       :checked + label {
-        background: #009AE3;
+        background: $l-blue;
         color: white;
       }
     }
@@ -337,7 +339,7 @@ body.page-medialibrary {
         }
 
         .serp-course {
-          background:#009AE3;
+          background: $l-blue;
         }
 
       }
@@ -404,35 +406,10 @@ body.page-mediasearch {
 
     div.highlight {
       label {
-        color: #009AE3;
+        color: $l-blue;
       }
     }
   }
-
-  #mefibs-form-search-edit-type-wrapper {
-    margin-top: 25px;
-
-    input {
-      margin-bottom:0 !important;
-    }
-  /*  div.form-item {
-      padding:4px;
-      margin: 0 2px 0 2px;
-
-      input {
-        display: none;
-      }
-    }
-    div.form-item.highlight {
-      background: #009AE3;
-
-      label {
-        color: white;
-      }
-    }
-    */
-  }
-
 
   h2.lecture-title {
     font-size: 1.125em;
@@ -594,7 +571,7 @@ body.page-mediasearch {
     }
 
     .serp-course {
-      background: #009AE3;
+      background: $l-blue;
       margin-bottom: .5em;
     }
 
