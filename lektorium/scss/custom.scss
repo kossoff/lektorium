@@ -216,6 +216,19 @@ footer {
 
 
 body.page-medialibrary {
+  .large-3 {
+    width: 20%;
+    padding-left:0;
+  }
+  .large-9 {
+    width: 80%;
+    padding-right: 0;
+  }
+
+  .views-exposed-form label {
+    font-weight: 500;
+  }
+
   #views-exposed-form-views-search-page {
     #edit-search-api-views-fulltext-wrapper,
     #edit-type-wrapper,
@@ -229,7 +242,8 @@ body.page-medialibrary {
     #edit-recorded-from-wrapper,
     #edit-recorded-to-wrapper,
     #edit-field-lang-wrapper,
-    #edit-field-redaction-wrapper {
+    #edit-field-redaction-wrapper,
+    .views-submit-button {
       display: none;
     }
   }
@@ -259,9 +273,9 @@ body.page-medialibrary {
   }
 
   #edit-university-t-wrapper,
-  #edit-field-subject-t-wrapper,
-  #edit-field-lang-wrapper,
-  #edit-field-redaction-wrapper {
+  #edit-subject-t-wrapper,
+  #edit-lang-wrapper,
+  #edit-redaction-wrapper {
     label {
       font-size: 110%;
       margin-left: 20px;
@@ -285,6 +299,15 @@ body.page-medialibrary {
       :checked + label {
         color: $l-blue;
       }
+    }
+
+    a.toggler {
+      @extend .button !optional;
+      @extend .secondary !optional;
+      @extend .tiny !optional;
+
+      margin-top:16px;
+      margin-left:16px;
     }
   }
 
@@ -310,8 +333,57 @@ body.page-medialibrary {
     }
   }
 
+  #edit-subject-t-wrapper,
+  #edit-university-t-wrapper {
+    .form-item {
+      display: table-row;
+
+      input,
+      label {
+        display: table-cell;
+        margin-right: .2em;
+        margin-top:1em;
+      }
+    }
+  }
+
+  #edit-lang-wrapper {
+    .form-type-bef-checkbox {
+      width: 120px;
+    }
+    
+    .form-item-edit-lang-5 {
+      background: url("../images/gb.png") 100% 50% no-repeat;
+    }
+
+    .form-item-edit-lang-4 {
+      background: url("../images/ru.png") 100% 50% no-repeat;
+    }    
+  }
+
+  #views-exposed-form-views-search-page {
+    padding-top: 60px;
+  }
+
+  #views-exposed-form-views-search-page-1 {
+    margin-left: -15px !important;
+
+    .views-reset-button {
+      #edit-reset {
+        @extend .tiny !optional;
+
+        margin-top: 0;
+      }
+    }
+  }
+
   // поисковая выдача
   .view-views-search {
+    .view-header {
+      margin-left: -15px;
+      padding-bottom: 1em;
+    }
+
     .views-row {
       min-height:104px;
 
@@ -372,213 +444,8 @@ body.page-medialibrary {
   }
 }
 
-body.page-mediasearch {
-
-
-
-
-  #edit-field-subject-target-id-wrapper {
-    margin-top: 70px;
-  }
-
-  #edit-field-subject-target-id-wrapper,
-  #edit-field-university-target-id-wrapper {
-
-  }
-
-  .view-header {
-    #total {
-      margin: 20px 0 20px 0;
-    }
-  }
-
-  #main-content {
-    .view-display-id-page_media_search {
-
-    }
-  }
-}
-
 body.section-media,
 body.page-mediasearch {
-  #views-exposed-form-media-library-panel-pane-medialibrary {
-    margin-top:4em;
-
-    div.highlight {
-      label {
-        color: $l-blue;
-      }
-    }
-  }
-
-  h2.lecture-title {
-    font-size: 1.125em;
-    margin-top:0;
-    line-height: 1;
-  }
-
-  .speaker-and-university {
-    font-size: 100%;
-  }
-
-  .teaser {
-    margin-top:.8em;
-    font-size: 90%;
-    display: block;
-    overflow: hidden;
-    line-height: 1 !important;
-    height: 3em;
-
-    p,
-    ul,
-    li {
-      line-height: 1;
-    }
-  }
-
-  .counter {
-    margin-top:1em;
-  }
-
-  #views-exposed-form-media-library-panel-pane-medialibrary-mefibs-form-dates {
-    margin-left: 200px;
-  }
-
-  #total {
-    color: #4D4D4D;
-    font-size: 0.875em;
-    font-weight: bold;
-    //position: relative;
-    //top: -2.4em;
-  }
-
-  #edit-type-wrapper,
-  #edit-date-wrapper,
-  #edit-title-wrapper,
-  #edit-combine-wrapper {
-    //display: none;
-  }
-
-  a.toggler {
-    @extend .button !optional;
-    @extend .secondary !optional;
-    @extend .tiny !optional;
-
-    margin-top:16px;
-    margin-left:16px;
-  }
-
-  .views-exposed-widget.views-widget-filter-type {
-    .form-item {
-      float: left;
-      padding-right:1em;
-    }
-  }
-
-  #mefibs-form-dates-edit-date-wrapper {
-    label {
-      float: left;
-    }
-    div.views-widget {
-      float: left;
-    }
-  }
-  #edit-field-date-recorded-value-min-wrapper,
-  #edit-field-date-recorded-value-max-wrapper {
-    float: left;
-  }
-
-  .views-exposed-widget.views-widget-filter-field_date_recorded_value {
-    #edit-field-date-recorded-value-min-wrapper,
-    #edit-field-date-recorded-value-max-wrapper {
-      //float: left;
-      //display: inline-block;
-    }
-
-    label {
-      float: left;
-      padding-right:1em;
-    }
-    .description {
-      display: none;
-    }
-
-    #mefibs-form-dates-edit-date-max-datepicker-popup-2,
-    #mefibs-form-dates-edit-date-min-datepicker-popup-2 {
-      background:   #E9E9E9;
-      height: 20px;
-      width: 80px;
-      margin: 0;
-      padding: 0;
-    }
-  }
-
-  #edit-subject-wrapper,
-  #edit-university-wrapper,
-  #edit-field-redaction-tid-wrapper,
-  #edit-field-lang-tid-wrapper {
-    padding-bottom:2em;
-
-    label {
-      font-size: 110%;
-      padding-bottom: 1em;
-      padding-left:1em;
-    }
-
-    .views-widget {
-      label.option {
-        font-size: 90%;
-        padding-bottom:0;
-        padding-left:0;
-      }
-    }
-  }
-
-  div.form-item-edit-field-lang-tid-5 {
-    background: url("../images/gb.png") 100% 20% no-repeat;
-    width: 125px;
-  }
-
-  div.form-item-edit-field-lang-tid-4 {
-    background: url("../images/ru.png") 100% 20% no-repeat;
-    width: 125px;
-  }
-
-  #edit-university-wrapper {
-    .form-item {
-      display: table-row;
-
-      input,
-      label {
-        display: table-cell;
-        margin-right: .2em;
-        margin-top:1em;
-      }
-    }
-  }
-
-  .views-field-php {
-    color: white;
-    display: inline-block;
-    position: relative;
-    top: 55px;
-    z-index: 5;
-    vertical-align: top;
-
-    .serp-course,
-    .its-a-hit {
-      padding: 2px;
-    }
-
-    .serp-course {
-      background: $l-blue;
-      margin-bottom: .5em;
-    }
-
-    .its-a-hit {
-      background: orange;
-    }
-  }
 
 }
 
