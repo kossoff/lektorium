@@ -450,11 +450,6 @@ body.page-medialibrary {
   }
 }
 
-body.section-media,
-body.page-mediasearch {
-
-}
-
 body.node-type-speaker,
 body.node-type-course,
 body.node-type-university,
@@ -462,7 +457,30 @@ body.node-type-subject,
 body.node-type-lecture {
   main {
     padding-top: 1em;
+
+    .field-name-field-university-t,
+    .field-name-field-subject-t {
+      h2.field-label {
+        font-size: 1em;
+        line-height: 1;
+        margin: 0;
+      }
+
+      ul {
+        line-height: 1;
+        margin-bottom: 0;
+
+        li {
+          list-style-type: none;
+
+          a {
+            padding-left:.2em;
+          }
+        }
+      }
+    }
   }
+
   h1 {
     margin-top:0;
     line-height: 1;

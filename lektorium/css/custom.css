@@ -10141,7 +10141,7 @@ body.page-medialibrary .view-views-search .views-row .views-field-nothing .colum
   padding: 0 !important;
 }
 
-/* line 463, ../scss/custom.scss */
+/* line 458, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-university main,
@@ -10149,7 +10149,62 @@ body.node-type-subject main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 466, ../scss/custom.scss */
+/* line 463, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-university-t h2.field-label,
+body.node-type-speaker main .field-name-field-subject-t h2.field-label,
+body.node-type-course main .field-name-field-university-t h2.field-label,
+body.node-type-course main .field-name-field-subject-t h2.field-label,
+body.node-type-university main .field-name-field-university-t h2.field-label,
+body.node-type-university main .field-name-field-subject-t h2.field-label,
+body.node-type-subject main .field-name-field-university-t h2.field-label,
+body.node-type-subject main .field-name-field-subject-t h2.field-label,
+body.node-type-lecture main .field-name-field-university-t h2.field-label,
+body.node-type-lecture main .field-name-field-subject-t h2.field-label {
+  font-size: 1em;
+  line-height: 1;
+  margin: 0;
+}
+/* line 469, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-university-t ul,
+body.node-type-speaker main .field-name-field-subject-t ul,
+body.node-type-course main .field-name-field-university-t ul,
+body.node-type-course main .field-name-field-subject-t ul,
+body.node-type-university main .field-name-field-university-t ul,
+body.node-type-university main .field-name-field-subject-t ul,
+body.node-type-subject main .field-name-field-university-t ul,
+body.node-type-subject main .field-name-field-subject-t ul,
+body.node-type-lecture main .field-name-field-university-t ul,
+body.node-type-lecture main .field-name-field-subject-t ul {
+  line-height: 1;
+  margin-bottom: 0;
+}
+/* line 473, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-university-t ul li,
+body.node-type-speaker main .field-name-field-subject-t ul li,
+body.node-type-course main .field-name-field-university-t ul li,
+body.node-type-course main .field-name-field-subject-t ul li,
+body.node-type-university main .field-name-field-university-t ul li,
+body.node-type-university main .field-name-field-subject-t ul li,
+body.node-type-subject main .field-name-field-university-t ul li,
+body.node-type-subject main .field-name-field-subject-t ul li,
+body.node-type-lecture main .field-name-field-university-t ul li,
+body.node-type-lecture main .field-name-field-subject-t ul li {
+  list-style-type: none;
+}
+/* line 476, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-university-t ul li a,
+body.node-type-speaker main .field-name-field-subject-t ul li a,
+body.node-type-course main .field-name-field-university-t ul li a,
+body.node-type-course main .field-name-field-subject-t ul li a,
+body.node-type-university main .field-name-field-university-t ul li a,
+body.node-type-university main .field-name-field-subject-t ul li a,
+body.node-type-subject main .field-name-field-university-t ul li a,
+body.node-type-subject main .field-name-field-subject-t ul li a,
+body.node-type-lecture main .field-name-field-university-t ul li a,
+body.node-type-lecture main .field-name-field-subject-t ul li a {
+  padding-left: .2em;
+}
+/* line 484, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-university h1,
@@ -10158,7 +10213,7 @@ body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 471, ../scss/custom.scss */
+/* line 489, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-university .field,
@@ -10166,7 +10221,7 @@ body.node-type-subject .field,
 body.node-type-lecture .field {
   padding-bottom: 1em;
 }
-/* line 476, ../scss/custom.scss */
+/* line 494, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -10179,7 +10234,7 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 481, ../scss/custom.scss */
+/* line 499, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker,
 body.node-type-course .field-name-field-speaker,
 body.node-type-university .field-name-field-speaker,
@@ -10187,7 +10242,7 @@ body.node-type-subject .field-name-field-speaker,
 body.node-type-lecture .field-name-field-speaker {
   clear: both;
 }
-/* line 485, ../scss/custom.scss */
+/* line 503, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-university .field-name-field-lectures a,
@@ -10197,7 +10252,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 493, ../scss/custom.scss */
+/* line 511, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-speaker .field-name-field-lectures,
@@ -10215,7 +10270,7 @@ body.node-type-lecture .field-name-field-view-lectures,
 body.node-type-lecture .field-name-field-lectures {
   clear: both;
 }
-/* line 497, ../scss/custom.scss */
+/* line 515, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture a,
 body.node-type-speaker .field-name-field-view-lectures .lecture a,
 body.node-type-speaker .field-name-field-lectures .lecture a,
@@ -10234,7 +10289,7 @@ body.node-type-lecture .field-name-field-lectures .lecture a {
   margin: 0;
   padding: 0;
 }
-/* line 503, ../scss/custom.scss */
+/* line 521, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-speaker .field-name-field-lectures .views-row,
@@ -10258,7 +10313,7 @@ body.node-type-lecture .field-name-field-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 514, ../scss/custom.scss */
+/* line 532, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
@@ -10294,7 +10349,7 @@ body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-
   overflow: hidden;
   height: 40px;
 }
-/* line 524, ../scss/custom.scss */
+/* line 542, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
@@ -10323,7 +10378,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 543, ../scss/custom.scss */
+/* line 561, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10332,24 +10387,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 549, ../scss/custom.scss */
+/* line 567, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 551, ../scss/custom.scss */
+/* line 569, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 553, ../scss/custom.scss */
+/* line 571, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 556, ../scss/custom.scss */
+/* line 574, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -10359,7 +10414,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 562, ../scss/custom.scss */
+/* line 580, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
