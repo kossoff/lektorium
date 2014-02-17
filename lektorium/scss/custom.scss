@@ -334,7 +334,11 @@ body.page-medialibrary {
   }
 
   #edit-subject-t-wrapper,
-  #edit-university-t-wrapper {
+  #edit-university-t-wrapper,
+  #edit-lang-wrapper,
+  #edit-redaction-wrapper {
+    padding-bottom: .5em;
+
     .form-item {
       display: table-row;
 
@@ -348,17 +352,19 @@ body.page-medialibrary {
   }
 
   #edit-lang-wrapper {
-    .form-type-bef-checkbox {
-      width: 120px;
+    padding-right: 0;
+
+    label {
+      width: 100px;
     }
-    
+
     .form-item-edit-lang-5 {
-      background: url("../images/gb.png") 100% 50% no-repeat;
+      background: url("../images/gb.png") 100% 100% no-repeat;
     }
 
     .form-item-edit-lang-4 {
-      background: url("../images/ru.png") 100% 50% no-repeat;
-    }    
+      background: url("../images/ru.png") 100% 100% no-repeat;
+    }
   }
 
   #views-exposed-form-views-search-page {
