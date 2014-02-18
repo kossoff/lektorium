@@ -359,11 +359,15 @@ body.page-medialibrary {
     }
 
     .form-item-edit-lang-5 {
-      background: url("../images/gb.png") 100% 100% no-repeat;
+      label{
+        background: url("../images/gb.png") 100% 100% no-repeat;
+      }
     }
 
     .form-item-edit-lang-4 {
-      background: url("../images/ru.png") 100% 100% no-repeat;
+      label{
+        background: url("../images/ru.png") 100% 100% no-repeat;
+      }
     }
   }
 
