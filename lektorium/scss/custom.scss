@@ -272,10 +272,13 @@ body.page-medialibrary {
     }
   }
 
+  #edit-type-wrapper,
   #edit-university-t-wrapper,
   #edit-subject-t-wrapper,
   #edit-lang-wrapper,
   #edit-redaction-wrapper {
+    padding-bottom: .5em;
+
     label {
       font-size: 110%;
       margin-left: 20px;
@@ -284,20 +287,26 @@ body.page-medialibrary {
 
     .views-widget {
       .form-item {
+        display: table-row;
         margin-bottom: 16px;
-      }
 
-      input {
-        margin-bottom: 0;
-      }
-      label {
-        font-size: .875em;
-        margin-left: 0;
-        margin-bottom: 0;
-      }
+        input,
+        label {
+          display: table-cell;
+          margin: .6em .2em 0 0;
+        }
 
-      :checked + label {
-        color: $l-blue;
+        input.bef-select-as-radios {
+          margin: .4em .6em .4em 0;
+        }
+
+        label {
+          font-size: .875em;
+        }
+
+        :checked + label {
+          color: $l-blue;
+        }
       }
     }
 
@@ -311,54 +320,7 @@ body.page-medialibrary {
     }
   }
 
-/*  #edit-type-wrapper {
-    .form-item {
-      margin-top: 5px;
-      display: inline-block;
-
-      input {
-        margin-bottom: 0;
-        display: none;
-      }
-
-      label {
-        padding: 2px;
-        margin-left: 4px;
-      }
-
-      :checked + label {
-        background: $l-blue;
-        color: white;
-      }
-    }
-  }
-*/
-  #edit-type-wrapper,
-  #edit-subject-t-wrapper,
-  #edit-university-t-wrapper,
-  #edit-lang-wrapper,
-  #edit-redaction-wrapper {
-    padding-bottom: .5em;
-
-    .form-item {
-      display: table-row;
-
-      input,
-      label {
-        display: table-cell;
-        margin-right: .2em;
-        margin-top:.6em;
-      }
-
-      input.bef-select-as-radios {
-        margin: .4em .6em .4em 0;
-      }
-    }
-  }
-
   #edit-lang-wrapper {
-    padding-right: 0;
-
     label {
       width: 100px;
     }
@@ -378,7 +340,7 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page {
     padding-top: 60px;
-    
+
     .views-reset-button {
       display: none;
     }
@@ -469,14 +431,13 @@ body.page-medialibrary {
 
 body.node-type-speaker,
 body.node-type-course,
-body.node-type-university,
-body.node-type-subject,
 body.node-type-lecture {
   main {
     padding-top: 1em;
 
     .field-name-field-university-t,
-    .field-name-field-subject-t {
+    .field-name-field-subject-t ,
+    .field-name-field-view-courses{
       h2.field-label {
         font-size: 1em;
         line-height: 1;
@@ -489,9 +450,11 @@ body.node-type-lecture {
 
         li {
           list-style-type: none;
-
+          padding-left:.2em;
+          margin-left: 0;
+          display: inline-block;
           a {
-            padding-left:.2em;
+            
           }
         }
       }
