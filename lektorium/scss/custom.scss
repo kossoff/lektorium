@@ -231,8 +231,6 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page {
     #edit-search-api-views-fulltext-wrapper,
-    #edit-type-wrapper,
-    .views-reset-button,
     .views-submit-button {
       display: none;
     }
@@ -241,9 +239,11 @@ body.page-medialibrary {
   #views-exposed-form-views-search-page-1 {
     #edit-recorded-from-wrapper,
     #edit-recorded-to-wrapper,
+    #edit-type-wrapper,
     #edit-field-lang-wrapper,
     #edit-field-redaction-wrapper,
-    .views-submit-button {
+    /*.views-reset-button,
+    .views-submit-button*/ {
       display: none;
     }
   }
@@ -311,7 +311,7 @@ body.page-medialibrary {
     }
   }
 
-  #edit-type-wrapper {
+/*  #edit-type-wrapper {
     .form-item {
       margin-top: 5px;
       display: inline-block;
@@ -332,7 +332,8 @@ body.page-medialibrary {
       }
     }
   }
-
+*/
+  #edit-type-wrapper,
   #edit-subject-t-wrapper,
   #edit-university-t-wrapper,
   #edit-lang-wrapper,
@@ -347,6 +348,10 @@ body.page-medialibrary {
         display: table-cell;
         margin-right: .2em;
         margin-top:.6em;
+      }
+
+      input.bef-select-as-radios {
+        margin: .4em .6em .4em 0;
       }
     }
   }
@@ -378,7 +383,9 @@ body.page-medialibrary {
   #views-exposed-form-views-search-page-1 {
     margin-left: -15px !important;
 
+    .views-submit-button,
     .views-reset-button {
+      #edit-submit-views-search,
       #edit-reset {
         @extend .tiny !optional;
 
@@ -392,6 +399,8 @@ body.page-medialibrary {
     .view-header {
       margin-left: -15px;
       padding-bottom: 1em;
+      font-size: 85%;
+      color: grey;
     }
 
     .views-row {
