@@ -190,14 +190,45 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 //}
 
 
+
+/*function lektorium_preprocess_page(&$variables, $hook) {
+  if(arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    $term = taxonomy_term_load(arg(2));
+
+    // 4 указывает на номер словаря, для которого мы определяем новый шаблон.
+    if ($term->vid == 4) {
+      $variables['theme_hook_suggestions'][] = 'page__voc__news';
+    }
+  }
+}*/
+
+/*function lektorium_preprocess_node(&$variables, $hook) {
+  if(arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2))) {
+    $term = taxonomy_term_load(arg(2));
+
+    // 4 указывает на номер словаря, для которого мы определяем новый шаблон.
+    if ($term->vid == 4) {
+      $variables['theme_hook_suggestions'][] = 'node__university';
+      // теперь можно темизировать node--university.tpl.php
+    }
+  }
+}*/
+
 function lektorium_form_alter(&$form, &$form_state, $form_id) {
-//  drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
+ // drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
 }
 
 function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
-  $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Например: Математика');
+  $form['search_api_views_fulltext'] = array(
+    '#type' => 'textfield',
+    //'#title' => t('Textbox title'),
+    '#attributes' => array(
+      'placeholder' => t('Например: Математика'),
+      'class' => array('ctools-auto-submit-exclude'),
+    ),
+  );
 
-  $form['type']['#type'] = 'radios';
+//  $form['type']['#type'] = 'radios';
 
   $form['recorded_from']['#size'] = 9;
   $form['recorded_from']['#maxlength'] = 10;
