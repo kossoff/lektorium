@@ -378,6 +378,10 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page {
     padding-top: 60px;
+    
+    .views-reset-button {
+      display: none;
+    }
   }
 
   #views-exposed-form-views-search-page-1 {
