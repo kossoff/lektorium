@@ -228,20 +228,9 @@ function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id)
     ),
   );
 
-//  $form['type']['#type'] = 'radios';
-
   $form['recorded_from']['#size'] = 9;
   $form['recorded_from']['#maxlength'] = 10;
 
   $form['recorded_to']['#size'] = 9;
   $form['recorded_to']['#maxlength'] = 10;
-
-
-//  $form['field_lang']['#type'] = 'checkboxes';
-
-  //$form['field_lang']['#options'] = $options;
-
-//  $form['field_redaction']['#type'] = 'checkboxes';
-  //$form['university_t']['#type'] = 'radios';
-
 }
