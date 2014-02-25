@@ -7,5 +7,6 @@ $("div.bef-checkboxes").collapsorz({
         , hideText: "Свернуть"
         , toggle: "div.form-type-bef-checkbox"
     });
-});
 
+//$("input").removeClass("bef-select-as-radios");
+});

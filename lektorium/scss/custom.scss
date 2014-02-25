@@ -64,20 +64,46 @@
 // Themes
 // @import "theme/button-light";
 
-$l-blue: #009AE3;
+/*$l-blue: #009AE3;
+$l-darkgrey: #24262f;
+$l-lightgrey: #f8f8f8;
+$l-black: #1a1e22;
+$l-green: #88c540;
+$l-violet: #5e619b;
+$l-yellow: #ece451;
+$l-red: #e74c3c;
+*/
+// http://compass-style.org/examples/compass/css3/text_shadow/
+$default-text-shadow-color: rgba($l-black, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
 
+$font-intro-path: '../fonts/intro';
+
+@font-face {
+  font-family: "intro";
+  src: url("#{$font-intro-path}/intro.eot");
+  src: url("#{$font-intro-path}/intro.eot?#iefix") format("embedded-opentype"),
+  url("#{$font-intro-path}/intro.woff") format("woff"),
+  url("#{$font-intro-path}/intro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .top-bar-section li a:not(.button).active {
-    background: url("../images/triangle.png") no-repeat 50% 100% $l-blue;
+    background: url("../images/triangle.png") no-repeat 50% 100% $l-darkgrey;
 }
 
 .top-bar-section ul li > a {
-  font-size: 110%;
-  font-weight: normal;
+  font-size: 75%;
+  font-weight: 100;
+  letter-spacing: .25em;
 }
 
 .top-bar .name h1 {
-  font-size: 1.3em;
+  font-family: intro;
+  font-size: 1em;
+  font-weight: 100;
 }
 
 body.front {
@@ -85,18 +111,56 @@ body.front {
   font-size: 110%;
 
   header {
-    background: $l-blue;
+    @include single-text-shadow;
+
+    background: $l-lightgrey;
     color: white;
-    min-height: 550px;
+    height: auto;
+    position: relative;
+
+    #bg-wrap {
+      background: url(../images/top.jpg) no-repeat;
+      background-size: cover;
+      min-height: 600px;
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle;
+    }
 
     h1#site-name,
     h2.site-slogan {
       color: white;
-      padding-top: 100px;
+      text-transform: uppercase;
+      font-family: Intro;
     }
 
     h1#site-name {
      font-size: 3.75em;
+     line-height: 1;
+     margin-top:200px;
+     margin-bottom:0;
+
+     span {
+      background-color: rgba(0, 0, 0, 0.35);
+      display: inline-block;
+      letter-spacing: .2em;
+      padding-left: .2em;
+     }
+    }
+
+    h2.site-slogan {
+      font-size: 1.155em;
+      font-weight:100;
+      margin-top: .2em;
+      letter-spacing: .24em;
+    }
+
+    span#numbers {
+      font-size: 1.4em;
+      font-weight: 100;
+      display: block;
+      letter-spacing:.04em;
+      margin-top: 3em;
     }
 
     h2 {
@@ -106,67 +170,107 @@ body.front {
 
   .main {
     background: white;
+    color: $l-black;
 
     .panel-pane {
-      min-height: 550px;
-      margin-top: 1em;
-      margin-bottom: 1em;
+      margin: 0;
+
+      .pane-content {
+
+      }
+
+      h2,
+      h3 {
+        color: $l-header-grey;
+        font-family: intro;
+        letter-spacing: .1em;
+        padding-top:2em;
+        padding-bottom:1em;
+      }
 
       h2 {
-        margin-top: 1em;
-        padding-top: 1em;
+        font-size: 2.2em;
       }
 
-      h2.pane-title {
-
+      h3 {
+        font-size: 1.3em;
       }
 
-      h2.pane-title:after {
+      h2:after {
         display: block;
-        content:url(../images/row.png);
+        content:url(../images/underline.png);
         overflow: auto;
-        overflow-x: hidden;
+      //  overflow-x: hidden;
       }
-    }
 
-    .pane-views-medialibrary-front-block {
-      background: #EAEAEA;
+      .button-violet {
+        @include button;
+        @include button-style($l-violet);
+      }
 
-      .lecture-description {
-        display: block;
-        padding: 1em;
-        background: $l-blue;
-        margin-top: .1em;
-        margin-bottom: 2em;
-        text-align: left;
+      .button-green {
+        @include button;
+        @include button-style($l-green);
+      }
 
+      .button-red {
+        @include button;
+        @include button-style($l-red);
+
+        position: relative;
+        top: -3.5em;
+      }
+
+      .button-yellow {
+        @include button;
+        @include button-style($l-yellow);
+
+        color: $l-darkgrey;
+      }
+
+      .button-lightgrey {
+        @include button;
+        @include button-style($l-lightgrey);
+
+        color: grey;
+      }
+
+      .button-wrap {
+        padding: 2em 0;
         a {
-          color: white;
-          min-height: 2em;
+          text-transform: uppercase;
+        }
+      }
+
+      .row {
+        padding: 2em 0;
+      }
+
+      #mooc {
+
+      }
+
+      #medialibrary {
+        background: $l-lightgrey;
+      }
+
+      #mediagrants {
+        background: $l-black;
+        color: $l-lightgrey;
+
+        h2 {
+          color: $l-lightgrey;
+        }
+      }
+
+      #studio {
+        h3 {
+          background: $l-lightgrey;
         }
       }
     }
-
-    .pane-content {
-      @extend .row !optional;
-    }
-  }
-  .view-medialibrary-front {
-    .views-content{
-      @extend .row !optional;
-    }
   }
 
-  .view-courses {
-    .description {
-      text-align: left;
-      padding-left:1em;
-    }
-  }
-
-  .view-footer {
-    margin-top: 1em;
-  }
 }
 
 body.section-media {
@@ -478,7 +582,7 @@ body.node-type-lecture {
           margin-left: 0;
           display: inline-block;
           a {
-            
+
           }
         }
       }

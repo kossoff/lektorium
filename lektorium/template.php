@@ -215,7 +215,7 @@ function THEMENAME_preprocess_views_view_fields(&$variables) {
 }*/
 
 function lektorium_form_alter(&$form, &$form_state, $form_id) {
- // drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
+//  drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
 }
 
 function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
@@ -227,6 +227,8 @@ function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id)
       'class' => array('ctools-auto-submit-exclude'),
     ),
   );
+
+  $form['type']['#default_value'] = 'All';
 
   $form['recorded_from']['#size'] = 9;
   $form['recorded_from']['#maxlength'] = 10;

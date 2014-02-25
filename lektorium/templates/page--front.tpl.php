@@ -1,6 +1,6 @@
 <!--.page -->
 <div role="document" class="page">
-
+<div class="wrapper-main">
   <!--.l-header region -->
   <header role="banner" class="l-header">
 
@@ -11,7 +11,7 @@
       <?php endif; ?>
         <nav class="top-bar"<?php print $top_bar_options; ?>>
           <ul class="title-area">
-            <li class="name"></li>
+            <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
             <li class="toggle-topbar"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
           <section class="top-bar-section">
@@ -29,6 +29,7 @@
       <!--/.top-bar -->
     <?php endif; ?>
 
+    <div id="bg-wrap">
     <!-- Title, slogan and menu -->
     <?php if ($alt_header): ?>
     <section class="row <?php print $alt_header_classes; ?>">
@@ -88,6 +89,7 @@
       <!--/.l-header-region -->
     <?php endif; ?>
 
+    </div> <!--/.bg-wrap -->
   </header>
   <!--/.l-header -->
 
@@ -150,63 +152,11 @@
   </main>
   <!--/.main-->
 
-  <?php if (!empty($page['triptych_first']) || !empty($page['triptych_middle']) || !empty($page['triptych_last'])): ?>
-    <!--.triptych-->
-    <section class="l-triptych row">
-      <div class="triptych-first large-4 columns">
-        <?php print render($page['triptych_first']); ?>
-      </div>
-      <div class="triptych-middle large-4 columns">
-        <?php print render($page['triptych_middle']); ?>
-      </div>
-      <div class="triptych-last large-4 columns">
-        <?php print render($page['triptych_last']); ?>
-      </div>
-    </section>
-    <!--/.triptych -->
-  <?php endif; ?>
-
-  <?php if (!empty($page['footer_firstcolumn']) || !empty($page['footer_secondcolumn']) || !empty($page['footer_thirdcolumn']) || !empty($page['footer_fourthcolumn'])): ?>
-    <!--.footer-columns -->
-    <section class="row l-footer-columns">
-      <?php if (!empty($page['footer_firstcolumn'])): ?>
-        <div class="footer-first large-3 columns">
-          <?php print render($page['footer_firstcolumn']); ?>
-        </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_secondcolumn'])): ?>
-        <div class="footer-second large-3 columns">
-          <?php print render($page['footer_secondcolumn']); ?>
-        </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_thirdcolumn'])): ?>
-        <div class="footer-third large-3 columns">
-          <?php print render($page['footer_thirdcolumn']); ?>
-        </div>
-      <?php endif; ?>
-      <?php if (!empty($page['footer_fourthcolumn'])): ?>
-        <div class="footer-fourth large-3 columns">
-          <?php print render($page['footer_fourthcolumn']); ?>
-        </div>
-      <?php endif; ?>
-    </section>
-    <!--/.footer-columns-->
-  <?php endif; ?>
-
+</div>
+  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
+</div>
+<!--/.page -->
   <!--.l-footer-->
-<!--  <footer class="l-footer panel row" role="contentinfo">
-    <?php if (!empty($page['footer'])): ?>
-      <div class="footer large-12 columns">
-        <?php print render($page['footer']); ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if ($site_name) :?>
-      <div class="copyright large-12 columns">
-        &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
-      </div>
-    <?php endif; ?>
-  </footer> -->
   <footer>
     <section class="">
     <?php if (!empty($page['footer'])): ?>
@@ -218,7 +168,5 @@
   </footer>
   <!--/.footer-->
 
-  <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
-</div>
-<!--/.page -->
+
 
