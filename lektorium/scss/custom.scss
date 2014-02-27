@@ -185,7 +185,7 @@ body.front {
         font-family: intro;
         letter-spacing: .1em;
         padding-top:2em;
-        padding-bottom:1em;
+        //padding-bottom:1em;
       }
 
       h2 {
@@ -194,6 +194,7 @@ body.front {
 
       h3 {
         font-size: 1.3em;
+        padding-bottom:1em;
       }
 
       h2:after {
@@ -238,6 +239,9 @@ body.front {
       .button-wrap {
         padding: 2em 0;
         a {
+          font-family: intro;
+          font-weight: 100;
+          letter-spacing: .05em;
           text-transform: uppercase;
         }
       }
