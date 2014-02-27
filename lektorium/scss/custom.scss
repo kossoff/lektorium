@@ -219,7 +219,7 @@ body.front {
         @include button-style($l-red);
 
         position: relative;
-        top: -3.5em;
+        top: -2.5em;
       }
 
       .button-yellow {
@@ -238,7 +238,7 @@ body.front {
 
       .button-wrap {
         padding: 1em 0 2em 0;
-        
+
         a {
           font-family: intro;
           font-weight: 100;
