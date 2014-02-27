@@ -16,6 +16,11 @@ $l-yellow: #ece451;
 $l-red: #e74c3c;
 $l-header-grey: #56616a;
 
+$primary-color: $l-black;
+$secondary-color: $l-violet;
+$alert-color: $l-red;
+$success-color: $l-green;
+
 // Font Families
 // ------------------------------------------------------
 $ff-arial: Arial, Helvetica, Sans-serif;
@@ -99,14 +104,14 @@ $body-font-family: Arial, "Helvetica Neue", "Helvetica", Helvetica, sans-serif;
 // Colors
 
 // $primary-color: #2ba6cb;
-$primary-color: #24262f;
+//$primary-color: #24262f;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
 
 // Make sure border radius matches unless we want it different.
 
-// $global-radius: 3px;
+$global-radius: 3px;
 // $global-rounded: 1000px;
 
 // Inset shadow shiny edges and depressions.
@@ -1305,7 +1310,7 @@ $topbar-height: 80px;
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 // $topbar-link-bg-hover: darken($topbar-bg, 3%);
 // $topbar-link-bg-active: darken($topbar-bg, 3%);
-$topbar-link-bg-hover: $l-darkgrey;
+$topbar-link-bg-hover: darken($l-darkgrey, 3%);
 $topbar-link-bg-active: $l-darkgrey;
 
 // $topbar-dropdown-label-color: #555;
