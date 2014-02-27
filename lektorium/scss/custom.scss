@@ -91,7 +91,7 @@ $font-intro-path: '../fonts/intro';
 }
 
 .top-bar-section li a:not(.button).active {
-    background: url("../images/triangle.png") no-repeat 50% 100% $l-darkgrey;
+    color: $l-green;
 }
 
 .top-bar-section ul li > a {
@@ -350,8 +350,8 @@ body.page-medialibrary {
     #edit-type-wrapper,
     #edit-field-lang-wrapper,
     #edit-field-redaction-wrapper,
-    /*.views-reset-button,
-    .views-submit-button*/ {
+    .views-reset-button,
+    /*.views-submit-button*/ {
       display: none;
     }
   }
@@ -448,10 +448,6 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page {
     padding-top: 60px;
-
-    .views-reset-button {
-      display: none;
-    }
   }
 
   #views-exposed-form-views-search-page-1 {
