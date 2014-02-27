@@ -10209,26 +10209,26 @@ $l-red: #e74c3c;
   color: #88c540;
 }
 
-/* line 98, ../scss/custom.scss */
+/* line 97, ../scss/custom.scss */
 .top-bar-section ul li > a {
   font-size: 75%;
   font-weight: 100;
   letter-spacing: .25em;
 }
 
-/* line 104, ../scss/custom.scss */
+/* line 103, ../scss/custom.scss */
 .top-bar .name h1 {
   font-family: intro;
   font-size: 1em;
   font-weight: 100;
 }
 
-/* line 110, ../scss/custom.scss */
+/* line 109, ../scss/custom.scss */
 body.front {
   text-align: center;
   font-size: 110%;
 }
-/* line 114, ../scss/custom.scss */
+/* line 113, ../scss/custom.scss */
 body.front header {
   text-shadow: 0px 1px 3px rgba(26, 30, 34, 0.6);
   background: #f8f8f8;
@@ -10236,7 +10236,7 @@ body.front header {
   height: auto;
   position: relative;
 }
-/* line 122, ../scss/custom.scss */
+/* line 121, ../scss/custom.scss */
 body.front header #bg-wrap {
   background: url(../images/top.jpg) no-repeat;
   background-size: cover;
@@ -10245,35 +10245,35 @@ body.front header #bg-wrap {
   max-width: 100%;
   vertical-align: middle;
 }
-/* line 132, ../scss/custom.scss */
+/* line 131, ../scss/custom.scss */
 body.front header h1#site-name,
 body.front header h2.site-slogan {
   color: white;
   text-transform: uppercase;
   font-family: Intro;
 }
-/* line 138, ../scss/custom.scss */
+/* line 137, ../scss/custom.scss */
 body.front header h1#site-name {
   font-size: 3.75em;
   line-height: 1;
   margin-top: 200px;
   margin-bottom: 0;
 }
-/* line 144, ../scss/custom.scss */
+/* line 143, ../scss/custom.scss */
 body.front header h1#site-name span {
   background-color: rgba(0, 0, 0, 0.35);
   display: inline-block;
   letter-spacing: .2em;
   padding-left: .2em;
 }
-/* line 152, ../scss/custom.scss */
+/* line 151, ../scss/custom.scss */
 body.front header h2.site-slogan {
   font-size: 1.155em;
   font-weight: 100;
   margin-top: .2em;
   letter-spacing: .24em;
 }
-/* line 159, ../scss/custom.scss */
+/* line 158, ../scss/custom.scss */
 body.front header span#numbers {
   font-size: 1.4em;
   font-weight: 100;
@@ -10281,20 +10281,20 @@ body.front header span#numbers {
   letter-spacing: .04em;
   margin-top: 3em;
 }
-/* line 167, ../scss/custom.scss */
+/* line 166, ../scss/custom.scss */
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 172, ../scss/custom.scss */
+/* line 171, ../scss/custom.scss */
 body.front .main {
   background: white;
   color: #1a1e22;
 }
-/* line 176, ../scss/custom.scss */
+/* line 175, ../scss/custom.scss */
 body.front .main .panel-pane {
   margin: 0;
 }
-/* line 184, ../scss/custom.scss */
+/* line 183, ../scss/custom.scss */
 body.front .main .panel-pane h2,
 body.front .main .panel-pane h3 {
   color: #56616a;
@@ -10302,22 +10302,22 @@ body.front .main .panel-pane h3 {
   letter-spacing: .1em;
   padding-top: 2em;
 }
-/* line 192, ../scss/custom.scss */
+/* line 191, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   font-size: 2.2em;
 }
-/* line 196, ../scss/custom.scss */
+/* line 195, ../scss/custom.scss */
 body.front .main .panel-pane h3 {
   font-size: 1.3em;
   padding-bottom: 1em;
 }
-/* line 201, ../scss/custom.scss */
+/* line 200, ../scss/custom.scss */
 body.front .main .panel-pane h2:after {
   display: block;
   content: url(../images/underline.png);
   overflow: auto;
 }
-/* line 208, ../scss/custom.scss */
+/* line 207, ../scss/custom.scss */
 body.front .main .panel-pane .button-violet {
   border-style: solid;
   border-width: 1px;
@@ -10358,7 +10358,7 @@ body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane .button-violet:focus {
   color: white;
 }
-/* line 213, ../scss/custom.scss */
+/* line 212, ../scss/custom.scss */
 body.front .main .panel-pane .button-green {
   border-style: solid;
   border-width: 1px;
@@ -10399,7 +10399,7 @@ body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .
 body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .button-green:focus {
   color: white;
 }
-/* line 218, ../scss/custom.scss */
+/* line 217, ../scss/custom.scss */
 body.front .main .panel-pane .button-red {
   border-style: solid;
   border-width: 1px;
@@ -10442,7 +10442,7 @@ body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .bu
 body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .button-red:focus {
   color: white;
 }
-/* line 226, ../scss/custom.scss */
+/* line 225, ../scss/custom.scss */
 body.front .main .panel-pane .button-yellow {
   border-style: solid;
   border-width: 1px;
@@ -10484,7 +10484,7 @@ body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane .button-yellow:focus {
   color: white;
 }
-/* line 233, ../scss/custom.scss */
+/* line 232, ../scss/custom.scss */
 body.front .main .panel-pane .button-lightgrey {
   border-style: solid;
   border-width: 1px;
@@ -10526,45 +10526,45 @@ body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pa
 body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pane .button-lightgrey:focus {
   color: #333333;
 }
-/* line 240, ../scss/custom.scss */
+/* line 239, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap {
   padding: 2em 0;
 }
-/* line 242, ../scss/custom.scss */
+/* line 241, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap a {
   font-family: intro;
   font-weight: 100;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-/* line 250, ../scss/custom.scss */
+/* line 249, ../scss/custom.scss */
 body.front .main .panel-pane .row {
   padding: 2em 0;
 }
-/* line 258, ../scss/custom.scss */
+/* line 257, ../scss/custom.scss */
 body.front .main .panel-pane #medialibrary {
   background: #f8f8f8;
 }
-/* line 262, ../scss/custom.scss */
+/* line 261, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants {
   background: #1a1e22;
   color: #f8f8f8;
 }
-/* line 266, ../scss/custom.scss */
+/* line 265, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants h2 {
   color: #f8f8f8;
 }
-/* line 272, ../scss/custom.scss */
+/* line 271, ../scss/custom.scss */
 body.front .main .panel-pane #studio h3 {
   background: #f8f8f8;
 }
 
-/* line 282, ../scss/custom.scss */
+/* line 281, ../scss/custom.scss */
 body.section-media .lecture {
   padding-bottom: 1em;
 }
 
-/* line 291, ../scss/custom.scss */
+/* line 290, ../scss/custom.scss */
 footer {
   background: #16171A;
   color: grey;
@@ -10572,53 +10572,53 @@ footer {
   padding-top: 1em;
   font-size: 80%;
 }
-/* line 298, ../scss/custom.scss */
+/* line 297, ../scss/custom.scss */
 footer h2 {
   color: white;
   font-size: 100%;
 }
-/* line 303, ../scss/custom.scss */
+/* line 302, ../scss/custom.scss */
 footer p {
   line-height: 1;
 }
-/* line 307, ../scss/custom.scss */
+/* line 306, ../scss/custom.scss */
 footer a {
   color: #bdbdbd;
 }
-/* line 311, ../scss/custom.scss */
+/* line 310, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 315, ../scss/custom.scss */
+/* line 314, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 319, ../scss/custom.scss */
+/* line 318, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
-/* line 328, ../scss/custom.scss */
+/* line 327, ../scss/custom.scss */
 body.page-medialibrary .large-3 {
   width: 20%;
   padding-left: 0;
 }
-/* line 332, ../scss/custom.scss */
+/* line 331, ../scss/custom.scss */
 body.page-medialibrary .large-9 {
   width: 80%;
   padding-right: 0;
 }
-/* line 337, ../scss/custom.scss */
+/* line 336, ../scss/custom.scss */
 body.page-medialibrary .views-exposed-form label {
   font-weight: 500;
 }
-/* line 343, ../scss/custom.scss */
+/* line 342, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button {
   display: none;
 }
-/* line 355, ../scss/custom.scss */
+/* line 354, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-type-wrapper,
@@ -10627,7 +10627,7 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-redac
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button {
   display: none;
 }
-/* line 365, ../scss/custom.scss */
+/* line 364, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date label,
@@ -10638,7 +10638,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date lab
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
   display: none;
 }
-/* line 375, ../scss/custom.scss */
+/* line 374, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
@@ -10648,7 +10648,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to
   width: 80px;
   padding: 0;
 }
-/* line 388, ../scss/custom.scss */
+/* line 387, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper,
 body.page-medialibrary #edit-university-t-wrapper,
 body.page-medialibrary #edit-subject-t-wrapper,
@@ -10656,17 +10656,17 @@ body.page-medialibrary #edit-lang-wrapper,
 body.page-medialibrary #edit-redaction-wrapper {
   padding-bottom: .5em;
 }
-/* line 391, ../scss/custom.scss */
+/* line 390, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper label,
 body.page-medialibrary #edit-university-t-wrapper label,
 body.page-medialibrary #edit-subject-t-wrapper label,
 body.page-medialibrary #edit-lang-wrapper label,
 body.page-medialibrary #edit-redaction-wrapper label {
+  font-family: intro;
   font-size: 110%;
-  margin-left: 20px;
   margin-bottom: 10px;
 }
-/* line 398, ../scss/custom.scss */
+/* line 397, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item,
@@ -10675,7 +10675,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item {
   display: table-row;
   margin-bottom: 16px;
 }
-/* line 403, ../scss/custom.scss */
+/* line 402, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input,
@@ -10689,7 +10689,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   display: table-cell;
   margin: .6em .2em 0 0;
 }
-/* line 408, ../scss/custom.scss */
+/* line 407, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
@@ -10697,13 +10697,14 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input.bef-sel
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
   margin: .4em .6em .4em 0;
 }
-/* line 412, ../scss/custom.scss */
+/* line 411, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   font-size: .875em;
+  font-family: Arial, Helvetica, Sans-serif;
 }
 /* line 416, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item :checked + label,

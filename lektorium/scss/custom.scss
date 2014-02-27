@@ -388,8 +388,8 @@ body.page-medialibrary {
     padding-bottom: .5em;
 
     label {
+      font-family: intro;
       font-size: 110%;
-      margin-left: 20px;
       margin-bottom: 10px;
     }
 
@@ -410,6 +410,7 @@ body.page-medialibrary {
 
         label {
           font-size: .875em;
+          font-family: $global-font-family;
         }
 
         :checked + label {
