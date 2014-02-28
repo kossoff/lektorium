@@ -338,7 +338,7 @@ body.page-medialibrary {
       @include border-radius($border-radius);
       position: relative;
       left: -25px;
-      padding: 25px 0 25px 25px;
+      padding: 10px 0 20px 25px;
       width: 100%;
     }
   }
@@ -435,7 +435,27 @@ body.page-medialibrary {
         }
 
         :checked + label {
-          color: $l-blue;
+          color: darken($l-grey, 10%);
+        }
+
+        input[type="checkbox"] {
+          display:none;
+        }
+
+        input[type="checkbox"] + label {
+            display:inline-block;
+           // width:19px;
+           // height:19px;
+           // margin:-1px 4px 0 0;
+            padding-left: 25px;
+            vertical-align:middle;
+            background:url(../images/unchecked.png) left top no-repeat;
+            cursor:pointer;
+        }
+
+        input[type="checkbox"]:checked + label {
+            background:url(../images/checked.png) left top no-repeat;
+            padding-left: 25px;
         }
       }
     }
@@ -539,6 +559,7 @@ body.page-medialibrary {
       #total {
         background: url(../images/total.png) 0 50% no-repeat;
         display: block;
+        font-weight: bold;
         padding: 0 1em;
         width: 100px;
       }
@@ -555,7 +576,7 @@ body.page-medialibrary {
 
       .badges {
         color: white;
-        font-size: 80%;
+        font-size: 70%;
         position: relative;
         letter-spacing: .15em;
         text-transform: lowercase;
