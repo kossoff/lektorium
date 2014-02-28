@@ -77,7 +77,7 @@ $l-red: #e74c3c;
 $default-text-shadow-color: rgba($l-black, 0.6);
 $default-text-shadow-blur: 3px;
 $default-text-shadow-v-offset: 1px;
-
+$border-radius: 3px;
 $font-intro-path: '../fonts/intro';
 
 @font-face {
@@ -331,13 +331,16 @@ footer {
 
 
 body.page-medialibrary {
-  .large-3 {
-    width: 20%;
-    padding-left:0;
-  }
-  .large-9 {
-    width: 80%;
-    padding-right: 0;
+  .sidebar-first {
+    padding-left: 25px;
+
+    #edit-redaction-wrapper {
+      @include border-radius($border-radius);
+      position: relative;
+      left: -25px;
+      padding: 25px 0 25px 25px;
+      width: 100%;
+    }
   }
 
   .views-exposed-form label {
@@ -428,6 +431,7 @@ body.page-medialibrary {
         label {
           font-size: .875em;
           font-family: $global-font-family;
+          padding-left:.6em;
         }
 
         :checked + label {
@@ -438,6 +442,7 @@ body.page-medialibrary {
 
     a.toggler {
       border: 1px dashed $l-grey;
+      @include border-radius($border-radius);
       color: $l-grey;
       display: block;
       font-size: .875em;
@@ -489,8 +494,6 @@ body.page-medialibrary {
   }
 
   #views-exposed-form-views-search-page-1 {
-    margin-left: -15px !important;
-
     #edit-search-api-views-fulltext-wrapper {
       padding-right: 0;
       width: 80%;
@@ -523,7 +526,6 @@ body.page-medialibrary {
   // поисковая выдача
   .view-views-search {
     .view-header {
-      margin-left: -15px;
       padding-bottom: 1em;
       font-size: 85%;
       color: grey;
@@ -535,19 +537,21 @@ body.page-medialibrary {
 
     .views-row {
       background: $l-lightgrey;
-      margin-bottom: .5em;
+      margin-bottom: .8em;
 
       .badges {
         color: white;
-        font-size: 90%;
+        font-size: 80%;
         position: relative;
         z-index: 1;
 
-        .serp-course {
+        .serp-course,
+        .serp-lecture {
           background: $l-grey;
         }
 
         .serp-course,
+        .serp-lecture,
         .its-a-hit,
         .new {
           @include border-radius(4px);
@@ -571,10 +575,15 @@ body.page-medialibrary {
         }
       }
 
+      .result-item {
+        padding: 1em;
+
+      }
+
       .views-likes-comments {
-        color: $l-grey;
+        color: lighten($l-grey, 5%);
         font-size: 1em;
-        padding: 1em 0;
+        padding-top: 1em;
       }
 
       h2,
@@ -601,35 +610,6 @@ body.page-medialibrary {
         padding-top: .4em;
         overflow: hidden;
       }
-
-
-      .views-field-php {
-        margin-left: -15px;
-        height: 0;
-        width: 80px;
-
-
-        .badge {
-          color: white;
-          display: inline-block;
-          padding: 0 8px;
-          margin-bottom: 4px;
-        }
-
-        .its-a-hit {
-          background: orange;
-        }
-
-        .new {
-          background: pink;
-        }
-
-        .serp-course {
-          background: $l-blue;
-        }
-
-      }
-
     }
   }
 }
