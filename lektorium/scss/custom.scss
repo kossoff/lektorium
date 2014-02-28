@@ -450,6 +450,21 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page {
     padding-top: 60px;
+
+    .views-reset-button {
+      //padding: 0;
+
+      button {
+        background:none;
+        border: none;
+        border-bottom: 1px $l-green dashed;
+        color: $l-green;
+        font-size: .875em;
+        letter-spacing: .1em;
+        margin: 0;
+        padding: 0;
+      }
+    }
   }
 
   #views-exposed-form-views-search-page-1 {
@@ -475,8 +490,45 @@ body.page-medialibrary {
       color: grey;
     }
 
+    .view-content {
+
+    }
+
     .views-row {
-      min-height:104px;
+      background: $l-lightgrey;
+      margin-bottom: .5em;
+
+      .views-likes-comments {
+        color: $l-grey;
+        font-size: 1em;
+        padding: 1em 0;
+      }
+
+      h2,
+      .speaker,
+      .university {
+        a {
+          color: $l-violet;
+        }
+      }
+
+      h2 {
+        font-size: 1.14em;
+        font-weight: normal;
+        line-height: 1;
+        margin-top: 0;
+        margin-bottom:.2em;
+      }
+
+      #body-desc {
+        color: $l-grey;
+        font-size: 90%;
+        line-height: 1em;
+        margin-bottom: .4em;
+        padding-top: .4em;
+        overflow: hidden;
+      }
+
 
       .views-field-php {
         position: relative;
@@ -507,30 +559,6 @@ body.page-medialibrary {
 
       }
 
-      .views-field-nothing {
-        margin-bottom: .5em;
-
-        h2 {
-          font-size: 1.14em;
-          font-weight: normal;
-          line-height: 1;
-          margin-top: 0;
-          margin-bottom:.2em;
-        }
-
-        #body-desc {
-          font-size: 90%;
-          line-height: 1em;
-          margin-bottom: .4em;
-          padding-top: .4em;
-          overflow: hidden;
-        }
-
-        .columns {
-          padding: 0 !important;
-        }
-
-      }
     }
   }
 }
