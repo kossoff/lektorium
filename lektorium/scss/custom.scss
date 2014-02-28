@@ -536,13 +536,17 @@ body.page-medialibrary {
     }
 
     .views-row {
-      background: $l-lightgrey;
+      background: $l-lightyellow;
       margin-bottom: .8em;
+      border: 1px solid lighten($l-grey, 35%);
 
       .badges {
         color: white;
         font-size: 80%;
         position: relative;
+        letter-spacing: .15em;
+        text-transform: lowercase;
+        top: -5px;
         z-index: 1;
 
         .serp-course,
@@ -578,37 +582,41 @@ body.page-medialibrary {
       .result-item {
         padding: 1em;
 
-      }
-
-      .views-likes-comments {
-        color: lighten($l-grey, 5%);
-        font-size: 1em;
-        padding-top: 1em;
-      }
-
-      h2,
-      .speaker,
-      .university {
-        a {
-          color: $l-violet;
+        .views-likes-comments {
+          color: lighten($l-grey, 15%);
+          font-size: .875em;
+          padding-top: 1em;
         }
-      }
 
-      h2 {
-        font-size: 1.14em;
-        font-weight: normal;
-        line-height: 1;
-        margin-top: 0;
-        margin-bottom:.2em;
-      }
+        h2,
+        .speaker,
+        .university {
+          a {
+            color: $l-violet;
+          }
+        }
 
-      #body-desc {
-        color: $l-grey;
-        font-size: 90%;
-        line-height: 1em;
-        margin-bottom: .4em;
-        padding-top: .4em;
-        overflow: hidden;
+        h2 {
+          font-size: 1em;
+          font-weight: bold;
+          line-height: 1;
+          margin-top: 0;
+          margin-bottom:.2em;
+        }
+
+        .speaker,
+        .university {
+          font-size: 80%;
+        }
+
+        #body-desc {
+          color: $l-grey;
+          font-size: 90%;
+          line-height: 1em;
+          margin-bottom: .4em;
+          padding-top: .4em;
+          overflow: hidden;
+        }
       }
     }
   }
