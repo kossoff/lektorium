@@ -288,6 +288,12 @@ body.section-media {
   @extend .right !optional;
 }
 
+body.not-front {
+  main {
+    padding-top: 2em;
+  }
+}
+
 footer {
   background: #16171A;
   color: grey;
@@ -381,6 +387,15 @@ body.page-medialibrary {
     }
   }
 
+  #edit-redaction-wrapper {
+    background: $l-green;
+    margin: 2em 0;
+
+    label {
+      color: white !important;
+    }
+  }
+
   #edit-type-wrapper,
   #edit-university-t-wrapper,
   #edit-subject-t-wrapper,
@@ -401,6 +416,7 @@ body.page-medialibrary {
 
         input,
         label {
+          color: $l-grey;
           display: table-cell;
           margin: .6em .2em 0 0;
         }
@@ -421,17 +437,22 @@ body.page-medialibrary {
     }
 
     a.toggler {
-      @extend .button !optional;
-      @extend .secondary !optional;
-      @extend .tiny !optional;
-
+      border: 1px dashed $l-grey;
+      color: $l-grey;
+      display: block;
+      font-size: .875em;
+      letter-spacing: .05em;
       margin-top:16px;
-      margin-left:16px;
+      margin-bottom: 16px;
+      padding: .5em 0;
+      text-align: center;
+      width: 100%;
     }
   }
 
   #edit-lang-wrapper {
-    label {
+    display: none;
+ /*   label {
       width: 100px;
     }
 
@@ -445,11 +466,11 @@ body.page-medialibrary {
       label{
         background: url("../images/ru.png") 100% 100% no-repeat;
       }
-    }
+    }*/
   }
 
   #views-exposed-form-views-search-page {
-    padding-top: 60px;
+    padding-top: .5em;
 
     .views-reset-button {
       //padding: 0;
@@ -470,12 +491,30 @@ body.page-medialibrary {
   #views-exposed-form-views-search-page-1 {
     margin-left: -15px !important;
 
+    #edit-search-api-views-fulltext-wrapper {
+      padding-right: 0;
+      width: 80%;
+    }
+
+    .views-submit-button {
+      width: 20%;
+      button#edit-submit-views-search {
+        background: $l-violet !important;
+        letter-spacing: .1em;
+        box-shadow: none;
+        border: none;
+        padding:.5em 0;
+        font-weight: 100;
+        font-size: .875em;
+        font-family: $ff-arial;
+        width: 100%;
+      }
+    }
+
     .views-submit-button,
     .views-reset-button {
       #edit-submit-views-search,
       #edit-reset {
-        @extend .tiny !optional;
-
         margin-top: 0;
       }
     }
@@ -497,6 +536,40 @@ body.page-medialibrary {
     .views-row {
       background: $l-lightgrey;
       margin-bottom: .5em;
+
+      .badges {
+        color: white;
+        font-size: 90%;
+        position: relative;
+        z-index: 1;
+
+        .serp-course {
+          background: $l-grey;
+        }
+
+        .serp-course,
+        .its-a-hit,
+        .new {
+          @include border-radius(4px);
+
+          padding: 2px 4px;
+        }
+
+        .hit-new {
+          text-align: right;
+
+          span {
+            margin-left: 1em;
+          }
+          .new {
+            background: $l-green;
+          }
+
+          .its-a-hit {
+            background: $l-red;
+          }
+        }
+      }
 
       .views-likes-comments {
         color: $l-grey;
@@ -531,12 +604,10 @@ body.page-medialibrary {
 
 
       .views-field-php {
-        position: relative;
         margin-left: -15px;
-        top: 10px;
         height: 0;
         width: 80px;
-        z-index: 1;
+
 
         .badge {
           color: white;

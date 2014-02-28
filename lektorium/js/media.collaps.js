@@ -3,8 +3,8 @@
 jQuery(document).ready(function($) {
 $("div.bef-checkboxes").collapsorz({
         minimum: 8
-        , showText: "Смотреть все"
-        , hideText: "Свернуть"
+        , showText: "<i class='fi-arrow-down'></i> Показать все"
+        , hideText: "<i class='fi-arrow-up'></i> Свернуть"
         , toggle: "div.form-type-bef-checkbox"
     });
 

@@ -2461,11 +2461,7 @@ blockquote p {
   }
 }
 /* line 171, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button, .button, body.page-medialibrary #edit-type-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler {
+button, .button {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -2487,137 +2483,57 @@ body.page-medialibrary #edit-redaction-wrapper a.toggler {
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, body.page-medialibrary #edit-type-wrapper a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:hover, .button:focus, body.page-medialibrary #edit-type-wrapper a.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:focus {
+button:hover, button:focus, .button:hover, .button:focus {
   background-color: #040405;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button:hover, button:focus, .button:hover, body.page-medialibrary #edit-type-wrapper a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:hover, .button:focus, body.page-medialibrary #edit-type-wrapper a.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:focus {
+button:hover, button:focus, .button:hover, .button:focus {
   color: white;
 }
 /* line 176, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.secondary, .button.secondary, body.page-medialibrary #edit-type-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler {
+button.secondary, .button.secondary {
   background-color: #5e619b;
   border-color: #4b4d7b;
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, body.page-medialibrary #edit-type-wrapper a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:hover, .button.secondary:focus, body.page-medialibrary #edit-type-wrapper a.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
   background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.secondary:hover, button.secondary:focus, .button.secondary:hover, body.page-medialibrary #edit-type-wrapper a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:hover, .button.secondary:focus, body.page-medialibrary #edit-type-wrapper a.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.toggler:focus {
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
   color: white;
 }
 /* line 177, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.success, .button.success, body.page-medialibrary #edit-type-wrapper a.success.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.success.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.success.toggler,
-body.page-medialibrary #edit-lang-wrapper a.success.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.success.toggler {
+button.success, .button.success {
   background-color: #88c540;
   border-color: #6ea131;
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, body.page-medialibrary #edit-type-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.success.toggler:hover, .button.success:focus, body.page-medialibrary #edit-type-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.success.toggler:focus {
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   background-color: #6ea131;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.success:hover, button.success:focus, .button.success:hover, body.page-medialibrary #edit-type-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.success.toggler:hover, .button.success:focus, body.page-medialibrary #edit-type-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.success.toggler:focus {
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
   color: white;
 }
 /* line 178, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.alert, .button.alert, body.page-medialibrary #edit-type-wrapper a.alert.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.alert.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.alert.toggler,
-body.page-medialibrary #edit-lang-wrapper a.alert.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.alert.toggler {
+button.alert, .button.alert {
   background-color: #e74c3c;
   border-color: #d62c1a;
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, body.page-medialibrary #edit-type-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.alert.toggler:hover, .button.alert:focus, body.page-medialibrary #edit-type-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.alert.toggler:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
   background-color: #d62c1a;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.alert:hover, button.alert:focus, .button.alert:hover, body.page-medialibrary #edit-type-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.alert.toggler:hover, .button.alert:focus, body.page-medialibrary #edit-type-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.alert.toggler:focus {
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
   color: white;
 }
 /* line 180, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.large, .button.large, body.page-medialibrary #edit-type-wrapper a.large.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.large.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.large.toggler,
-body.page-medialibrary #edit-lang-wrapper a.large.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.large.toggler {
+button.large, .button.large {
   padding-top: 1em;
   padding-right: 2em;
   padding-bottom: 1.0625em;
@@ -2625,11 +2541,7 @@ body.page-medialibrary #edit-redaction-wrapper a.large.toggler {
   font-size: 1.25em;
 }
 /* line 181, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.small, .button.small, body.page-medialibrary #edit-type-wrapper a.small.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.small.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.small.toggler,
-body.page-medialibrary #edit-lang-wrapper a.small.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.small.toggler {
+button.small, .button.small {
   padding-top: 0.5625em;
   padding-right: 1.125em;
   padding-bottom: 0.625em;
@@ -2637,55 +2549,7 @@ body.page-medialibrary #edit-redaction-wrapper a.small.toggler {
   font-size: 0.8125em;
 }
 /* line 182, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.tiny, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button button#edit-reset, .button.tiny, body.page-medialibrary #edit-type-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .button#edit-submit-views-search, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a#edit-submit-views-search.toggler, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler {
+button.tiny, .button.tiny {
   padding-top: 0.4375em;
   padding-right: 0.875em;
   padding-bottom: 0.5em;
@@ -2693,43 +2557,23 @@ body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-
   font-size: 0.6875em;
 }
 /* line 183, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.expand, .button.expand, body.page-medialibrary #edit-type-wrapper a.expand.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.expand.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.expand.toggler,
-body.page-medialibrary #edit-lang-wrapper a.expand.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.expand.toggler {
+button.expand, .button.expand {
   padding-right: 0;
   padding-left: 0;
   width: 100%;
 }
 /* line 185, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.left-align, .button.left-align, body.page-medialibrary #edit-type-wrapper a.left-align.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.left-align.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.left-align.toggler,
-body.page-medialibrary #edit-lang-wrapper a.left-align.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.left-align.toggler {
+button.left-align, .button.left-align {
   text-align: left;
   text-indent: 0.75em;
 }
 /* line 186, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.right-align, .button.right-align, body.page-medialibrary #edit-type-wrapper a.right-align.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.right-align.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.right-align.toggler,
-body.page-medialibrary #edit-lang-wrapper a.right-align.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.right-align.toggler {
+button.right-align, .button.right-align {
   text-align: right;
   padding-right: 0.75em;
 }
 /* line 188, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled, button[disabled], .button.disabled, body.page-medialibrary #edit-type-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler, .button[disabled], body.page-medialibrary #edit-type-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler {
+button.disabled, button[disabled], .button.disabled, .button[disabled] {
   background-color: #1a1e22;
   border-color: #040405;
   color: white;
@@ -2739,75 +2583,19 @@ body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler {
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled]:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled]:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   background-color: #040405;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled]:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled]:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled]:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled]:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   background-color: #1a1e22;
 }
 /* line 189, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, body.page-medialibrary #edit-type-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler, .button[disabled].secondary, body.page-medialibrary #edit-type-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler {
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #5e619b;
   border-color: #4b4d7b;
   color: white;
@@ -2817,75 +2605,19 @@ body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler {
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled.secondary:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled].secondary:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled].secondary:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled.secondary:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled].secondary:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled].secondary:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:hover, .button.disabled.secondary:focus, body.page-medialibrary #edit-type-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.toggler:focus, .button[disabled].secondary:hover, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:hover, .button[disabled].secondary:focus, body.page-medialibrary #edit-type-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].toggler:focus {
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
   background-color: #5e619b;
 }
 /* line 190, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.success, button[disabled].success, .button.disabled.success, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler, .button[disabled].success, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler {
+button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
   background-color: #88c540;
   border-color: #6ea131;
   color: white;
@@ -2895,75 +2627,19 @@ body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler {
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:hover, .button.disabled.success:focus, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:focus, .button[disabled].success:hover, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:hover, .button[disabled].success:focus, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   background-color: #6ea131;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:hover, .button.disabled.success:focus, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:focus, .button[disabled].success:hover, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:hover, .button[disabled].success:focus, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:hover, .button.disabled.success:focus, body.page-medialibrary #edit-type-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.success.toggler:focus, .button[disabled].success:hover, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:hover, .button[disabled].success:focus, body.page-medialibrary #edit-type-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].success.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].success.toggler:focus {
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
   background-color: #88c540;
 }
 /* line 191, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.alert, button[disabled].alert, .button.disabled.alert, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler, .button[disabled].alert, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler {
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
   background-color: #e74c3c;
   border-color: #d62c1a;
   color: white;
@@ -2973,146 +2649,38 @@ body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler {
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:hover, .button.disabled.alert:focus, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:focus, .button[disabled].alert:hover, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:hover, .button[disabled].alert:focus, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   background-color: #d62c1a;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:hover, .button.disabled.alert:focus, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:focus, .button[disabled].alert:hover, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:hover, .button[disabled].alert:focus, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   color: white;
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:hover, .button.disabled.alert:focus, body.page-medialibrary #edit-type-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a.disabled.alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a.disabled.alert.toggler:focus, .button[disabled].alert:hover, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:hover, .button[disabled].alert:focus, body.page-medialibrary #edit-type-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-university-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-subject-t-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-lang-wrapper a[disabled].alert.toggler:focus,
-body.page-medialibrary #edit-redaction-wrapper a[disabled].alert.toggler:focus {
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
   background-color: #e74c3c;
 }
 
 /* line 196, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button, .button, body.page-medialibrary #edit-type-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler {
+button, .button {
   padding-top: 0.8125em;
   padding-bottom: 0.75em;
   -webkit-appearance: none;
 }
 /* line 198, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.tiny, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button button#edit-reset, .button.tiny, body.page-medialibrary #edit-type-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .button#edit-submit-views-search, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a#edit-submit-views-search.toggler, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a#edit-reset.toggler {
+button.tiny, .button.tiny {
   padding-top: 0.5em;
   padding-bottom: 0.4375em;
   -webkit-appearance: none;
 }
 /* line 199, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.small, .button.small, body.page-medialibrary #edit-type-wrapper a.small.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.small.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.small.toggler,
-body.page-medialibrary #edit-lang-wrapper a.small.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.small.toggler {
+button.small, .button.small {
   padding-top: 0.625em;
   padding-bottom: 0.5625em;
   -webkit-appearance: none;
 }
 /* line 200, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.large, .button.large, body.page-medialibrary #edit-type-wrapper a.large.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.large.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.large.toggler,
-body.page-medialibrary #edit-lang-wrapper a.large.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.large.toggler {
+button.large, .button.large {
   padding-top: 1.03125em;
   padding-bottom: 1.03125em;
   -webkit-appearance: none;
@@ -3120,11 +2688,7 @@ body.page-medialibrary #edit-redaction-wrapper a.large.toggler {
 
 @media only screen {
   /* line 206, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-  button, .button, body.page-medialibrary #edit-type-wrapper a.toggler,
-  body.page-medialibrary #edit-university-t-wrapper a.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-  body.page-medialibrary #edit-lang-wrapper a.toggler,
-  body.page-medialibrary #edit-redaction-wrapper a.toggler {
+  button, .button {
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
@@ -3132,40 +2696,24 @@ body.page-medialibrary #edit-redaction-wrapper a.large.toggler {
     transition: background-color 300ms ease-out;
   }
   /* line 68, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
-  button:active, .button:active, body.page-medialibrary #edit-type-wrapper a.toggler:active,
-  body.page-medialibrary #edit-university-t-wrapper a.toggler:active,
-  body.page-medialibrary #edit-subject-t-wrapper a.toggler:active,
-  body.page-medialibrary #edit-lang-wrapper a.toggler:active,
-  body.page-medialibrary #edit-redaction-wrapper a.toggler:active {
+  button:active, .button:active {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
   }
   /* line 214, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-  button.radius, .button.radius, body.page-medialibrary #edit-type-wrapper a.radius.toggler,
-  body.page-medialibrary #edit-university-t-wrapper a.radius.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper a.radius.toggler,
-  body.page-medialibrary #edit-lang-wrapper a.radius.toggler,
-  body.page-medialibrary #edit-redaction-wrapper a.radius.toggler {
+  button.radius, .button.radius {
     -webkit-border-radius: 3px;
     border-radius: 3px;
   }
   /* line 215, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-  button.round, .button.round, body.page-medialibrary #edit-type-wrapper a.round.toggler,
-  body.page-medialibrary #edit-university-t-wrapper a.round.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper a.round.toggler,
-  body.page-medialibrary #edit-lang-wrapper a.round.toggler,
-  body.page-medialibrary #edit-redaction-wrapper a.round.toggler {
+  button.round, .button.round {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
   }
 }
 @media only screen and (min-width: 768px) {
   /* line 223, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-  button, .button, body.page-medialibrary #edit-type-wrapper a.toggler,
-  body.page-medialibrary #edit-university-t-wrapper a.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-  body.page-medialibrary #edit-lang-wrapper a.toggler,
-  body.page-medialibrary #edit-redaction-wrapper a.toggler {
+  button, .button {
     display: inline-block;
   }
 }
@@ -3257,11 +2805,7 @@ label small {
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
 /* line 285, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.postfix.button, body.page-medialibrary #edit-type-wrapper a.postfix.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.postfix.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.postfix.toggler,
-body.page-medialibrary #edit-lang-wrapper a.postfix.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.postfix.toggler {
+.postfix.button {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3271,11 +2815,7 @@ body.page-medialibrary #edit-redaction-wrapper a.postfix.toggler {
 }
 
 /* line 286, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.prefix.button, body.page-medialibrary #edit-type-wrapper a.prefix.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.prefix.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.prefix.toggler,
-body.page-medialibrary #edit-lang-wrapper a.prefix.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.prefix.toggler {
+.prefix.button {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -3285,11 +2825,7 @@ body.page-medialibrary #edit-redaction-wrapper a.prefix.toggler {
 }
 
 /* line 288, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.prefix.button.radius, body.page-medialibrary #edit-type-wrapper a.prefix.radius.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.prefix.radius.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.prefix.radius.toggler,
-body.page-medialibrary #edit-lang-wrapper a.prefix.radius.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.prefix.radius.toggler {
+.prefix.button.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
@@ -3301,11 +2837,7 @@ body.page-medialibrary #edit-redaction-wrapper a.prefix.radius.toggler {
 }
 
 /* line 289, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.postfix.button.radius, body.page-medialibrary #edit-type-wrapper a.postfix.radius.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.postfix.radius.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.postfix.radius.toggler,
-body.page-medialibrary #edit-lang-wrapper a.postfix.radius.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.postfix.radius.toggler {
+.postfix.button.radius {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
@@ -3317,11 +2849,7 @@ body.page-medialibrary #edit-redaction-wrapper a.postfix.radius.toggler {
 }
 
 /* line 290, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.prefix.button.round, body.page-medialibrary #edit-type-wrapper a.prefix.round.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.prefix.round.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.prefix.round.toggler,
-body.page-medialibrary #edit-lang-wrapper a.prefix.round.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.prefix.round.toggler {
+.prefix.button.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
@@ -3333,11 +2861,7 @@ body.page-medialibrary #edit-redaction-wrapper a.prefix.round.toggler {
 }
 
 /* line 291, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-.postfix.button.round, body.page-medialibrary #edit-type-wrapper a.postfix.round.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.postfix.round.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.postfix.round.toggler,
-body.page-medialibrary #edit-lang-wrapper a.postfix.round.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.postfix.round.toggler {
+.postfix.button.round {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
@@ -3673,11 +3197,7 @@ label.error {
   margin-left: 0;
 }
 /* line 53, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button, body.page-medialibrary #edit-type-wrapper .button-group.radius > *:first-child > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.radius > *:first-child > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.radius > *:first-child > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.radius > *:first-child > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.radius > *:first-child > a.toggler {
+.button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
   -webkit-border-bottom-left-radius: 3px;
@@ -3686,11 +3206,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.radius > *:first-ch
   border-top-left-radius: 3px;
 }
 /* line 57, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button, body.page-medialibrary #edit-type-wrapper .button-group.radius > *:last-child > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.radius > *:last-child > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.radius > *:last-child > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.radius > *:last-child > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.radius > *:last-child > a.toggler {
+.button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -3699,11 +3215,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.radius > *:last-chi
   border-bottom-right-radius: 3px;
 }
 /* line 53, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, body.page-medialibrary #edit-type-wrapper .button-group.round > *:first-child > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.round > *:first-child > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.round > *:first-child > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.round > *:first-child > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.round > *:first-child > a.toggler {
+.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
   -moz-border-radius-bottomleft: 1000px;
   -moz-border-radius-topleft: 1000px;
   -webkit-border-bottom-left-radius: 1000px;
@@ -3712,11 +3224,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.round > *:first-chi
   border-top-left-radius: 1000px;
 }
 /* line 57, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button, body.page-medialibrary #edit-type-wrapper .button-group.round > *:last-child > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.round > *:last-child > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.round > *:last-child > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.round > *:last-child > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.round > *:last-child > a.toggler {
+.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -3729,15 +3237,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.round > *:last-chil
   width: 50%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-2 li a.toggler,
-.button-group.even-2 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-2 li a.toggler,
-.button-group.even-2 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-2 li a.toggler,
-.button-group.even-2 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-2 li a.toggler,
-.button-group.even-2 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-2 li a.toggler {
+.button-group.even-2 li button, .button-group.even-2 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3745,15 +3245,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-2 li a.toggler
   width: 33.33333%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-3 li a.toggler,
-.button-group.even-3 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-3 li a.toggler,
-.button-group.even-3 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-3 li a.toggler,
-.button-group.even-3 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-3 li a.toggler,
-.button-group.even-3 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-3 li a.toggler {
+.button-group.even-3 li button, .button-group.even-3 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3761,15 +3253,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-3 li a.toggler
   width: 25%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-4 li a.toggler,
-.button-group.even-4 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-4 li a.toggler,
-.button-group.even-4 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-4 li a.toggler,
-.button-group.even-4 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-4 li a.toggler,
-.button-group.even-4 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-4 li a.toggler {
+.button-group.even-4 li button, .button-group.even-4 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3777,15 +3261,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-4 li a.toggler
   width: 20%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-5 li a.toggler,
-.button-group.even-5 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-5 li a.toggler,
-.button-group.even-5 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-5 li a.toggler,
-.button-group.even-5 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-5 li a.toggler,
-.button-group.even-5 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-5 li a.toggler {
+.button-group.even-5 li button, .button-group.even-5 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3793,15 +3269,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-5 li a.toggler
   width: 16.66667%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-6 li a.toggler,
-.button-group.even-6 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-6 li a.toggler,
-.button-group.even-6 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-6 li a.toggler,
-.button-group.even-6 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-6 li a.toggler,
-.button-group.even-6 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-6 li a.toggler {
+.button-group.even-6 li button, .button-group.even-6 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3809,15 +3277,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-6 li a.toggler
   width: 14.28571%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-7 li a.toggler,
-.button-group.even-7 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-7 li a.toggler,
-.button-group.even-7 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-7 li a.toggler,
-.button-group.even-7 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-7 li a.toggler,
-.button-group.even-7 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-7 li a.toggler {
+.button-group.even-7 li button, .button-group.even-7 li .button {
   width: 100%;
 }
 /* line 80, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
@@ -3825,15 +3285,7 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-7 li a.toggler
   width: 12.5%;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_button-groups.scss */
-.button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .button-group.even-8 li a.toggler,
-.button-group.even-8 li body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .button-group.even-8 li a.toggler,
-.button-group.even-8 li body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .button-group.even-8 li a.toggler,
-.button-group.even-8 li body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .button-group.even-8 li a.toggler,
-.button-group.even-8 li body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .button-group.even-8 li a.toggler {
+.button-group.even-8 li button, .button-group.even-8 li .button {
   width: 100%;
 }
 
@@ -3862,20 +3314,12 @@ body.page-medialibrary #edit-redaction-wrapper .button-group.even-8 li a.toggler
 
 /* Dropdown Button */
 /* line 108, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler {
+.dropdown.button {
   position: relative;
   padding-right: 3.1875em;
 }
 /* line 46, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before {
+.dropdown.button:before {
   position: absolute;
   content: "";
   width: 0;
@@ -3886,249 +3330,70 @@ body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before {
   top: 50%;
 }
 /* line 81, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before {
+.dropdown.button:before {
   border-width: 0.5625em;
   right: 1.5em;
   margin-top: -0.25em;
 }
 /* line 100, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before {
+.dropdown.button:before {
   border-color: white transparent transparent transparent;
 }
 /* line 109, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-submit-views-search, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler {
+.dropdown.button.tiny {
   padding-right: 2.1875em;
 }
 /* line 61, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-submit-views-search:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler:before, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-reset:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-submit-views-search:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-reset:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before {
+.dropdown.button.tiny:before {
   border-width: 0.4375em;
   right: 0.875em;
   margin-top: -0.15625em;
 }
 /* line 100, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.tiny:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-submit-views-search:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler:before, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .dropdown.button#edit-reset:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-submit-views-search:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-submit-views-search.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .dropdown.button#edit-reset:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.dropdown#edit-reset.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.dropdown#edit-reset.toggler:before {
+.dropdown.button.tiny:before {
   border-color: white transparent transparent transparent;
 }
 /* line 110, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small, body.page-medialibrary #edit-type-wrapper a.dropdown.small.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.small.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.small.toggler,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.small.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.small.toggler {
+.dropdown.button.small {
   padding-right: 2.8125em;
 }
 /* line 71, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before, body.page-medialibrary #edit-type-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.small.toggler:before {
+.dropdown.button.small:before {
   border-width: 0.5625em;
   right: 1.125em;
   margin-top: -0.21875em;
 }
 /* line 100, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.small:before, body.page-medialibrary #edit-type-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.small.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.small.toggler:before {
+.dropdown.button.small:before {
   border-color: white transparent transparent transparent;
 }
 /* line 111, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large, body.page-medialibrary #edit-type-wrapper a.dropdown.large.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.large.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.large.toggler,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.large.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.large.toggler {
+.dropdown.button.large {
   padding-right: 4em;
 }
 /* line 91, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before, body.page-medialibrary #edit-type-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.large.toggler:before {
+.dropdown.button.large:before {
   border-width: 0.625em;
   right: 1.75em;
   margin-top: -0.3125em;
 }
 /* line 100, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.large:before, body.page-medialibrary #edit-type-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.large.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.large.toggler:before {
+.dropdown.button.large:before {
   border-color: white transparent transparent transparent;
 }
 /* line 112, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown-buttons.scss */
-.dropdown.button.secondary:before, body.page-medialibrary #edit-type-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-university-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-subject-t-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-lang-wrapper a.dropdown.toggler:before,
-body.page-medialibrary #edit-redaction-wrapper a.dropdown.toggler:before {
+.dropdown.button.secondary:before {
   border-color: #333333 transparent transparent transparent;
 }
 
 /* Split Buttons */
 /* line 150, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button, body.page-medialibrary #edit-type-wrapper a.split.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler {
+.split.button {
   position: relative;
   padding-right: 4.8em;
 }
 /* line 53, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span, body.page-medialibrary #edit-type-wrapper a.split.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span {
+.split.button span {
   display: block;
   height: 100%;
   position: absolute;
@@ -4137,11 +3402,7 @@ body.page-medialibrary #edit-redaction-wrapper a.split.toggler span {
   border-left: solid 1px;
 }
 /* line 62, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
+.split.button span:before {
   position: absolute;
   content: "";
   width: 0;
@@ -4151,306 +3412,99 @@ body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
   left: 50%;
 }
 /* line 73, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span:active, body.page-medialibrary #edit-type-wrapper a.split.toggler span:active,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:active,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:active,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:active,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:active {
+.split.button span:active {
   background-color: rgba(0, 0, 0, 0.1);
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span, body.page-medialibrary #edit-type-wrapper a.split.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span {
+.split.button span {
   border-left-color: black;
 }
 /* line 116, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span, body.page-medialibrary #edit-type-wrapper a.split.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span {
+.split.button span {
   width: 3em;
 }
 /* line 117, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
+.split.button span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 1.125em;
   margin-left: -0.5625em;
 }
 /* line 142, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
+.split.button span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span, body.page-medialibrary #edit-type-wrapper a.split.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span {
+.split.button.secondary span {
   border-left-color: #41436b;
 }
 /* line 142, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
+.split.button.secondary span:before {
   border-color: white transparent transparent transparent;
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.alert span, body.page-medialibrary #edit-type-wrapper a.split.alert.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.alert.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.alert.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.alert.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.alert.toggler span {
+.split.button.alert span {
   border-left-color: #bf2718;
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.success span, body.page-medialibrary #edit-type-wrapper a.split.success.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.success.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.success.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.success.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.success.toggler span {
+.split.button.success span {
   border-left-color: #608e2b;
 }
 /* line 156, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny, body.page-medialibrary #edit-type-wrapper a.split.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-submit-views-search, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-submit-views-search.toggler, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-reset.toggler,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler {
+.split.button.tiny {
   padding-right: 3.9375em;
 }
 /* line 88, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span, body.page-medialibrary #edit-type-wrapper a.split.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-submit-views-search span, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-submit-views-search.toggler span, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-reset span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-submit-views-search span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-reset span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-reset.toggler span,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span {
+.split.button.tiny span {
   width: 2.84375em;
 }
 /* line 89, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.tiny span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-submit-views-search span:before, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-submit-views-search.toggler span:before, body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .split.button#edit-reset span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-type-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-university-t-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-subject-t-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-lang-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-redaction-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-submit-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-submit-views-search span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-submit-views-search.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .split.button#edit-reset span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-type-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-type-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-university-t-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-subject-t-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-lang-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span:before,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-redaction-wrapper a.split#edit-reset.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper #views-exposed-form-views-search-page-1 .views-reset-button a.split#edit-reset.toggler span:before {
+.split.button.tiny span:before {
   border-top-style: solid;
   border-width: 0.4375em;
   top: 0.875em;
   margin-left: -0.3125em;
 }
 /* line 157, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.small, body.page-medialibrary #edit-type-wrapper a.split.small.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.split.small.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.split.small.toggler,
-body.page-medialibrary #edit-lang-wrapper a.split.small.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.split.small.toggler {
+.split.button.small {
   padding-right: 3.9375em;
 }
 /* line 102, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.small span, body.page-medialibrary #edit-type-wrapper a.split.small.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.small.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.small.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.small.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.small.toggler span {
+.split.button.small span {
   width: 2.8125em;
 }
 /* line 103, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.small span:before, body.page-medialibrary #edit-type-wrapper a.split.small.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.small.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.small.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.small.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.small.toggler span:before {
+.split.button.small span:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 0.84375em;
   margin-left: -0.5625em;
 }
 /* line 158, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.large, body.page-medialibrary #edit-type-wrapper a.split.large.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.split.large.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.split.large.toggler,
-body.page-medialibrary #edit-lang-wrapper a.split.large.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.split.large.toggler {
+.split.button.large {
   padding-right: 6em;
 }
 /* line 130, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.large span, body.page-medialibrary #edit-type-wrapper a.split.large.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.large.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.large.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.large.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.large.toggler span {
+.split.button.large span {
   width: 3.75em;
 }
 /* line 131, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.large span:before, body.page-medialibrary #edit-type-wrapper a.split.large.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.large.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.large.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.large.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.large.toggler span:before {
+.split.button.large span:before {
   border-top-style: solid;
   border-width: 0.625em;
   top: 1.3125em;
   margin-left: -0.5625em;
 }
 /* line 159, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.expand, body.page-medialibrary #edit-type-wrapper a.split.expand.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.split.expand.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.split.expand.toggler,
-body.page-medialibrary #edit-lang-wrapper a.split.expand.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.split.expand.toggler {
+.split.button.expand {
   padding-left: 2em;
 }
 /* line 142, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.secondary span:before, body.page-medialibrary #edit-type-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-university-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-subject-t-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-lang-wrapper a.split.toggler span:before,
-body.page-medialibrary #edit-redaction-wrapper a.split.toggler span:before {
+.split.button.secondary span:before {
   border-color: #333333 transparent transparent transparent;
 }
 /* line 163, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.radius span, body.page-medialibrary #edit-type-wrapper a.split.radius.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.radius.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.radius.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.radius.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.radius.toggler span {
+.split.button.radius span {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -4459,11 +3513,7 @@ body.page-medialibrary #edit-redaction-wrapper a.split.radius.toggler span {
   border-bottom-right-radius: 3px;
 }
 /* line 164, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
-.split.button.round span, body.page-medialibrary #edit-type-wrapper a.split.round.toggler span,
-body.page-medialibrary #edit-university-t-wrapper a.split.round.toggler span,
-body.page-medialibrary #edit-subject-t-wrapper a.split.round.toggler span,
-body.page-medialibrary #edit-lang-wrapper a.split.round.toggler span,
-body.page-medialibrary #edit-redaction-wrapper a.split.round.toggler span {
+.split.button.round span {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -5623,15 +4673,7 @@ body.page-medialibrary #edit-redaction-wrapper a.split.round.toggler span {
   height: 2.45em;
 }
 /* line 127, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar .button, .top-bar body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .top-bar a.toggler,
-.top-bar body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .top-bar a.toggler,
-.top-bar body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar a.toggler,
-.top-bar body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .top-bar a.toggler,
-.top-bar body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .top-bar a.toggler {
+.top-bar .button {
   padding-top: .5em;
   padding-bottom: .5em;
   margin-bottom: 0;
@@ -5763,102 +4805,38 @@ body.page-medialibrary #edit-redaction-wrapper .top-bar a.toggler {
   background: #222222;
 }
 /* line 269, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.toggler, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.toggler {
+.top-bar-section ul li > a.button {
   background: #1a1e22;
   font-size: 0.8125em;
   padding-right: 26.66667px;
   padding-left: 26.66667px;
 }
 /* line 274, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button:hover, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.toggler:hover, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.toggler:hover {
+.top-bar-section ul li > a.button:hover {
   background: #040405;
 }
 /* line 278, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.toggler, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.toggler,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.toggler,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.toggler {
+.top-bar-section ul li > a.button.secondary {
   background: #5e619b;
 }
 /* line 280, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.toggler:hover, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.toggler:hover {
+.top-bar-section ul li > a.button.secondary:hover {
   background: #4b4d7b;
 }
 /* line 284, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.success.toggler, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.success.toggler,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.success.toggler,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.success.toggler,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.success.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.success.toggler,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.success.toggler,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.success.toggler,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.success.toggler,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.success.toggler {
+.top-bar-section ul li > a.button.success {
   background: #88c540;
 }
 /* line 286, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.success:hover, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.success.toggler:hover, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.success.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.success.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.success.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.success.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.success.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.success.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.success.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.success.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.success.toggler:hover {
+.top-bar-section ul li > a.button.success:hover {
   background: #6ea131;
 }
 /* line 290, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.alert.toggler, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.alert.toggler,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.alert.toggler,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.alert.toggler,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.alert.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.alert.toggler,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.alert.toggler,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.alert.toggler,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.alert.toggler,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.alert.toggler {
+.top-bar-section ul li > a.button.alert {
   background: #e74c3c;
 }
 /* line 292, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a.button.alert:hover, .top-bar-section ul body.page-medialibrary #edit-type-wrapper li > a.alert.toggler:hover, body.page-medialibrary #edit-type-wrapper .top-bar-section ul li > a.alert.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-university-t-wrapper li > a.alert.toggler:hover,
-body.page-medialibrary #edit-university-t-wrapper .top-bar-section ul li > a.alert.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-subject-t-wrapper li > a.alert.toggler:hover,
-body.page-medialibrary #edit-subject-t-wrapper .top-bar-section ul li > a.alert.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-lang-wrapper li > a.alert.toggler:hover,
-body.page-medialibrary #edit-lang-wrapper .top-bar-section ul li > a.alert.toggler:hover,
-.top-bar-section ul body.page-medialibrary #edit-redaction-wrapper li > a.alert.toggler:hover,
-body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.alert.toggler:hover {
+.top-bar-section ul li > a.button.alert:hover {
   background: #d62c1a;
 }
 /* line 300, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
@@ -5985,17 +4963,7 @@ body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.alert.
   }
   /* line 400, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
   .top-bar input,
-  .top-bar .button,
-  .top-bar body.page-medialibrary #edit-type-wrapper a.toggler,
-  body.page-medialibrary #edit-type-wrapper .top-bar a.toggler,
-  .top-bar body.page-medialibrary #edit-university-t-wrapper a.toggler,
-  body.page-medialibrary #edit-university-t-wrapper .top-bar a.toggler,
-  .top-bar body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper .top-bar a.toggler,
-  .top-bar body.page-medialibrary #edit-lang-wrapper a.toggler,
-  body.page-medialibrary #edit-lang-wrapper .top-bar a.toggler,
-  .top-bar body.page-medialibrary #edit-redaction-wrapper a.toggler,
-  body.page-medialibrary #edit-redaction-wrapper .top-bar a.toggler {
+  .top-bar .button {
     line-height: 2em;
     font-size: 0.875em;
     height: 2em;
@@ -6552,14 +5520,7 @@ body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.alert.
     top: 6.25em;
   }
   /* line 124, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_reveal.scss */
-  .reveal-modal.tiny, body.page-medialibrary #edit-type-wrapper a.reveal-modal.toggler,
-  body.page-medialibrary #edit-university-t-wrapper a.reveal-modal.toggler,
-  body.page-medialibrary #edit-subject-t-wrapper a.reveal-modal.toggler,
-  body.page-medialibrary #edit-lang-wrapper a.reveal-modal.toggler,
-  body.page-medialibrary #edit-redaction-wrapper a.reveal-modal.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .reveal-modal#edit-submit-views-search,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .reveal-modal#edit-reset,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .reveal-modal#edit-submit-views-search,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .reveal-modal#edit-reset {
+  .reveal-modal.tiny {
     margin-left: -15%;
     width: 30%;
   }
@@ -6624,15 +5585,7 @@ body.page-medialibrary #edit-redaction-wrapper .top-bar-section ul li > a.alert.
   padding: 1.125em 1.25em 1.5em;
 }
 /* line 68, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-.joyride-content-wrapper .button, .joyride-content-wrapper body.page-medialibrary #edit-type-wrapper a.toggler, body.page-medialibrary #edit-type-wrapper .joyride-content-wrapper a.toggler,
-.joyride-content-wrapper body.page-medialibrary #edit-university-t-wrapper a.toggler,
-body.page-medialibrary #edit-university-t-wrapper .joyride-content-wrapper a.toggler,
-.joyride-content-wrapper body.page-medialibrary #edit-subject-t-wrapper a.toggler,
-body.page-medialibrary #edit-subject-t-wrapper .joyride-content-wrapper a.toggler,
-.joyride-content-wrapper body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-lang-wrapper .joyride-content-wrapper a.toggler,
-.joyride-content-wrapper body.page-medialibrary #edit-redaction-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper .joyride-content-wrapper a.toggler {
+.joyride-content-wrapper .button {
   margin-bottom: 0 !important;
 }
 
@@ -7095,11 +6048,7 @@ body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-picture 
   color: white;
 }
 /* line 104, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_alert-boxes.scss */
-.alert-box.secondary, body.page-medialibrary #edit-type-wrapper a.alert-box.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.alert-box.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.alert-box.toggler,
-body.page-medialibrary #edit-lang-wrapper a.alert-box.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.alert-box.toggler {
+.alert-box.secondary {
   background-color: #5e619b;
   border-color: #4b4d7b;
   color: white;
@@ -7501,11 +6450,7 @@ kbd {
   color: white;
 }
 /* line 82, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_labels.scss */
-.label.secondary, body.page-medialibrary #edit-type-wrapper a.label.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.label.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.label.toggler,
-body.page-medialibrary #edit-lang-wrapper a.label.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.label.toggler {
+.label.secondary {
   background-color: #5e619b;
   color: white;
 }
@@ -7741,11 +6686,7 @@ ul.pagination li {
   display: block;
 }
 /* line 57, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_progress-bars.scss */
-.progress.secondary .meter, body.page-medialibrary #edit-type-wrapper a.progress.toggler .meter,
-body.page-medialibrary #edit-university-t-wrapper a.progress.toggler .meter,
-body.page-medialibrary #edit-subject-t-wrapper a.progress.toggler .meter,
-body.page-medialibrary #edit-lang-wrapper a.progress.toggler .meter,
-body.page-medialibrary #edit-redaction-wrapper a.progress.toggler .meter {
+.progress.secondary .meter {
   background: #5e619b;
   height: 100%;
   display: block;
@@ -8039,34 +6980,22 @@ body.page-medialibrary #edit-redaction-wrapper a.progress.toggler .meter {
     height: 1.75em;
   }
   /* line 249, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_switch.scss */
-  div.switch.tiny, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-submit-views-search,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-reset,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-submit-views-search,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-reset {
+  div.switch.tiny {
     height: 1.375em;
   }
   /* line 149, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_switch.scss */
-  div.switch.tiny label, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-submit-views-search label,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-reset label,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-submit-views-search label,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-reset label {
+  div.switch.tiny label {
     padding: 0;
     line-height: 1.9em;
     font-size: 0.6875em;
   }
   /* line 157, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_switch.scss */
-  div.switch.tiny input:first-of-type:checked ~ span:last-child, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-submit-views-search input:first-of-type:checked ~ span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-reset input:first-of-type:checked ~ span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-submit-views-search input:first-of-type:checked ~ span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-reset input:first-of-type:checked ~ span:last-child {
+  div.switch.tiny input:first-of-type:checked ~ span:last-child {
     left: 100%;
     margin-left: -1.3125em;
   }
   /* line 163, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_switch.scss */
-  div.switch.tiny span:last-child, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-submit-views-search span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button div.switch#edit-reset span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-submit-views-search span:last-child,
-  body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button div.switch#edit-reset span:last-child {
+  div.switch.tiny span:last-child {
     width: 1.375em;
     height: 1.375em;
   }
@@ -8413,14 +7342,7 @@ a.th {
   margin-bottom: 0;
 }
 /* line 145, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown.scss */
-.f-dropdown.tiny, body.page-medialibrary #edit-type-wrapper a.f-dropdown.toggler,
-body.page-medialibrary #edit-university-t-wrapper a.f-dropdown.toggler,
-body.page-medialibrary #edit-subject-t-wrapper a.f-dropdown.toggler,
-body.page-medialibrary #edit-lang-wrapper a.f-dropdown.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.f-dropdown.toggler, body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .f-dropdown#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button .f-dropdown#edit-reset,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .f-dropdown#edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button .f-dropdown#edit-reset {
+.f-dropdown.tiny {
   max-width: 200px;
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown.scss */
@@ -10564,7 +9486,12 @@ body.section-media .lecture {
   padding-bottom: 1em;
 }
 
-/* line 291, ../scss/custom.scss */
+/* line 292, ../scss/custom.scss */
+body.not-front main {
+  padding-top: 2em;
+}
+
+/* line 297, ../scss/custom.scss */
 footer {
   background: #16171A;
   color: grey;
@@ -10572,53 +9499,53 @@ footer {
   padding-top: 1em;
   font-size: 80%;
 }
-/* line 298, ../scss/custom.scss */
+/* line 304, ../scss/custom.scss */
 footer h2 {
   color: white;
   font-size: 100%;
 }
-/* line 303, ../scss/custom.scss */
+/* line 309, ../scss/custom.scss */
 footer p {
   line-height: 1;
 }
-/* line 307, ../scss/custom.scss */
+/* line 313, ../scss/custom.scss */
 footer a {
   color: #bdbdbd;
 }
-/* line 311, ../scss/custom.scss */
+/* line 317, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 315, ../scss/custom.scss */
+/* line 321, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 319, ../scss/custom.scss */
+/* line 325, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
-/* line 328, ../scss/custom.scss */
+/* line 334, ../scss/custom.scss */
 body.page-medialibrary .large-3 {
   width: 20%;
   padding-left: 0;
 }
-/* line 332, ../scss/custom.scss */
+/* line 338, ../scss/custom.scss */
 body.page-medialibrary .large-9 {
   width: 80%;
   padding-right: 0;
 }
-/* line 337, ../scss/custom.scss */
+/* line 343, ../scss/custom.scss */
 body.page-medialibrary .views-exposed-form label {
   font-weight: 500;
 }
-/* line 343, ../scss/custom.scss */
+/* line 349, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button {
   display: none;
 }
-/* line 355, ../scss/custom.scss */
+/* line 361, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-type-wrapper,
@@ -10627,7 +9554,7 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-redac
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button {
   display: none;
 }
-/* line 365, ../scss/custom.scss */
+/* line 371, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date label,
@@ -10638,7 +9565,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date lab
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
   display: none;
 }
-/* line 375, ../scss/custom.scss */
+/* line 381, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
@@ -10648,7 +9575,16 @@ body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to
   width: 80px;
   padding: 0;
 }
-/* line 388, ../scss/custom.scss */
+/* line 390, ../scss/custom.scss */
+body.page-medialibrary #edit-redaction-wrapper {
+  background: #88c540;
+  margin: 2em 0;
+}
+/* line 394, ../scss/custom.scss */
+body.page-medialibrary #edit-redaction-wrapper label {
+  color: white !important;
+}
+/* line 403, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper,
 body.page-medialibrary #edit-university-t-wrapper,
 body.page-medialibrary #edit-subject-t-wrapper,
@@ -10656,7 +9592,7 @@ body.page-medialibrary #edit-lang-wrapper,
 body.page-medialibrary #edit-redaction-wrapper {
   padding-bottom: .5em;
 }
-/* line 391, ../scss/custom.scss */
+/* line 406, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper label,
 body.page-medialibrary #edit-university-t-wrapper label,
 body.page-medialibrary #edit-subject-t-wrapper label,
@@ -10666,7 +9602,7 @@ body.page-medialibrary #edit-redaction-wrapper label {
   font-size: 110%;
   margin-bottom: 10px;
 }
-/* line 398, ../scss/custom.scss */
+/* line 413, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item,
@@ -10675,7 +9611,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item {
   display: table-row;
   margin-bottom: 16px;
 }
-/* line 403, ../scss/custom.scss */
+/* line 418, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input,
@@ -10686,10 +9622,11 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
+  color: #919191;
   display: table-cell;
   margin: .6em .2em 0 0;
 }
-/* line 408, ../scss/custom.scss */
+/* line 424, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
@@ -10697,7 +9634,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input.bef-sel
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
   margin: .4em .6em .4em 0;
 }
-/* line 412, ../scss/custom.scss */
+/* line 428, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
@@ -10706,7 +9643,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   font-size: .875em;
   font-family: Arial, Helvetica, Sans-serif;
 }
-/* line 417, ../scss/custom.scss */
+/* line 433, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item :checked + label,
@@ -10714,32 +9651,47 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item :checked + la
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item :checked + label {
   color: #009ae3;
 }
-/* line 423, ../scss/custom.scss */
+/* line 439, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper a.toggler,
 body.page-medialibrary #edit-university-t-wrapper a.toggler,
 body.page-medialibrary #edit-subject-t-wrapper a.toggler,
 body.page-medialibrary #edit-lang-wrapper a.toggler,
 body.page-medialibrary #edit-redaction-wrapper a.toggler {
+  border: 1px dashed #919191;
+  color: #919191;
+  display: block;
+  font-size: .875em;
+  letter-spacing: .05em;
   margin-top: 16px;
-  margin-left: 16px;
+  margin-bottom: 16px;
+  padding: .5em 0;
+  text-align: center;
+  width: 100%;
 }
-/* line 434, ../scss/custom.scss */
-body.page-medialibrary #edit-lang-wrapper label {
-  width: 100px;
+/* line 453, ../scss/custom.scss */
+body.page-medialibrary #edit-lang-wrapper {
+  display: none;
+ /*   label {
+      width: 100px;
+    }
+
+    .form-item-edit-lang-5 {
+      label{
+        background: url("../images/gb.png") 100% 100% no-repeat;
+      }
+    }
+
+    .form-item-edit-lang-4 {
+      label{
+        background: url("../images/ru.png") 100% 100% no-repeat;
+      }
+    }*/
 }
-/* line 439, ../scss/custom.scss */
-body.page-medialibrary #edit-lang-wrapper .form-item-edit-lang-5 label {
-  background: url("../images/gb.png") 100% 100% no-repeat;
-}
-/* line 445, ../scss/custom.scss */
-body.page-medialibrary #edit-lang-wrapper .form-item-edit-lang-4 label {
-  background: url("../images/ru.png") 100% 100% no-repeat;
-}
-/* line 451, ../scss/custom.scss */
+/* line 472, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page {
-  padding-top: 60px;
+  padding-top: .5em;
 }
-/* line 457, ../scss/custom.scss */
+/* line 478, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button {
   background: none;
   border: none;
@@ -10750,42 +9702,101 @@ body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button
   margin: 0;
   padding: 0;
 }
-/* line 470, ../scss/custom.scss */
+/* line 491, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 {
   margin-left: -15px !important;
 }
-/* line 476, ../scss/custom.scss */
+/* line 494, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper {
+  padding-right: 0;
+  width: 80%;
+}
+/* line 499, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button {
+  width: 20%;
+}
+/* line 501, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search {
+  background: #5e619b !important;
+  letter-spacing: .1em;
+  box-shadow: none;
+  border: none;
+  padding: .5em 0;
+  font-weight: 100;
+  font-size: .875em;
+  font-family: Arial, Helvetica, Sans-serif;
+  width: 100%;
+}
+/* line 517, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-reset,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset {
   margin-top: 0;
 }
-/* line 486, ../scss/custom.scss */
+/* line 525, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header {
   margin-left: -15px;
   padding-bottom: 1em;
   font-size: 85%;
   color: grey;
 }
-/* line 497, ../scss/custom.scss */
+/* line 536, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row {
   background: #f8f8f8;
   margin-bottom: .5em;
 }
-/* line 501, ../scss/custom.scss */
+/* line 540, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges {
+  color: white;
+  font-size: 90%;
+  position: relative;
+  z-index: 1;
+}
+/* line 546, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .serp-course {
+  background: #919191;
+}
+/* line 552, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .serp-course,
+body.page-medialibrary .view-views-search .views-row .badges .its-a-hit,
+body.page-medialibrary .view-views-search .views-row .badges .new {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+/* line 558, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new {
+  text-align: right;
+}
+/* line 561, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new span {
+  margin-left: 1em;
+}
+/* line 564, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new .new {
+  background: #88c540;
+}
+/* line 568, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new .its-a-hit {
+  background: #e74c3c;
+}
+/* line 574, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-likes-comments {
-  color: #979789;
+  color: #919191;
   font-size: 1em;
   padding: 1em 0;
 }
-/* line 510, ../scss/custom.scss */
+/* line 583, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row h2 a,
 body.page-medialibrary .view-views-search .views-row .speaker a,
 body.page-medialibrary .view-views-search .views-row .university a {
   color: #5e619b;
 }
-/* line 515, ../scss/custom.scss */
+/* line 588, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row h2 {
   font-size: 1.14em;
   font-weight: normal;
@@ -10793,45 +9804,42 @@ body.page-medialibrary .view-views-search .views-row h2 {
   margin-top: 0;
   margin-bottom: .2em;
 }
-/* line 523, ../scss/custom.scss */
+/* line 596, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row #body-desc {
-  color: #979789;
+  color: #919191;
   font-size: 90%;
   line-height: 1em;
   margin-bottom: .4em;
   padding-top: .4em;
   overflow: hidden;
 }
-/* line 533, ../scss/custom.scss */
+/* line 606, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-field-php {
-  position: relative;
   margin-left: -15px;
-  top: 10px;
   height: 0;
   width: 80px;
-  z-index: 1;
 }
-/* line 541, ../scss/custom.scss */
+/* line 612, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-field-php .badge {
   color: white;
   display: inline-block;
   padding: 0 8px;
   margin-bottom: 4px;
 }
-/* line 548, ../scss/custom.scss */
+/* line 619, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-field-php .its-a-hit {
   background: orange;
 }
-/* line 552, ../scss/custom.scss */
+/* line 623, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-field-php .new {
   background: pink;
 }
-/* line 556, ../scss/custom.scss */
+/* line 627, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .views-field-php .serp-course {
   background: #009ae3;
 }
 
-/* line 569, ../scss/custom.scss */
+/* line 640, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row {
   font-size: 90%;
   font-weight: normal;
@@ -10841,7 +9849,7 @@ body.section-university .view-university-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 579, ../scss/custom.scss */
+/* line 650, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row .views-field-title,
 body.section-university .view-university-lectures .views-row .views-field-field-subject {
   padding: .8em .8em 0 .8em;
@@ -10850,13 +9858,13 @@ body.section-university .view-university-lectures .views-row .views-field-field-
   height: 40px;
 }
 
-/* line 593, ../scss/custom.scss */
+/* line 664, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-lecture main {
   padding-top: 1em;
 }
-/* line 599, ../scss/custom.scss */
+/* line 670, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-university-t h2.field-label,
 body.node-type-speaker main .field-name-field-subject-t h2.field-label,
 body.node-type-speaker main .field-name-field-view-courses h2.field-label,
@@ -10870,7 +9878,7 @@ body.node-type-lecture main .field-name-field-view-courses h2.field-label {
   line-height: 1;
   margin: 0;
 }
-/* line 605, ../scss/custom.scss */
+/* line 676, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-university-t ul,
 body.node-type-speaker main .field-name-field-subject-t ul,
 body.node-type-speaker main .field-name-field-view-courses ul,
@@ -10883,7 +9891,7 @@ body.node-type-lecture main .field-name-field-view-courses ul {
   line-height: 1;
   margin-bottom: 0;
 }
-/* line 609, ../scss/custom.scss */
+/* line 680, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-university-t ul li,
 body.node-type-speaker main .field-name-field-subject-t ul li,
 body.node-type-speaker main .field-name-field-view-courses ul li,
@@ -10898,20 +9906,20 @@ body.node-type-lecture main .field-name-field-view-courses ul li {
   margin-left: 0;
   display: inline-block;
 }
-/* line 622, ../scss/custom.scss */
+/* line 693, ../scss/custom.scss */
 body.node-type-speaker h1,
 body.node-type-course h1,
 body.node-type-lecture h1 {
   margin-top: 0;
   line-height: 1;
 }
-/* line 627, ../scss/custom.scss */
+/* line 698, ../scss/custom.scss */
 body.node-type-speaker .field,
 body.node-type-course .field,
 body.node-type-lecture .field {
   padding-bottom: 1em;
 }
-/* line 632, ../scss/custom.scss */
+/* line 703, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker-photo,
 body.node-type-speaker .field-name-field-picture,
 body.node-type-course .field-name-field-speaker-photo,
@@ -10920,13 +9928,13 @@ body.node-type-lecture .field-name-field-speaker-photo,
 body.node-type-lecture .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 637, ../scss/custom.scss */
+/* line 708, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-speaker,
 body.node-type-course .field-name-field-speaker,
 body.node-type-lecture .field-name-field-speaker {
   clear: both;
 }
-/* line 641, ../scss/custom.scss */
+/* line 712, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-lectures a,
 body.node-type-course .field-name-field-lectures a,
 body.node-type-lecture .field-name-field-lectures a {
@@ -10934,7 +9942,7 @@ body.node-type-lecture .field-name-field-lectures a {
   margin-right: 1em;
   margin-bottom: 1em;
 }
-/* line 649, ../scss/custom.scss */
+/* line 720, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses,
 body.node-type-speaker .field-name-field-view-lectures,
 body.node-type-speaker .field-name-field-lectures,
@@ -10946,7 +9954,7 @@ body.node-type-lecture .field-name-field-view-lectures,
 body.node-type-lecture .field-name-field-lectures {
   clear: both;
 }
-/* line 653, ../scss/custom.scss */
+/* line 724, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .lecture a,
 body.node-type-speaker .field-name-field-view-lectures .lecture a,
 body.node-type-speaker .field-name-field-lectures .lecture a,
@@ -10959,7 +9967,7 @@ body.node-type-lecture .field-name-field-lectures .lecture a {
   margin: 0;
   padding: 0;
 }
-/* line 659, ../scss/custom.scss */
+/* line 730, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row,
 body.node-type-speaker .field-name-field-view-lectures .views-row,
 body.node-type-speaker .field-name-field-lectures .views-row,
@@ -10977,7 +9985,7 @@ body.node-type-lecture .field-name-field-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 670, ../scss/custom.scss */
+/* line 741, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
@@ -11001,7 +10009,7 @@ body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-
   overflow: hidden;
   height: 40px;
 }
-/* line 679, ../scss/custom.scss */
+/* line 750, ../scss/custom.scss */
 body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
 body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
@@ -11024,7 +10032,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 698, ../scss/custom.scss */
+/* line 769, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -11033,24 +10041,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 704, ../scss/custom.scss */
+/* line 775, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 706, ../scss/custom.scss */
+/* line 777, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 708, ../scss/custom.scss */
+/* line 779, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 180px;
 }
 
 /* must be same height as the footer */
-/* line 711, ../scss/custom.scss */
+/* line 782, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -180px;
@@ -11060,7 +10068,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 717, ../scss/custom.scss */
+/* line 788, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
