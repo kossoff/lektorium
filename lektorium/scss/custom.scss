@@ -64,31 +64,13 @@
 // Themes
 // @import "theme/button-light";
 
-/*$l-blue: #009AE3;
-$l-darkgrey: #24262f;
-$l-lightgrey: #f8f8f8;
-$l-black: #1a1e22;
-$l-green: #88c540;
-$l-violet: #5e619b;
-$l-yellow: #ece451;
-$l-red: #e74c3c;
-*/
 // http://compass-style.org/examples/compass/css3/text_shadow/
+$footer-height: 220px;
 $default-text-shadow-color: rgba($l-black, 0.6);
 $default-text-shadow-blur: 3px;
 $default-text-shadow-v-offset: 1px;
 $border-radius: 3px;
-$font-intro-path: '../fonts/intro';
 
-@font-face {
-  font-family: "intro";
-  src: url("#{$font-intro-path}/intro.eot");
-  src: url("#{$font-intro-path}/intro.eot?#iefix") format("embedded-opentype"),
-  url("#{$font-intro-path}/intro.woff") format("woff"),
-  url("#{$font-intro-path}/intro.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 .top-bar-section li a:not(.button).active {
     color: $l-green;
@@ -101,9 +83,7 @@ $font-intro-path: '../fonts/intro';
 }
 
 .top-bar .name h1 {
-  font-family: intro;
   font-size: 1em;
-  font-weight: 100;
 }
 
 body.front {
@@ -131,7 +111,6 @@ body.front {
     h2.site-slogan {
       color: white;
       text-transform: uppercase;
-      font-family: Intro;
     }
 
     h1#site-name {
@@ -182,10 +161,8 @@ body.front {
       h2,
       h3 {
         color: $l-header-grey;
-        font-family: intro;
         letter-spacing: .1em;
         padding-top:2em;
-        //padding-bottom:1em;
       }
 
       h2 {
@@ -295,7 +272,7 @@ body.not-front {
 }
 
 footer {
-  background: #16171A;
+  background: $l-darkgrey;
   color: grey;
   text-align: left;
   padding-top: 1em;
@@ -510,10 +487,21 @@ body.page-medialibrary {
         margin: 0;
         padding: 0;
       }
+
+      button:hover {
+        border-bottom: 1px $l-black dashed;
+        color: $l-black;
+      }
     }
   }
 
   #views-exposed-form-views-search-page-1 {
+    margin-bottom: 0;
+    
+    .views-exposed-widgets {
+      margin-bottom: 0;
+    }
+
     #edit-search-api-views-fulltext-wrapper {
       padding-right: 0;
       width: 80%;
@@ -546,7 +534,7 @@ body.page-medialibrary {
   // поисковая выдача
   .view-views-search {
     .view-header {
-      padding-bottom: 3em;
+      padding-bottom: 1em;
       font-size: 85%;
       color: grey;
       line-height: 4em;
@@ -625,6 +613,7 @@ body.page-medialibrary {
         h2,
         .speaker,
         .university {
+          font-family: $ff-arial;
           a {
             color: $l-violet;
           }
@@ -799,11 +788,11 @@ html, body {height: 100%;}
 .page {min-height: 100%;}
 
 .wrapper-main {overflow:auto;
-  padding-bottom: 180px;}  /* must be same height as the footer */
+  padding-bottom: $footer-height;}  /* must be same height as the footer */
 
 footer {position: relative;
-  margin-top: -180px; /* negative value of footer height */
-  height: 180px;
+  margin-top: -$footer-height; /* negative value of footer height */
+  height: $footer-height;
   clear:both;}
 
 /*Opera Fix*/
@@ -814,8 +803,6 @@ float:left;
 width:0;
 margin-top:-32767px;/* thank you Erik J - negate effect of float*/
 }
-
-
 
 /* IMPORTANT
 

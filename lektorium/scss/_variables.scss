@@ -2,6 +2,18 @@
  * Theme specific variables.
  */
 
+$font-intro-path: '../fonts/intro';
+
+@font-face {
+  font-family: "intro";
+  src: url("#{$font-intro-path}/intro.eot");
+  src: url("#{$font-intro-path}/intro.eot?#iefix") format("embedded-opentype"),
+  url("#{$font-intro-path}/intro.woff") format("woff"),
+  url("#{$font-intro-path}/intro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Optionally, you can add your colors here.
 // ******************************************************
 // $primary-color: #000;
@@ -200,8 +212,8 @@ $global-radius: 3px;
 
 // Control header font styles
 
-$header-font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+$header-font-family: Intro, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
 // $header-line-height: 1.4;
