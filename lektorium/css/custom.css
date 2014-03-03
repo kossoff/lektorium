@@ -539,12 +539,12 @@ img {
 }
 
 /* line 333, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
-.left, body.node-type-speaker .field-name-field-speaker-photo,
-body.node-type-speaker .field-name-field-picture,
-body.node-type-course .field-name-field-speaker-photo,
-body.node-type-course .field-name-field-picture,
-body.node-type-lecture .field-name-field-speaker-photo,
-body.node-type-lecture .field-name-field-picture {
+.left, body.node-type-speaker main .field-name-field-speaker-photo,
+body.node-type-speaker main .field-name-field-picture,
+body.node-type-course main .field-name-field-speaker-photo,
+body.node-type-course main .field-name-field-picture,
+body.node-type-lecture main .field-name-field-speaker-photo,
+body.node-type-lecture main .field-name-field-picture {
   float: left !important;
 }
 
@@ -5630,17 +5630,17 @@ label.error {
   right: -28px;
 }
 /* line 99, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-.joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-.joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-picture,
-body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-picture,
-.joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-speaker-photo,
-body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-.joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-picture,
-body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-picture,
-.joyride-tip-guide body.node-type-lecture .joyride-nub.field-name-field-speaker-photo,
-body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-.joyride-tip-guide body.node-type-lecture .joyride-nub.field-name-field-picture,
-body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-picture {
+.joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker main .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+.joyride-tip-guide body.node-type-speaker main .joyride-nub.field-name-field-picture,
+body.node-type-speaker main .joyride-tip-guide .joyride-nub.field-name-field-picture,
+.joyride-tip-guide body.node-type-course main .joyride-nub.field-name-field-speaker-photo,
+body.node-type-course main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+.joyride-tip-guide body.node-type-course main .joyride-nub.field-name-field-picture,
+body.node-type-course main .joyride-tip-guide .joyride-nub.field-name-field-picture,
+.joyride-tip-guide body.node-type-lecture main .joyride-nub.field-name-field-speaker-photo,
+body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+.joyride-tip-guide body.node-type-lecture main .joyride-nub.field-name-field-picture,
+body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-picture {
   left: -28px;
 }
 
@@ -5760,17 +5760,17 @@ body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-picture 
     right: -28px;
   }
   /* line 204, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-  .joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-  .joyride-tip-guide body.node-type-speaker .joyride-nub.field-name-field-picture,
-  body.node-type-speaker .joyride-tip-guide .joyride-nub.field-name-field-picture,
-  .joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-speaker-photo,
-  body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-  .joyride-tip-guide body.node-type-course .joyride-nub.field-name-field-picture,
-  body.node-type-course .joyride-tip-guide .joyride-nub.field-name-field-picture,
-  .joyride-tip-guide body.node-type-lecture .joyride-nub.field-name-field-speaker-photo,
-  body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
-  .joyride-tip-guide body.node-type-lecture .joyride-nub.field-name-field-picture,
-  body.node-type-lecture .joyride-tip-guide .joyride-nub.field-name-field-picture {
+  .joyride-tip-guide .joyride-nub.left, .joyride-tip-guide body.node-type-speaker main .joyride-nub.field-name-field-speaker-photo, body.node-type-speaker main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+  .joyride-tip-guide body.node-type-speaker main .joyride-nub.field-name-field-picture,
+  body.node-type-speaker main .joyride-tip-guide .joyride-nub.field-name-field-picture,
+  .joyride-tip-guide body.node-type-course main .joyride-nub.field-name-field-speaker-photo,
+  body.node-type-course main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+  .joyride-tip-guide body.node-type-course main .joyride-nub.field-name-field-picture,
+  body.node-type-course main .joyride-tip-guide .joyride-nub.field-name-field-picture,
+  .joyride-tip-guide body.node-type-lecture main .joyride-nub.field-name-field-speaker-photo,
+  body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-speaker-photo,
+  .joyride-tip-guide body.node-type-lecture main .joyride-nub.field-name-field-picture,
+  body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-picture {
     border-color: black !important;
     border-top-color: transparent !important;
     border-left-color: transparent !important;
@@ -9503,33 +9503,21 @@ footer a {
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 299, ../scss/custom.scss */
+/* line 298, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 303, ../scss/custom.scss */
+/* line 302, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
 /* line 311, ../scss/custom.scss */
-body.page-medialibrary {
-  /*  #edit-recorded-from-wrapper {
-      padding-bottom: .5em;
-  
-      label {
-        font-family: intro;
-        font-size: 110%;
-        margin-bottom: 10px;
-      }
-    }*/
-}
-/* line 312, ../scss/custom.scss */
 body.page-medialibrary .sidebar-first {
   padding-left: 25px;
 }
-/* line 315, ../scss/custom.scss */
+/* line 314, ../scss/custom.scss */
 body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -9541,16 +9529,16 @@ body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
   padding: 10px 0 20px 25px;
   width: 100%;
 }
-/* line 324, ../scss/custom.scss */
+/* line 323, ../scss/custom.scss */
 body.page-medialibrary .views-exposed-form label {
   font-weight: 500;
 }
-/* line 330, ../scss/custom.scss */
+/* line 329, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button {
   display: none;
 }
-/* line 342, ../scss/custom.scss */
+/* line 341, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-type-wrapper,
@@ -9559,7 +9547,7 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-redac
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button {
   display: none;
 }
-/* line 352, ../scss/custom.scss */
+/* line 351, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date label,
@@ -9570,7 +9558,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date lab
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
   display: none;
 }
-/* line 362, ../scss/custom.scss */
+/* line 361, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
@@ -9579,7 +9567,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to
   width: 120px;
   padding: 2px 0 2px 10px;
 }
-/* line 370, ../scss/custom.scss */
+/* line 369, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper:before {
   color: #4d4d4d;
   content: "Дата записи";
@@ -9590,35 +9578,35 @@ body.page-medialibrary #edit-recorded-from-wrapper:before {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 383, ../scss/custom.scss */
+/* line 382, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper,
 body.page-medialibrary #edit-recorded-to-wrapper {
   display: table-row;
 }
-/* line 387, ../scss/custom.scss */
+/* line 386, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
 body.page-medialibrary #edit-recorded-from-wrapper div.views-widget,
 body.page-medialibrary #edit-recorded-to-wrapper label,
 body.page-medialibrary #edit-recorded-to-wrapper div.views-widget {
   display: table-cell;
 }
-/* line 392, ../scss/custom.scss */
+/* line 391, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
 body.page-medialibrary #edit-recorded-to-wrapper label {
   width: 25px;
   padding-top: 10px;
   vertical-align: top;
 }
-/* line 409, ../scss/custom.scss */
+/* line 398, ../scss/custom.scss */
 body.page-medialibrary #edit-redaction-wrapper {
   background: #88c540;
   margin: 2em 0;
 }
-/* line 413, ../scss/custom.scss */
+/* line 402, ../scss/custom.scss */
 body.page-medialibrary #edit-redaction-wrapper label {
   color: white !important;
 }
-/* line 422, ../scss/custom.scss */
+/* line 411, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper,
 body.page-medialibrary #edit-university-t-wrapper,
 body.page-medialibrary #edit-subject-t-wrapper,
@@ -9626,7 +9614,7 @@ body.page-medialibrary #edit-lang-wrapper,
 body.page-medialibrary #edit-redaction-wrapper {
   padding-bottom: .5em;
 }
-/* line 425, ../scss/custom.scss */
+/* line 414, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper label,
 body.page-medialibrary #edit-university-t-wrapper label,
 body.page-medialibrary #edit-subject-t-wrapper label,
@@ -9636,7 +9624,7 @@ body.page-medialibrary #edit-redaction-wrapper label {
   font-size: 110%;
   margin-bottom: 10px;
 }
-/* line 432, ../scss/custom.scss */
+/* line 421, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item,
@@ -9645,7 +9633,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item {
   display: table-row;
   margin-bottom: 16px;
 }
-/* line 437, ../scss/custom.scss */
+/* line 426, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input,
@@ -9660,7 +9648,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   display: table-cell;
   margin: .6em .2em 0 0;
 }
-/* line 443, ../scss/custom.scss */
+/* line 432, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
@@ -9668,7 +9656,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input.bef-sel
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
   margin: .4em .6em .4em 0;
 }
-/* line 447, ../scss/custom.scss */
+/* line 436, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
@@ -9678,7 +9666,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   font-family: Arial, Helvetica, Sans-serif;
   padding-left: .6em;
 }
-/* line 453, ../scss/custom.scss */
+/* line 442, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item :checked + label,
@@ -9686,7 +9674,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item :checked + la
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item :checked + label {
   color: #777777;
 }
-/* line 457, ../scss/custom.scss */
+/* line 446, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"],
@@ -9694,7 +9682,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input[type="c
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] {
   display: none;
 }
-/* line 461, ../scss/custom.scss */
+/* line 450, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
@@ -9706,7 +9694,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[ty
   background: url(../images/unchecked.png) left top no-repeat;
   cursor: pointer;
 }
-/* line 472, ../scss/custom.scss */
+/* line 461, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
@@ -9715,7 +9703,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[ty
   background: url(../images/checked.png) left top no-repeat;
   padding-left: 25px;
 }
-/* line 479, ../scss/custom.scss */
+/* line 468, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper a.toggler,
 body.page-medialibrary #edit-university-t-wrapper a.toggler,
 body.page-medialibrary #edit-subject-t-wrapper a.toggler,
@@ -9737,7 +9725,7 @@ body.page-medialibrary #edit-redaction-wrapper a.toggler {
   text-align: center;
   width: 100%;
 }
-/* line 494, ../scss/custom.scss */
+/* line 483, ../scss/custom.scss */
 body.page-medialibrary #edit-lang-wrapper {
   display: none;
  /*   label {
@@ -9756,11 +9744,11 @@ body.page-medialibrary #edit-lang-wrapper {
       }
     }*/
 }
-/* line 513, ../scss/custom.scss */
+/* line 502, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page {
   padding-top: .5em;
 }
-/* line 519, ../scss/custom.scss */
+/* line 508, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button {
   background: none;
   border: none;
@@ -9771,30 +9759,30 @@ body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button
   margin: 0;
   padding: 0;
 }
-/* line 530, ../scss/custom.scss */
+/* line 519, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button:hover {
   border-bottom: 1px #1a1e22 dashed;
   color: #1a1e22;
 }
-/* line 537, ../scss/custom.scss */
+/* line 526, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 {
   margin-bottom: 0;
 }
-/* line 540, ../scss/custom.scss */
+/* line 529, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-exposed-widgets {
   margin-bottom: 0;
 }
-/* line 544, ../scss/custom.scss */
+/* line 533, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper {
   padding-right: 0;
   width: 80%;
 }
-/* line 549, ../scss/custom.scss */
+/* line 538, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button {
   padding-right: 0;
   width: 20%;
 }
-/* line 553, ../scss/custom.scss */
+/* line 542, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -9813,46 +9801,46 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-but
   font-family: Arial, Helvetica, Sans-serif;
   width: 100%;
 }
-/* line 573, ../scss/custom.scss */
+/* line 562, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-reset,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset {
   margin-top: 0;
 }
-/* line 581, ../scss/custom.scss */
+/* line 570, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header {
   padding-bottom: 2em;
   font-size: 85%;
   color: grey;
 }
-/* line 588, ../scss/custom.scss */
+/* line 577, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #total-label,
 body.page-medialibrary .view-views-search .view-header #total {
   display: inline-block;
 }
-/* line 592, ../scss/custom.scss */
+/* line 581, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #total {
   background: url(../images/total.png) 0 50% no-repeat;
   font-weight: bold;
   padding: 1em;
   width: 100px;
 }
-/* line 600, ../scss/custom.scss */
+/* line 589, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #sort-label,
 body.page-medialibrary .view-views-search .view-header #sort-popular {
   display: inline-block;
 }
-/* line 604, ../scss/custom.scss */
+/* line 593, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #sort-popular {
   color: #88c540;
   border-bottom: 1px dashed #88c540;
 }
-/* line 609, ../scss/custom.scss */
+/* line 598, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #view-display-label {
   margin-left: 1em;
 }
-/* line 614, ../scss/custom.scss */
+/* line 603, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #list,
 body.page-medialibrary .view-views-search .view-header #thumb {
   display: inline-block;
@@ -9861,25 +9849,25 @@ body.page-medialibrary .view-views-search .view-header #thumb {
   position: relative;
   top: 8px;
 }
-/* line 622, ../scss/custom.scss */
+/* line 611, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #list {
   background: url(../images/text_list.png) no-repeat;
 }
-/* line 626, ../scss/custom.scss */
+/* line 615, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #thumb {
   background: url(../images/thumb_list.png) no-repeat;
 }
-/* line 632, ../scss/custom.scss */
+/* line 621, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-content {
   padding: 0 15px;
 }
-/* line 636, ../scss/custom.scss */
+/* line 625, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row {
   background: #f9f9f5;
   margin-bottom: 1em;
   border: 1px solid #eaeaea;
 }
-/* line 641, ../scss/custom.scss */
+/* line 630, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges {
   color: white;
   font-size: 70%;
@@ -9889,12 +9877,12 @@ body.page-medialibrary .view-views-search .views-row .badges {
   top: -5px;
   z-index: 1;
 }
-/* line 651, ../scss/custom.scss */
+/* line 640, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .serp-course,
 body.page-medialibrary .view-views-search .views-row .badges .serp-lecture {
   background: #919191;
 }
-/* line 658, ../scss/custom.scss */
+/* line 647, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .serp-course,
 body.page-medialibrary .view-views-search .views-row .badges .serp-lecture,
 body.page-medialibrary .view-views-search .views-row .badges .its-a-hit,
@@ -9906,45 +9894,45 @@ body.page-medialibrary .view-views-search .views-row .badges .new {
   border-radius: 4px;
   padding: 2px 4px;
 }
-/* line 664, ../scss/custom.scss */
+/* line 653, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new {
   text-align: right;
 }
-/* line 667, ../scss/custom.scss */
+/* line 656, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new span {
   margin-left: 1em;
 }
-/* line 670, ../scss/custom.scss */
+/* line 659, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new .new {
   background: #88c540;
 }
-/* line 674, ../scss/custom.scss */
+/* line 663, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new .its-a-hit {
   background: #e74c3c;
 }
-/* line 680, ../scss/custom.scss */
+/* line 669, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item {
   padding: 1em;
 }
-/* line 683, ../scss/custom.scss */
+/* line 672, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .views-likes-comments {
   color: #b7b7b7;
   font-size: .875em;
   padding-top: 1em;
 }
-/* line 691, ../scss/custom.scss */
+/* line 680, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
 body.page-medialibrary .view-views-search .views-row .result-item .university {
   font-family: Arial, Helvetica, Sans-serif;
 }
-/* line 693, ../scss/custom.scss */
+/* line 682, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2 a,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker a,
 body.page-medialibrary .view-views-search .views-row .result-item .university a {
   color: #5e619b;
 }
-/* line 698, ../scss/custom.scss */
+/* line 687, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2 {
   font-size: 1em;
   font-weight: bold;
@@ -9952,12 +9940,12 @@ body.page-medialibrary .view-views-search .views-row .result-item h2 {
   margin-top: 0;
   margin-bottom: .2em;
 }
-/* line 707, ../scss/custom.scss */
+/* line 696, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
 body.page-medialibrary .view-views-search .views-row .result-item .university {
   font-size: 80%;
 }
-/* line 711, ../scss/custom.scss */
+/* line 700, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
   color: #919191;
   font-size: 90%;
@@ -9967,7 +9955,7 @@ body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
   overflow: hidden;
 }
 
-/* line 727, ../scss/custom.scss */
+/* line 716, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row {
   font-size: 90%;
   font-weight: normal;
@@ -9977,7 +9965,7 @@ body.section-university .view-university-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 737, ../scss/custom.scss */
+/* line 726, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row .views-field-title,
 body.section-university .view-university-lectures .views-row .views-field-field-subject {
   padding: .8em .8em 0 .8em;
@@ -9986,172 +9974,132 @@ body.section-university .view-university-lectures .views-row .views-field-field-
   height: 40px;
 }
 
-/* line 751, ../scss/custom.scss */
+/* line 740, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-lecture main {
+  color: #656565;
   padding-top: 1em;
 }
-/* line 757, ../scss/custom.scss */
-body.node-type-speaker main .field-name-field-university-t h2.field-label,
-body.node-type-speaker main .field-name-field-subject-t h2.field-label,
-body.node-type-speaker main .field-name-field-view-courses h2.field-label,
-body.node-type-course main .field-name-field-university-t h2.field-label,
-body.node-type-course main .field-name-field-subject-t h2.field-label,
-body.node-type-course main .field-name-field-view-courses h2.field-label,
-body.node-type-lecture main .field-name-field-university-t h2.field-label,
-body.node-type-lecture main .field-name-field-subject-t h2.field-label,
-body.node-type-lecture main .field-name-field-view-courses h2.field-label {
-  font-size: 1em;
-  line-height: 1;
-  margin: 0;
-}
-/* line 763, ../scss/custom.scss */
-body.node-type-speaker main .field-name-field-university-t ul,
-body.node-type-speaker main .field-name-field-subject-t ul,
-body.node-type-speaker main .field-name-field-view-courses ul,
-body.node-type-course main .field-name-field-university-t ul,
-body.node-type-course main .field-name-field-subject-t ul,
-body.node-type-course main .field-name-field-view-courses ul,
-body.node-type-lecture main .field-name-field-university-t ul,
-body.node-type-lecture main .field-name-field-subject-t ul,
-body.node-type-lecture main .field-name-field-view-courses ul {
-  line-height: 1;
-  margin-bottom: 0;
-}
-/* line 767, ../scss/custom.scss */
-body.node-type-speaker main .field-name-field-university-t ul li,
-body.node-type-speaker main .field-name-field-subject-t ul li,
-body.node-type-speaker main .field-name-field-view-courses ul li,
-body.node-type-course main .field-name-field-university-t ul li,
-body.node-type-course main .field-name-field-subject-t ul li,
-body.node-type-course main .field-name-field-view-courses ul li,
-body.node-type-lecture main .field-name-field-university-t ul li,
-body.node-type-lecture main .field-name-field-subject-t ul li,
-body.node-type-lecture main .field-name-field-view-courses ul li {
-  list-style-type: none;
-  padding-left: .2em;
-  margin-left: 0;
-  display: inline-block;
-}
-/* line 780, ../scss/custom.scss */
-body.node-type-speaker h1,
-body.node-type-course h1,
-body.node-type-lecture h1 {
-  margin-top: 0;
+/* line 744, ../scss/custom.scss */
+body.node-type-speaker main h1,
+body.node-type-course main h1,
+body.node-type-lecture main h1 {
+  color: #656565;
   line-height: 1;
 }
-/* line 785, ../scss/custom.scss */
-body.node-type-speaker .field,
-body.node-type-course .field,
-body.node-type-lecture .field {
+/* line 749, ../scss/custom.scss */
+body.node-type-speaker main .field,
+body.node-type-course main .field,
+body.node-type-lecture main .field {
   padding-bottom: 1em;
 }
-/* line 790, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-speaker-photo,
-body.node-type-speaker .field-name-field-picture,
-body.node-type-course .field-name-field-speaker-photo,
-body.node-type-course .field-name-field-picture,
-body.node-type-lecture .field-name-field-speaker-photo,
-body.node-type-lecture .field-name-field-picture {
+/* line 754, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-speaker-photo,
+body.node-type-speaker main .field-name-field-picture,
+body.node-type-course main .field-name-field-speaker-photo,
+body.node-type-course main .field-name-field-picture,
+body.node-type-lecture main .field-name-field-speaker-photo,
+body.node-type-lecture main .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 795, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-speaker,
-body.node-type-course .field-name-field-speaker,
-body.node-type-lecture .field-name-field-speaker {
-  clear: both;
+/* line 760, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges,
+body.node-type-course main .field-name-field-view-courses .badges,
+body.node-type-lecture main .field-name-field-view-courses .badges {
+  color: white;
+  letter-spacing: .15em;
+  text-transform: lowercase;
 }
-/* line 799, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-lectures a,
-body.node-type-course .field-name-field-lectures a,
-body.node-type-lecture .field-name-field-lectures a {
-  color: #222222;
+/* line 765, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
+body.node-type-course main .field-name-field-view-courses .badges .badge-type,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-type {
+  background: #919191;
+}
+/* line 769, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
+body.node-type-course main .field-name-field-view-courses .badges .badge-hit,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-hit {
+  background: #e74c3c;
+}
+/* line 773, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
+body.node-type-course main .field-name-field-view-courses .badges .badge-new,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-new {
+  background: #88c540;
+}
+/* line 779, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
+body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
+body.node-type-course main .field-name-field-view-courses .badges .badge-type,
+body.node-type-course main .field-name-field-view-courses .badges .badge-hit,
+body.node-type-course main .field-name-field-view-courses .badges .badge-new,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-type,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-hit,
+body.node-type-lecture main .field-name-field-view-courses .badges .badge-new {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 70%;
+  margin-right: 5px;
+  padding: 2px 4px;
+}
+/* line 787, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .social,
+body.node-type-course main .field-name-field-view-courses .badges .social,
+body.node-type-lecture main .field-name-field-view-courses .badges .social {
+  margin-left: 1em;
+  letter-spacing: 0;
+}
+/* line 791, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .badges .social span,
+body.node-type-course main .field-name-field-view-courses .badges .social span,
+body.node-type-lecture main .field-name-field-view-courses .badges .social span {
+  color: #919191;
   margin-right: 1em;
-  margin-bottom: 1em;
 }
-/* line 807, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses,
-body.node-type-speaker .field-name-field-view-lectures,
-body.node-type-speaker .field-name-field-lectures,
-body.node-type-course .field-name-field-view-courses,
-body.node-type-course .field-name-field-view-lectures,
-body.node-type-course .field-name-field-lectures,
-body.node-type-lecture .field-name-field-view-courses,
-body.node-type-lecture .field-name-field-view-lectures,
-body.node-type-lecture .field-name-field-lectures {
-  clear: both;
+/* line 798, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .course,
+body.node-type-course main .field-name-field-view-courses .course,
+body.node-type-lecture main .field-name-field-view-courses .course {
+  color: #5e619b;
+  padding-top: .5em;
+  line-height: 1.2em;
 }
-/* line 811, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses .lecture a,
-body.node-type-speaker .field-name-field-view-lectures .lecture a,
-body.node-type-speaker .field-name-field-lectures .lecture a,
-body.node-type-course .field-name-field-view-courses .lecture a,
-body.node-type-course .field-name-field-view-lectures .lecture a,
-body.node-type-course .field-name-field-lectures .lecture a,
-body.node-type-lecture .field-name-field-view-courses .lecture a,
-body.node-type-lecture .field-name-field-view-lectures .lecture a,
-body.node-type-lecture .field-name-field-lectures .lecture a {
-  margin: 0;
+/* line 804, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .course a.course-title,
+body.node-type-course main .field-name-field-view-courses .course a.course-title,
+body.node-type-lecture main .field-name-field-view-courses .course a.course-title {
+  color: #5e619b;
+}
+/* line 808, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t,
+body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t,
+body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t {
   padding: 0;
 }
-/* line 817, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses .views-row,
-body.node-type-speaker .field-name-field-view-lectures .views-row,
-body.node-type-speaker .field-name-field-lectures .views-row,
-body.node-type-course .field-name-field-view-courses .views-row,
-body.node-type-course .field-name-field-view-lectures .views-row,
-body.node-type-course .field-name-field-lectures .views-row,
-body.node-type-lecture .field-name-field-view-courses .views-row,
-body.node-type-lecture .field-name-field-view-lectures .views-row,
-body.node-type-lecture .field-name-field-lectures .views-row {
-  font-size: 90%;
-  font-weight: normal;
-  display: inline-block;
-  vertical-align: top;
-  max-width: 180px;
-  margin: 0 .4em .8em 0;
-  padding-bottom: .8em;
+/* line 811, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul,
+body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t ul,
+body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t ul {
+  list-style-type: none;
+  margin-bottom: 0;
 }
-/* line 828, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses .views-row .views-field-title,
-body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-subject,
-body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-title,
-body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-subject,
-body.node-type-speaker .field-name-field-lectures .views-row .views-field-title,
-body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-subject,
-body.node-type-course .field-name-field-view-courses .views-row .views-field-title,
-body.node-type-course .field-name-field-view-courses .views-row .views-field-field-subject,
-body.node-type-course .field-name-field-view-lectures .views-row .views-field-title,
-body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-subject,
-body.node-type-course .field-name-field-lectures .views-row .views-field-title,
-body.node-type-course .field-name-field-lectures .views-row .views-field-field-subject,
-body.node-type-lecture .field-name-field-view-courses .views-row .views-field-title,
-body.node-type-lecture .field-name-field-view-courses .views-row .views-field-field-subject,
-body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-title,
-body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-subject,
-body.node-type-lecture .field-name-field-lectures .views-row .views-field-title,
-body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-subject {
-  padding: .8em .8em 0 .8em;
-  display: inline-block;
-  overflow: hidden;
-  height: 40px;
+/* line 815, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul a,
+body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t ul a,
+body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t ul a {
+  color: #5e619b;
 }
-/* line 837, ../scss/custom.scss */
-body.node-type-speaker .field-name-field-view-courses .views-row .views-field-field-university a,
-body.node-type-speaker .field-name-field-view-lectures .views-row .views-field-field-university a,
-body.node-type-speaker .field-name-field-lectures .views-row .views-field-field-university a,
-body.node-type-course .field-name-field-view-courses .views-row .views-field-field-university a,
-body.node-type-course .field-name-field-view-lectures .views-row .views-field-field-university a,
-body.node-type-course .field-name-field-lectures .views-row .views-field-field-university a,
-body.node-type-lecture .field-name-field-view-courses .views-row .views-field-field-university a,
-body.node-type-lecture .field-name-field-view-lectures .views-row .views-field-field-university a,
-body.node-type-lecture .field-name-field-lectures .views-row .views-field-field-university a {
-  padding: .8em .8em 0 .8em;
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+/* line 822, ../scss/custom.scss */
+body.node-type-speaker main .field-name-field-view-courses hr,
+body.node-type-course main .field-name-field-view-courses hr,
+body.node-type-lecture main .field-name-field-view-courses hr {
+  margin-bottom: 1em;
 }
 
 /*
@@ -10160,7 +10108,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 856, ../scss/custom.scss */
+/* line 836, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10169,24 +10117,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 862, ../scss/custom.scss */
+/* line 842, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 864, ../scss/custom.scss */
+/* line 844, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 866, ../scss/custom.scss */
+/* line 846, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 869, ../scss/custom.scss */
+/* line 849, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10196,7 +10144,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 875, ../scss/custom.scss */
+/* line 855, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
