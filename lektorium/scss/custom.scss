@@ -64,13 +64,14 @@
 // Themes
 // @import "theme/button-light";
 
-// http://compass-style.org/examples/compass/css3/text_shadow/
 $footer-height: 220px;
+
+// http://compass-style.org/examples/compass/css3/text_shadow/
 $default-text-shadow-color: rgba($l-black, 0.6);
 $default-text-shadow-blur: 3px;
 $default-text-shadow-v-offset: 1px;
-$border-radius: 3px;
 
+$border-radius: 3px;
 
 .top-bar-section li a:not(.button).active {
     color: $l-green;
@@ -359,13 +360,51 @@ body.page-medialibrary {
     .views-widget {
       #edit-recorded-from-datepicker-popup-2,
       #edit-recorded-to-datepicker-popup-2 {
-        background: #E9E9E9;
-        height: 20px;
-        width: 80px;
-        padding: 0;
+        background: url(../images/calendar_icn.png) 95% 50% no-repeat $l-lightgrey;
+        width: 120px;
+        padding: 2px 0 2px 10px;
       }
     }
   }
+
+  #edit-recorded-from-wrapper:before {
+    color: #4d4d4d;
+    content: "Дата записи";
+    padding-bottom: .5em;
+
+    display: block;
+    font-family: intro;
+    font-size: 110%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  #edit-recorded-from-wrapper,
+  #edit-recorded-to-wrapper {
+    display: table-row;
+
+    label,
+    div.views-widget {
+      display: table-cell;
+
+    }
+
+    label {
+      width: 25px;
+      padding-top:10px;
+      vertical-align: top;
+    }
+  }
+
+/*  #edit-recorded-from-wrapper {
+    padding-bottom: .5em;
+
+    label {
+      font-family: intro;
+      font-size: 110%;
+      margin-bottom: 10px;
+    }
+  }*/
 
   #edit-redaction-wrapper {
     background: $l-green;
@@ -497,7 +536,7 @@ body.page-medialibrary {
 
   #views-exposed-form-views-search-page-1 {
     margin-bottom: 0;
-    
+
     .views-exposed-widgets {
       margin-bottom: 0;
     }
@@ -508,9 +547,15 @@ body.page-medialibrary {
     }
 
     .views-submit-button {
+      padding-right: 0;
       width: 20%;
+
       button#edit-submit-views-search {
+        @include border-top-right-radius(5px);
+        @include border-bottom-right-radius(5px);
+
         background: $l-violet !important;
+        height: 32px;
         letter-spacing: .1em;
         box-shadow: none;
         border: none;
@@ -534,27 +579,58 @@ body.page-medialibrary {
   // поисковая выдача
   .view-views-search {
     .view-header {
-      padding-bottom: 1em;
+      padding-bottom: 2em;
       font-size: 85%;
       color: grey;
-      line-height: 4em;
+
 
       #total-label,
-      #total-wrap {
+      #total {
         display: inline-block;
       }
 
       #total {
         background: url(../images/total.png) 0 50% no-repeat;
-        display: block;
         font-weight: bold;
-        padding: 0 1em;
+        padding: 1em;
         width: 100px;
       }
+
+      #sort-label,
+      #sort-popular {
+        display: inline-block;
+      }
+
+      #sort-popular {
+        color: $l-green;
+        border-bottom: 1px dashed $l-green;
+      }
+
+      #view-display-label {
+        margin-left: 1em;
+      }
+
+      #list,
+      #thumb {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        position: relative;
+        top: 8px;
+      }
+
+      #list {
+        background: url(../images/text_list.png) no-repeat;
+      }
+
+      #thumb {
+        background: url(../images/thumb_list.png) no-repeat;
+      }
+
     }
 
     .view-content {
-
+      padding: 0 15px;
     }
 
     .views-row {
