@@ -119,12 +119,14 @@ ul.breadcrumbs {
     position: relative;
   }
 
-  .current a {
+  .current a,
+  a.active {
     @include border-top-left-radius(0);
     @include border-bottom-left-radius(0);
   }
 
-  .current a::before {
+  .current a::before,
+  a.active::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -135,7 +137,8 @@ ul.breadcrumbs {
     left: -1em;
   }
 
-  a::after {
+  a::after,
+  a.active::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -152,7 +155,9 @@ ul.breadcrumbs {
   }
 
   .current::after,
-  .current::before{
+  .current::before,
+  li::before,
+  li::after {
     content: normal;
   }
 }
