@@ -32,8 +32,8 @@ $l-red: #e74c3c;
 $l-header-grey: #56616a;
 $l-text-grey: #656565;
 
-$primary-color: $l-black;
-$secondary-color: $l-violet;
+$primary-color: $l-violet;
+$secondary-color: $l-black;
 $alert-color: $l-red;
 $success-color: $l-green;
 
@@ -580,7 +580,7 @@ $h3-font-size: 1.3em;
 // $crumb-bg: lighten($secondary-color, 5%);
 
 // We use these to set the padding around the breadcrumbs.
-
+//$crumb-bg: white;
 // $crumb-padding: emCalc(9, 14, 9);
 // $crumb-side-padding: emCalc(12);
 
@@ -598,13 +598,13 @@ $h3-font-size: 1.3em;
 // $crumb-font-color: $primary-color;
 // $crumb-font-color-current: #333;
 // $crumb-font-color-unavailable: #999;
-// $crumb-font-transform: uppercase;
-// $crumb-link-decor: underline;
+$crumb-font-transform: none;
+$crumb-link-decor: none;
 
 // We use these to control the slash between breadcrumbs
 
 // $crumb-slash-color: #aaa;
-// $crumb-slash: "/";
+$crumb-slash: "";
 
 //
 // Clearing Variables

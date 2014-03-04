@@ -2072,13 +2072,13 @@ td {
 /* Default Link Styles */
 /* line 152, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 a {
-  color: #1a1e22;
+  color: #5e619b;
   text-decoration: none;
   line-height: inherit;
 }
 /* line 158, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0f1114;
+  color: #54578b;
 }
 /* line 160, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_type.scss */
 a img {
@@ -2486,13 +2486,13 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus {
@@ -2500,13 +2500,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 176, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #5e619b;
-  border-color: #4b4d7b;
+  background-color: #1a1e22;
+  border-color: #040405;
   color: white;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #4b4d7b;
+  background-color: #040405;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -2582,28 +2582,6 @@ button.right-align, .button.right-align {
 }
 /* line 188, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #1a1e22;
-  border-color: #040405;
-  color: white;
-  cursor: default;
-  opacity: 0.6;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-/* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #040405;
-}
-/* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  color: white;
-}
-/* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #1a1e22;
-}
-/* line 189, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #5e619b;
   border-color: #4b4d7b;
   color: white;
@@ -2613,8 +2591,30 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
   box-shadow: none;
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
-button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   background-color: #4b4d7b;
+}
+/* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  color: white;
+}
+/* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  background-color: #5e619b;
+}
+/* line 189, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+  background-color: #1a1e22;
+  border-color: #040405;
+  color: white;
+  cursor: default;
+  opacity: 0.6;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  background-color: #040405;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -2622,7 +2622,7 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 146, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #5e619b;
+  background-color: #1a1e22;
 }
 /* line 190, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
@@ -3425,7 +3425,7 @@ label.error {
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
 .split.button span {
-  border-left-color: black;
+  border-left-color: #41436b;
 }
 /* line 116, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
 .split.button span {
@@ -3444,7 +3444,7 @@ label.error {
 }
 /* line 79, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
 .split.button.secondary span {
-  border-left-color: #41436b;
+  border-left-color: black;
 }
 /* line 142, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_split-buttons.scss */
 .split.button.secondary span:before {
@@ -4814,22 +4814,22 @@ label.error {
 }
 /* line 269, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #1a1e22;
+  background: #5e619b;
   font-size: 0.8125em;
   padding-right: 26.66667px;
   padding-left: 26.66667px;
 }
 /* line 274, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #040405;
+  background: #4b4d7b;
 }
 /* line 278, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
-  background: #5e619b;
+  background: #1a1e22;
 }
 /* line 280, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary:hover {
-  background: #4b4d7b;
+  background: #040405;
 }
 /* line 284, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.success {
@@ -6014,8 +6014,8 @@ body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-pic
   position: relative;
   padding: 0.6875em 1.3125em 0.75em 0.6875em;
   font-size: 0.875em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
 }
 /* line 97, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_alert-boxes.scss */
@@ -6057,8 +6057,8 @@ body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-pic
 }
 /* line 104, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_alert-boxes.scss */
 .alert-box.secondary {
-  background-color: #5e619b;
-  border-color: #4b4d7b;
+  background-color: #1a1e22;
+  border-color: #040405;
   color: white;
 }
 
@@ -6072,8 +6072,8 @@ body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-pic
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #6c6fa6;
-  border-color: #54578b;
+  background-color: #252b30;
+  border-color: #0f1114;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -6082,17 +6082,17 @@ body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-pic
   margin: 0;
   float: left;
   font-size: 0.6875em;
-  text-transform: uppercase;
+  text-transform: none;
 }
 /* line 60, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 /* line 63, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > * a,
 .breadcrumbs > * span {
-  text-transform: uppercase;
-  color: #1a1e22;
+  text-transform: none;
+  color: #5e619b;
 }
 /* line 69, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *.current {
@@ -6125,7 +6125,7 @@ body.node-type-lecture main .joyride-tip-guide .joyride-nub.field-name-field-pic
 }
 /* line 96, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_breadcrumbs.scss */
 .breadcrumbs > *:before {
-  content: "/";
+  content: "";
   color: #aaaaaa;
   margin: 0 0.75em;
   position: relative;
@@ -6434,7 +6434,7 @@ kbd {
   position: relative;
   padding: 0.1875em 0.625em 0.25em;
   font-size: 0.875em;
-  background-color: #1a1e22;
+  background-color: #5e619b;
   color: white;
 }
 /* line 77, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_labels.scss */
@@ -6459,7 +6459,7 @@ kbd {
 }
 /* line 82, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_labels.scss */
 .label.secondary {
-  background-color: #5e619b;
+  background-color: #1a1e22;
   color: white;
 }
 
@@ -6521,14 +6521,14 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
 }
 /* line 57, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a {
-  background: #1a1e22;
+  background: #5e619b;
   color: white;
   font-weight: bold;
   cursor: default;
 }
 /* line 64, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-  background: #1a1e22;
+  background: #5e619b;
 }
 /* line 110, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -6582,10 +6582,10 @@ ul.pagination li {
 .panel.callout {
   border-style: solid;
   border-width: 1px;
-  border-color: #040405;
+  border-color: #4b4d7b;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #1a1e22;
+  background: #5e619b;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
@@ -6689,13 +6689,13 @@ ul.pagination li {
 }
 /* line 54, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_progress-bars.scss */
 .progress .meter {
-  background: #1a1e22;
+  background: #5e619b;
   height: 100%;
   display: block;
 }
 /* line 57, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_progress-bars.scss */
 .progress.secondary .meter {
-  background: #5e619b;
+  background: #1a1e22;
   height: 100%;
   display: block;
 }
@@ -6749,7 +6749,7 @@ ul.pagination li {
 /* line 43, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_side-nav.scss */
 .side-nav li a {
   display: block;
-  color: #1a1e22;
+  color: #5e619b;
 }
 /* line 48, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child {
@@ -6801,7 +6801,7 @@ ul.pagination li {
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
   font-weight: bold;
-  background: #1a1e22;
+  background: #5e619b;
   padding: 0.1875em 0.5625em;
   cursor: default;
   color: white;
@@ -7130,8 +7130,8 @@ table tfoot tr td {
 }
 /* line 32, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(26, 30, 34, 0.5);
-  box-shadow: 0 0 6px 1px rgba(26, 30, 34, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(94, 97, 155, 0.5);
+  box-shadow: 0 0 6px 1px rgba(94, 97, 155, 0.5);
 }
 /* line 49, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -7155,8 +7155,8 @@ a.th {
 }
 /* line 36, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px black;
-  color: #1a1e22;
+  border-bottom: dotted 1px #37395c;
+  color: #5e619b;
 }
 /* line 42, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -7193,8 +7193,8 @@ a.th {
 }
 /* line 71, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_tooltips.scss */
 .tooltip.opened {
-  color: #1a1e22 !important;
-  border-bottom: dotted 1px black !important;
+  color: #5e619b !important;
+  border-bottom: dotted 1px #37395c !important;
 }
 
 /* line 77, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_tooltips.scss */
@@ -9134,12 +9134,85 @@ a.th {
   font-size: 1em;
 }
 
-/* line 90, ../scss/custom.scss */
+/* line 92, ../scss/custom.scss */
+ul.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: none;
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1em;
+}
+/* line 105, ../scss/custom.scss */
+ul.breadcrumbs li {
+  float: left;
+  margin: 0 .5em 0 1em;
+}
+/* line 110, ../scss/custom.scss */
+ul.breadcrumbs a {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #5e619b;
+  float: left;
+  padding: .4em 1em;
+  text-decoration: none;
+  color: white !important;
+  position: relative;
+}
+/* line 122, ../scss/custom.scss */
+ul.breadcrumbs .current a {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* line 127, ../scss/custom.scss */
+ul.breadcrumbs .current a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5em;
+  border-width: 1.5em 0 1.5em 1em;
+  border-style: solid;
+  border-color: #5e619b #5e619b #5e619b transparent;
+  left: -1em;
+}
+/* line 138, ../scss/custom.scss */
+ul.breadcrumbs a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5em;
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #5e619b;
+  right: -1em;
+}
+/* line 150, ../scss/custom.scss */
+ul.breadcrumbs .current,
+ul.breadcrumbs .current:hover {
+  background: none;
+}
+/* line 155, ../scss/custom.scss */
+ul.breadcrumbs .current::after,
+ul.breadcrumbs .current::before {
+  content: normal;
+}
+
+/* line 160, ../scss/custom.scss */
 body.front {
   text-align: center;
   font-size: 110%;
 }
-/* line 94, ../scss/custom.scss */
+/* line 164, ../scss/custom.scss */
 body.front header {
   text-shadow: 0px 1px 3px rgba(26, 30, 34, 0.6);
   background: #f8f8f8;
@@ -9147,7 +9220,7 @@ body.front header {
   height: auto;
   position: relative;
 }
-/* line 102, ../scss/custom.scss */
+/* line 172, ../scss/custom.scss */
 body.front header #bg-wrap {
   background: url(../images/top.jpg) no-repeat;
   background-size: cover;
@@ -9156,34 +9229,34 @@ body.front header #bg-wrap {
   max-width: 100%;
   vertical-align: middle;
 }
-/* line 112, ../scss/custom.scss */
+/* line 182, ../scss/custom.scss */
 body.front header h1#site-name,
 body.front header h2.site-slogan {
   color: white;
   text-transform: uppercase;
 }
-/* line 117, ../scss/custom.scss */
+/* line 187, ../scss/custom.scss */
 body.front header h1#site-name {
   font-size: 3.75em;
   line-height: 1;
   margin-top: 200px;
   margin-bottom: 0;
 }
-/* line 123, ../scss/custom.scss */
+/* line 193, ../scss/custom.scss */
 body.front header h1#site-name span {
   background-color: rgba(0, 0, 0, 0.35);
   display: inline-block;
   letter-spacing: .2em;
   padding-left: .2em;
 }
-/* line 131, ../scss/custom.scss */
+/* line 201, ../scss/custom.scss */
 body.front header h2.site-slogan {
   font-size: 1.155em;
   font-weight: 100;
   margin-top: .2em;
   letter-spacing: .24em;
 }
-/* line 138, ../scss/custom.scss */
+/* line 208, ../scss/custom.scss */
 body.front header span#numbers {
   font-size: 1.4em;
   font-weight: 100;
@@ -9191,42 +9264,42 @@ body.front header span#numbers {
   letter-spacing: .04em;
   margin-top: 3em;
 }
-/* line 146, ../scss/custom.scss */
+/* line 216, ../scss/custom.scss */
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 151, ../scss/custom.scss */
+/* line 221, ../scss/custom.scss */
 body.front .main {
   background: white;
   color: #1a1e22;
 }
-/* line 155, ../scss/custom.scss */
+/* line 225, ../scss/custom.scss */
 body.front .main .panel-pane {
   margin: 0;
 }
-/* line 163, ../scss/custom.scss */
+/* line 233, ../scss/custom.scss */
 body.front .main .panel-pane h2,
 body.front .main .panel-pane h3 {
   color: #56616a;
   letter-spacing: .1em;
   padding-top: 2em;
 }
-/* line 169, ../scss/custom.scss */
+/* line 239, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   font-size: 2.2em;
 }
-/* line 173, ../scss/custom.scss */
+/* line 243, ../scss/custom.scss */
 body.front .main .panel-pane h3 {
   font-size: 1.3em;
   padding-bottom: 1em;
 }
-/* line 178, ../scss/custom.scss */
+/* line 248, ../scss/custom.scss */
 body.front .main .panel-pane h2:after {
   display: block;
   content: url(../images/underline.png);
   overflow: auto;
 }
-/* line 185, ../scss/custom.scss */
+/* line 255, ../scss/custom.scss */
 body.front .main .panel-pane .button-violet {
   border-style: solid;
   border-width: 1px;
@@ -9244,8 +9317,8 @@ body.front .main .panel-pane .button-violet {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
   background-color: #5e619b;
   border-color: #4b4d7b;
@@ -9253,7 +9326,7 @@ body.front .main .panel-pane .button-violet {
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane .button-violet:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane .button-violet:focus {
@@ -9267,7 +9340,7 @@ body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane .button-violet:focus {
   color: white;
 }
-/* line 190, ../scss/custom.scss */
+/* line 260, ../scss/custom.scss */
 body.front .main .panel-pane .button-green {
   border-style: solid;
   border-width: 1px;
@@ -9285,8 +9358,8 @@ body.front .main .panel-pane .button-green {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
   background-color: #88c540;
   border-color: #6ea131;
@@ -9294,7 +9367,7 @@ body.front .main .panel-pane .button-green {
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .button-green:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .button-green:focus {
@@ -9308,7 +9381,7 @@ body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .
 body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .button-green:focus {
   color: white;
 }
-/* line 195, ../scss/custom.scss */
+/* line 265, ../scss/custom.scss */
 body.front .main .panel-pane .button-red {
   border-style: solid;
   border-width: 1px;
@@ -9326,8 +9399,8 @@ body.front .main .panel-pane .button-red {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
   background-color: #e74c3c;
   border-color: #d62c1a;
@@ -9337,7 +9410,7 @@ body.front .main .panel-pane .button-red {
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .button-red:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .button-red:focus {
@@ -9351,7 +9424,7 @@ body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .bu
 body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .button-red:focus {
   color: white;
 }
-/* line 203, ../scss/custom.scss */
+/* line 273, ../scss/custom.scss */
 body.front .main .panel-pane .button-yellow {
   border-style: solid;
   border-width: 1px;
@@ -9369,8 +9442,8 @@ body.front .main .panel-pane .button-yellow {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
   background-color: #ece451;
   border-color: #e7dd23;
@@ -9379,7 +9452,7 @@ body.front .main .panel-pane .button-yellow {
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane .button-yellow:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane .button-yellow:focus {
@@ -9393,7 +9466,7 @@ body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane .button-yellow:focus {
   color: white;
 }
-/* line 210, ../scss/custom.scss */
+/* line 280, ../scss/custom.scss */
 body.front .main .panel-pane .button-lightgrey {
   border-style: solid;
   border-width: 1px;
@@ -9411,8 +9484,8 @@ body.front .main .panel-pane .button-lightgrey {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #1a1e22;
-  border-color: #040405;
+  background-color: #5e619b;
+  border-color: #4b4d7b;
   color: white;
   background-color: #f8f8f8;
   border-color: #dfdfdf;
@@ -9421,7 +9494,7 @@ body.front .main .panel-pane .button-lightgrey {
 }
 /* line 122, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pane .button-lightgrey:focus {
-  background-color: #040405;
+  background-color: #4b4d7b;
 }
 /* line 133, ../../../../../../../../.rvm/gems/ruby-1.9.3-p484@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_buttons.scss */
 body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pane .button-lightgrey:focus {
@@ -9435,50 +9508,50 @@ body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pa
 body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pane .button-lightgrey:focus {
   color: #333333;
 }
-/* line 217, ../scss/custom.scss */
+/* line 287, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap {
   padding: 1em 0 2em 0;
 }
-/* line 220, ../scss/custom.scss */
+/* line 290, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap a {
   font-family: intro;
   font-weight: 100;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-/* line 228, ../scss/custom.scss */
+/* line 298, ../scss/custom.scss */
 body.front .main .panel-pane .row {
   padding: 2em 0;
 }
-/* line 236, ../scss/custom.scss */
+/* line 306, ../scss/custom.scss */
 body.front .main .panel-pane #medialibrary {
   background: #f8f8f8;
 }
-/* line 240, ../scss/custom.scss */
+/* line 310, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants {
   background: #1a1e22;
   color: #f8f8f8;
 }
-/* line 244, ../scss/custom.scss */
+/* line 314, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants h2 {
   color: #f8f8f8;
 }
-/* line 250, ../scss/custom.scss */
+/* line 320, ../scss/custom.scss */
 body.front .main .panel-pane #studio h3 {
   background: #f8f8f8;
 }
 
-/* line 260, ../scss/custom.scss */
+/* line 330, ../scss/custom.scss */
 body.section-media .lecture {
   padding-bottom: 1em;
 }
 
-/* line 270, ../scss/custom.scss */
+/* line 340, ../scss/custom.scss */
 body.not-front main {
   padding-top: 2em;
 }
 
-/* line 275, ../scss/custom.scss */
+/* line 345, ../scss/custom.scss */
 footer {
   background: #24262f;
   color: grey;
@@ -9486,38 +9559,38 @@ footer {
   padding-top: 1em;
   font-size: 80%;
 }
-/* line 282, ../scss/custom.scss */
+/* line 352, ../scss/custom.scss */
 footer h2 {
   color: white;
   font-size: 100%;
 }
-/* line 287, ../scss/custom.scss */
+/* line 357, ../scss/custom.scss */
 footer p {
   line-height: 1;
 }
-/* line 291, ../scss/custom.scss */
+/* line 361, ../scss/custom.scss */
 footer a {
   color: #bdbdbd;
 }
-/* line 295, ../scss/custom.scss */
+/* line 365, ../scss/custom.scss */
 footer ul.menu {
   padding-top: 1em;
 }
-/* line 298, ../scss/custom.scss */
+/* line 368, ../scss/custom.scss */
 footer ul.menu li {
   list-style-type: none;
   padding: .5em;
 }
-/* line 302, ../scss/custom.scss */
+/* line 372, ../scss/custom.scss */
 footer ul.menu li a {
   color: white;
 }
 
-/* line 311, ../scss/custom.scss */
+/* line 381, ../scss/custom.scss */
 body.page-medialibrary .sidebar-first {
   padding-left: 25px;
 }
-/* line 314, ../scss/custom.scss */
+/* line 384, ../scss/custom.scss */
 body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -9529,16 +9602,16 @@ body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
   padding: 10px 0 20px 25px;
   width: 100%;
 }
-/* line 323, ../scss/custom.scss */
+/* line 393, ../scss/custom.scss */
 body.page-medialibrary .views-exposed-form label {
   font-weight: 500;
 }
-/* line 329, ../scss/custom.scss */
+/* line 399, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button {
   display: none;
 }
-/* line 341, ../scss/custom.scss */
+/* line 411, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-type-wrapper,
@@ -9547,7 +9620,7 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-redac
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button {
   display: none;
 }
-/* line 351, ../scss/custom.scss */
+/* line 421, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date label,
@@ -9558,7 +9631,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date lab
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
   display: none;
 }
-/* line 361, ../scss/custom.scss */
+/* line 431, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
@@ -9567,7 +9640,7 @@ body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to
   width: 120px;
   padding: 2px 0 2px 10px;
 }
-/* line 369, ../scss/custom.scss */
+/* line 439, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper:before {
   color: #4d4d4d;
   content: "Дата записи";
@@ -9578,35 +9651,35 @@ body.page-medialibrary #edit-recorded-from-wrapper:before {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 382, ../scss/custom.scss */
+/* line 452, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper,
 body.page-medialibrary #edit-recorded-to-wrapper {
   display: table-row;
 }
-/* line 386, ../scss/custom.scss */
+/* line 456, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
 body.page-medialibrary #edit-recorded-from-wrapper div.views-widget,
 body.page-medialibrary #edit-recorded-to-wrapper label,
 body.page-medialibrary #edit-recorded-to-wrapper div.views-widget {
   display: table-cell;
 }
-/* line 391, ../scss/custom.scss */
+/* line 461, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
 body.page-medialibrary #edit-recorded-to-wrapper label {
   width: 25px;
   padding-top: 10px;
   vertical-align: top;
 }
-/* line 398, ../scss/custom.scss */
+/* line 468, ../scss/custom.scss */
 body.page-medialibrary #edit-redaction-wrapper {
   background: #88c540;
   margin: 2em 0;
 }
-/* line 402, ../scss/custom.scss */
+/* line 472, ../scss/custom.scss */
 body.page-medialibrary #edit-redaction-wrapper label {
   color: white !important;
 }
-/* line 411, ../scss/custom.scss */
+/* line 481, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper,
 body.page-medialibrary #edit-university-t-wrapper,
 body.page-medialibrary #edit-subject-t-wrapper,
@@ -9614,7 +9687,7 @@ body.page-medialibrary #edit-lang-wrapper,
 body.page-medialibrary #edit-redaction-wrapper {
   padding-bottom: .5em;
 }
-/* line 414, ../scss/custom.scss */
+/* line 484, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper label,
 body.page-medialibrary #edit-university-t-wrapper label,
 body.page-medialibrary #edit-subject-t-wrapper label,
@@ -9624,7 +9697,7 @@ body.page-medialibrary #edit-redaction-wrapper label {
   font-size: 110%;
   margin-bottom: 10px;
 }
-/* line 421, ../scss/custom.scss */
+/* line 491, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item,
@@ -9633,7 +9706,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item {
   display: table-row;
   margin-bottom: 16px;
 }
-/* line 426, ../scss/custom.scss */
+/* line 496, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input,
@@ -9648,7 +9721,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   display: table-cell;
   margin: .6em .2em 0 0;
 }
-/* line 432, ../scss/custom.scss */
+/* line 502, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
@@ -9656,7 +9729,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input.bef-sel
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
   margin: .4em .6em .4em 0;
 }
-/* line 436, ../scss/custom.scss */
+/* line 506, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
@@ -9666,7 +9739,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
   font-family: Arial, Helvetica, Sans-serif;
   padding-left: .6em;
 }
-/* line 442, ../scss/custom.scss */
+/* line 512, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item :checked + label,
@@ -9674,7 +9747,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item :checked + la
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item :checked + label {
   color: #777777;
 }
-/* line 446, ../scss/custom.scss */
+/* line 516, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"],
@@ -9682,7 +9755,7 @@ body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input[type="c
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] {
   display: none;
 }
-/* line 450, ../scss/custom.scss */
+/* line 520, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
@@ -9694,7 +9767,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[ty
   background: url(../images/unchecked.png) left top no-repeat;
   cursor: pointer;
 }
-/* line 461, ../scss/custom.scss */
+/* line 531, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
@@ -9703,7 +9776,7 @@ body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[ty
   background: url(../images/checked.png) left top no-repeat;
   padding-left: 25px;
 }
-/* line 468, ../scss/custom.scss */
+/* line 538, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper a.toggler,
 body.page-medialibrary #edit-university-t-wrapper a.toggler,
 body.page-medialibrary #edit-subject-t-wrapper a.toggler,
@@ -9725,7 +9798,7 @@ body.page-medialibrary #edit-redaction-wrapper a.toggler {
   text-align: center;
   width: 100%;
 }
-/* line 483, ../scss/custom.scss */
+/* line 553, ../scss/custom.scss */
 body.page-medialibrary #edit-lang-wrapper {
   display: none;
  /*   label {
@@ -9744,11 +9817,11 @@ body.page-medialibrary #edit-lang-wrapper {
       }
     }*/
 }
-/* line 502, ../scss/custom.scss */
+/* line 572, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page {
   padding-top: .5em;
 }
-/* line 508, ../scss/custom.scss */
+/* line 578, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button {
   background: none;
   border: none;
@@ -9759,30 +9832,30 @@ body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button
   margin: 0;
   padding: 0;
 }
-/* line 519, ../scss/custom.scss */
+/* line 589, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button:hover {
   border-bottom: 1px #1a1e22 dashed;
   color: #1a1e22;
 }
-/* line 526, ../scss/custom.scss */
+/* line 596, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 {
   margin-bottom: 0;
 }
-/* line 529, ../scss/custom.scss */
+/* line 599, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-exposed-widgets {
   margin-bottom: 0;
 }
-/* line 533, ../scss/custom.scss */
+/* line 603, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper {
   padding-right: 0;
   width: 80%;
 }
-/* line 538, ../scss/custom.scss */
+/* line 608, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button {
   padding-right: 0;
   width: 20%;
 }
-/* line 542, ../scss/custom.scss */
+/* line 612, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -9801,46 +9874,46 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-but
   font-family: Arial, Helvetica, Sans-serif;
   width: 100%;
 }
-/* line 562, ../scss/custom.scss */
+/* line 632, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-reset,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-views-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset {
   margin-top: 0;
 }
-/* line 570, ../scss/custom.scss */
+/* line 640, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header {
   padding-bottom: 2em;
   font-size: 85%;
   color: grey;
 }
-/* line 577, ../scss/custom.scss */
+/* line 647, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #total-label,
 body.page-medialibrary .view-views-search .view-header #total {
   display: inline-block;
 }
-/* line 581, ../scss/custom.scss */
+/* line 651, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #total {
   background: url(../images/total.png) 0 50% no-repeat;
   font-weight: bold;
   padding: 1em;
   width: 100px;
 }
-/* line 589, ../scss/custom.scss */
+/* line 659, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #sort-label,
 body.page-medialibrary .view-views-search .view-header #sort-popular {
   display: inline-block;
 }
-/* line 593, ../scss/custom.scss */
+/* line 663, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #sort-popular {
   color: #88c540;
   border-bottom: 1px dashed #88c540;
 }
-/* line 598, ../scss/custom.scss */
+/* line 668, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #view-display-label {
   margin-left: 1em;
 }
-/* line 603, ../scss/custom.scss */
+/* line 673, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #list,
 body.page-medialibrary .view-views-search .view-header #thumb {
   display: inline-block;
@@ -9849,25 +9922,25 @@ body.page-medialibrary .view-views-search .view-header #thumb {
   position: relative;
   top: 8px;
 }
-/* line 611, ../scss/custom.scss */
+/* line 681, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #list {
   background: url(../images/text_list.png) no-repeat;
 }
-/* line 615, ../scss/custom.scss */
+/* line 685, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #thumb {
   background: url(../images/thumb_list.png) no-repeat;
 }
-/* line 621, ../scss/custom.scss */
+/* line 691, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-content {
   padding: 0 15px;
 }
-/* line 625, ../scss/custom.scss */
+/* line 695, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row {
   background: #f9f9f5;
   margin-bottom: 1em;
   border: 1px solid #eaeaea;
 }
-/* line 630, ../scss/custom.scss */
+/* line 700, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges {
   color: white;
   font-size: 70%;
@@ -9877,12 +9950,12 @@ body.page-medialibrary .view-views-search .views-row .badges {
   top: -5px;
   z-index: 1;
 }
-/* line 640, ../scss/custom.scss */
+/* line 710, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .serp-course,
 body.page-medialibrary .view-views-search .views-row .badges .serp-lecture {
   background: #919191;
 }
-/* line 647, ../scss/custom.scss */
+/* line 717, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .serp-course,
 body.page-medialibrary .view-views-search .views-row .badges .serp-lecture,
 body.page-medialibrary .view-views-search .views-row .badges .its-a-hit,
@@ -9894,45 +9967,45 @@ body.page-medialibrary .view-views-search .views-row .badges .new {
   border-radius: 4px;
   padding: 2px 4px;
 }
-/* line 653, ../scss/custom.scss */
+/* line 723, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new {
   text-align: right;
 }
-/* line 656, ../scss/custom.scss */
+/* line 726, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new span {
   margin-left: 1em;
 }
-/* line 659, ../scss/custom.scss */
+/* line 729, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new .new {
   background: #88c540;
 }
-/* line 663, ../scss/custom.scss */
+/* line 733, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .badges .hit-new .its-a-hit {
   background: #e74c3c;
 }
-/* line 669, ../scss/custom.scss */
+/* line 739, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item {
   padding: 1em;
 }
-/* line 672, ../scss/custom.scss */
+/* line 742, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .views-likes-comments {
   color: #b7b7b7;
   font-size: .875em;
   padding-top: 1em;
 }
-/* line 680, ../scss/custom.scss */
+/* line 750, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
 body.page-medialibrary .view-views-search .views-row .result-item .university {
   font-family: Arial, Helvetica, Sans-serif;
 }
-/* line 682, ../scss/custom.scss */
+/* line 752, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2 a,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker a,
 body.page-medialibrary .view-views-search .views-row .result-item .university a {
   color: #5e619b;
 }
-/* line 687, ../scss/custom.scss */
+/* line 757, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2 {
   font-size: 1em;
   font-weight: bold;
@@ -9940,12 +10013,12 @@ body.page-medialibrary .view-views-search .views-row .result-item h2 {
   margin-top: 0;
   margin-bottom: .2em;
 }
-/* line 696, ../scss/custom.scss */
+/* line 766, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
 body.page-medialibrary .view-views-search .views-row .result-item .university {
   font-size: 80%;
 }
-/* line 700, ../scss/custom.scss */
+/* line 770, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
   color: #919191;
   font-size: 90%;
@@ -9955,7 +10028,7 @@ body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
   overflow: hidden;
 }
 
-/* line 716, ../scss/custom.scss */
+/* line 786, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row {
   font-size: 90%;
   font-weight: normal;
@@ -9965,7 +10038,7 @@ body.section-university .view-university-lectures .views-row {
   margin: 0 .4em .8em 0;
   padding-bottom: .8em;
 }
-/* line 726, ../scss/custom.scss */
+/* line 796, ../scss/custom.scss */
 body.section-university .view-university-lectures .views-row .views-field-title,
 body.section-university .view-university-lectures .views-row .views-field-field-subject {
   padding: .8em .8em 0 .8em;
@@ -9974,27 +10047,38 @@ body.section-university .view-university-lectures .views-row .views-field-field-
   height: 40px;
 }
 
-/* line 740, ../scss/custom.scss */
+/* line 810, ../scss/custom.scss */
 body.node-type-speaker main,
 body.node-type-course main,
 body.node-type-lecture main {
   color: #656565;
-  padding-top: 1em;
+  padding-top: 3em;
 }
-/* line 744, ../scss/custom.scss */
+/* line 816, ../scss/custom.scss */
+body.node-type-speaker main h1,
+body.node-type-speaker main h2,
+body.node-type-speaker main h3,
+body.node-type-course main h1,
+body.node-type-course main h2,
+body.node-type-course main h3,
+body.node-type-lecture main h1,
+body.node-type-lecture main h2,
+body.node-type-lecture main h3 {
+  color: #656565;
+}
+/* line 820, ../scss/custom.scss */
 body.node-type-speaker main h1,
 body.node-type-course main h1,
 body.node-type-lecture main h1 {
-  color: #656565;
   line-height: 1;
 }
-/* line 749, ../scss/custom.scss */
+/* line 824, ../scss/custom.scss */
 body.node-type-speaker main .field,
 body.node-type-course main .field,
 body.node-type-lecture main .field {
   padding-bottom: 1em;
 }
-/* line 754, ../scss/custom.scss */
+/* line 829, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-speaker-photo,
 body.node-type-speaker main .field-name-field-picture,
 body.node-type-course main .field-name-field-speaker-photo,
@@ -10003,7 +10087,7 @@ body.node-type-lecture main .field-name-field-speaker-photo,
 body.node-type-lecture main .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 760, ../scss/custom.scss */
+/* line 835, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges,
 body.node-type-course main .field-name-field-view-courses .badges,
 body.node-type-lecture main .field-name-field-view-courses .badges {
@@ -10011,25 +10095,25 @@ body.node-type-lecture main .field-name-field-view-courses .badges {
   letter-spacing: .15em;
   text-transform: lowercase;
 }
-/* line 765, ../scss/custom.scss */
+/* line 840, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
 body.node-type-course main .field-name-field-view-courses .badges .badge-type,
 body.node-type-lecture main .field-name-field-view-courses .badges .badge-type {
   background: #919191;
 }
-/* line 769, ../scss/custom.scss */
+/* line 844, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
 body.node-type-course main .field-name-field-view-courses .badges .badge-hit,
 body.node-type-lecture main .field-name-field-view-courses .badges .badge-hit {
   background: #e74c3c;
 }
-/* line 773, ../scss/custom.scss */
+/* line 848, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
 body.node-type-course main .field-name-field-view-courses .badges .badge-new,
 body.node-type-lecture main .field-name-field-view-courses .badges .badge-new {
   background: #88c540;
 }
-/* line 779, ../scss/custom.scss */
+/* line 854, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
@@ -10048,21 +10132,21 @@ body.node-type-lecture main .field-name-field-view-courses .badges .badge-new {
   margin-right: 5px;
   padding: 2px 4px;
 }
-/* line 787, ../scss/custom.scss */
+/* line 862, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social,
 body.node-type-course main .field-name-field-view-courses .badges .social,
 body.node-type-lecture main .field-name-field-view-courses .badges .social {
   margin-left: 1em;
   letter-spacing: 0;
 }
-/* line 791, ../scss/custom.scss */
+/* line 866, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social span,
 body.node-type-course main .field-name-field-view-courses .badges .social span,
 body.node-type-lecture main .field-name-field-view-courses .badges .social span {
   color: #919191;
   margin-right: 1em;
 }
-/* line 798, ../scss/custom.scss */
+/* line 873, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course,
 body.node-type-course main .field-name-field-view-courses .course,
 body.node-type-lecture main .field-name-field-view-courses .course {
@@ -10070,32 +10154,32 @@ body.node-type-lecture main .field-name-field-view-courses .course {
   padding-top: .5em;
   line-height: 1.2em;
 }
-/* line 804, ../scss/custom.scss */
+/* line 879, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course a.course-title,
 body.node-type-course main .field-name-field-view-courses .course a.course-title,
 body.node-type-lecture main .field-name-field-view-courses .course a.course-title {
   color: #5e619b;
 }
-/* line 808, ../scss/custom.scss */
+/* line 883, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t,
 body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t,
 body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t {
   padding: 0;
 }
-/* line 811, ../scss/custom.scss */
+/* line 886, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul,
 body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t ul,
 body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 815, ../scss/custom.scss */
+/* line 890, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul a,
 body.node-type-course main .field-name-field-view-courses .course .field-name-field-university-t ul a,
 body.node-type-lecture main .field-name-field-view-courses .course .field-name-field-university-t ul a {
   color: #5e619b;
 }
-/* line 822, ../scss/custom.scss */
+/* line 897, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses hr,
 body.node-type-course main .field-name-field-view-courses hr,
 body.node-type-lecture main .field-name-field-view-courses hr {
@@ -10108,7 +10192,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 836, ../scss/custom.scss */
+/* line 911, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10117,24 +10201,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 842, ../scss/custom.scss */
+/* line 917, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 844, ../scss/custom.scss */
+/* line 919, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 846, ../scss/custom.scss */
+/* line 921, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 849, ../scss/custom.scss */
+/* line 924, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10144,7 +10228,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 855, ../scss/custom.scss */
+/* line 930, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
