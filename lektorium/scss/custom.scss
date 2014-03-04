@@ -331,12 +331,6 @@ body.front {
 
 }
 
-body.section-media {
-  .lecture {
-    padding-bottom:1em;
-  }
-}
-
 #main-menu {
   @extend .right !optional;
 }
@@ -809,10 +803,10 @@ body.section-university {
   }
 }
 
-body.node-type-speaker,
 body.node-type-course,
-body.node-type-lecture {
-  main {
+body.node-type-lecture,
+body.node-type-speaker {
+   main {
     color: $l-text-grey;
     padding-top: 3em;
 
@@ -825,7 +819,11 @@ body.node-type-lecture {
     h1 {
       line-height: 1;
     }
+  }
+}
 
+body.node-type-speaker {
+  main {
     .field {
       padding-bottom:1em;
     }
@@ -901,6 +899,87 @@ body.node-type-lecture {
 
       hr {
         margin-bottom: 1em;
+      }
+    }
+  }
+}
+
+body.node-type-lecture {
+  .label,
+  .field {
+    font-size: 100%;
+    padding:0;
+    margin:0;
+  }
+
+  .label {
+    background: none;
+    color: $l-text-grey;
+    font-weight: normal;
+    float: left;
+    min-width: 120px;
+    text-align: left;
+    margin-bottom:1em;
+  }
+
+  .label-date {
+    width: 160px;
+  }
+
+  .field-name-field-university-t,
+  .field-name-field-subject-t,
+  .field-name-field-view-courses {
+    ul {
+      list-style-type: none;
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  #badges {
+    color: white;
+    text-transform: lowercase;
+    font-size: 1em;
+    margin-bottom: 3em;
+
+    .badge {
+      padding: 2px 8px;
+      @include border-radius($border-radius);
+    }
+
+    .badge-hit {
+      background: $l-red;
+    }
+
+    .badge-new {
+      background: $l-green;
+    }
+
+    .badge-redaction {
+      background: $l-blue;
+    }
+  }
+
+  #code-for-blog {
+    margin-top: 1em;
+  }
+
+  #social {
+    margin-top: 2em;
+    margin-bottom: 3em;
+
+    .social-link-wrap {
+      @include border-radius($border-radius);
+
+      padding: .5em;
+      background: $l-lightgrey;
+      border: 1px solid $l-grey;
+
+      i {
+        margin-right: .5em;
+        padding-right: .5em;
+        border-right: 1px solid $l-grey;
       }
     }
   }
