@@ -879,6 +879,7 @@ body.university {
 
 body.node-type-lecture,
 body.node-type-course,
+body.node-type-mooc-description,
 body.university {
   .label,
   .field {
@@ -903,7 +904,12 @@ body.university {
 
   .field-name-field-university-t,
   .field-name-field-subject-t,
-  .field-name-field-view-courses {
+  .field-name-field-view-courses,
+  .field-name-field-university-t-mooc,
+  .field-name-field-subject-t-mooc,
+  .field-name-field-language-mooc,
+  .field-name-field-audition-mooc,
+  .field-name-field-status-mooc, {
     ul {
       list-style-type: none;
       line-height: 1;
