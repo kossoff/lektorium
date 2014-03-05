@@ -105,6 +105,14 @@ $border-radius: 3px;
   background: $l-blue;
 }
 
+.total {
+  background: url(../images/total.png) 0 50% no-repeat;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em;
+  width: 100px;
+}
+
 .top-bar-section li a:not(.button).active {
     color: $l-green;
 }
@@ -674,16 +682,8 @@ body.page-medialibrary {
       color: grey;
 
 
-      #total-label,
-      #total {
+      #total-label {
         display: inline-block;
-      }
-
-      #total {
-        background: url(../images/total.png) 0 50% no-repeat;
-        font-weight: bold;
-        padding: 1em;
-        width: 100px;
       }
 
       #sort-label,
