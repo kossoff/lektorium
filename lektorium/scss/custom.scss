@@ -76,7 +76,7 @@ $border-radius: 3px;
 .prepend-top { margin-top: 1em; }
 .append-bottom { margin-bottom: 1em; }
 .prepend-left { margin-left: 1em; }
-.append-right { margin-left: 1em; }
+.append-right { margin-right: 1em; }
 
 .badge {
   @include border-radius($border-radius);
