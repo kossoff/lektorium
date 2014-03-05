@@ -84,6 +84,7 @@ $border-radius: 3px;
   color: white;
   display: inline-block;
   line-height: 1.2em;
+  margin-right: 5px;
   text-transform: lowercase;
   padding: 2px 8px;
 }
@@ -736,32 +737,11 @@ body.page-medialibrary {
         top: -5px;
         z-index: 1;
 
-        .serp-course,
-        .serp-lecture {
-          background: $l-grey;
-        }
-
-        .serp-course,
-        .serp-lecture,
-        .its-a-hit,
-        .new {
-          @include border-radius(4px);
-
-          padding: 2px 4px;
-        }
-
         .hit-new {
           text-align: right;
 
           span {
             margin-left: 1em;
-          }
-          .new {
-            background: $l-green;
-          }
-
-          .its-a-hit {
-            background: $l-red;
           }
         }
       }
@@ -810,33 +790,10 @@ body.page-medialibrary {
   }
 }
 
-
-body.section-university {
-  .view-university-lectures {
-    .views-row {
-      font-size: 90%;
-      font-weight: normal;
-      display: inline-block;
-      vertical-align: top;
-      max-width: 180px;
-      margin:0 .4em .8em 0;
-      padding-bottom:.8em;
-
-      .views-field-title,
-      .views-field-field-subject {
-        padding: .8em .8em 0 .8em;
-
-        display: inline-block;
-        overflow: hidden;
-        height: 40px;
-      }
-    }
-  }
-}
-
 body.node-type-course,
 body.node-type-lecture,
-body.node-type-speaker {
+body.node-type-speaker,
+body.university {
    main {
     color: $l-text-grey;
     padding-top: 3em;
@@ -853,7 +810,8 @@ body.node-type-speaker {
   }
 }
 
-body.node-type-speaker {
+body.node-type-speaker,
+body.university {
   main {
     .field {
       padding-bottom:1em;
@@ -871,22 +829,10 @@ body.node-type-speaker {
         letter-spacing: .15em;
         text-transform: lowercase;
 
-        .badge-hit {
-          background: $l-red;
-        }
-
-        .badge-new {
-          background: $l-green;
-        }
-
         .badge-type,
         .badge-hit,
         .badge-new {
-          @include border-radius(4px);
-
           font-size: 70%;
-          margin-right: 5px;
-          padding: 2px 4px;
         }
 
         .social {
@@ -1004,10 +950,12 @@ body.university {
     }
   }
 
-  .view-course-lectures {
+  .view-course-lectures,
+  .view-university-lectures {
     margin-top: 2em;
 
     .badges {
+      display: inline-block;
       font-size: 85%;
     }
   }
