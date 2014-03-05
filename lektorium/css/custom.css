@@ -9640,12 +9640,14 @@ footer ul.menu li a {
   color: white;
 }
 
-/* line 420, ../scss/custom.scss */
-body.page-medialibrary .sidebar-first {
+/* line 421, ../scss/custom.scss */
+body.page-medialibrary .sidebar-first,
+body.page-mooc .sidebar-first {
   padding-left: 25px;
 }
-/* line 423, ../scss/custom.scss */
-body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
+/* line 424, ../scss/custom.scss */
+body.page-medialibrary .sidebar-first #edit-redaction-wrapper,
+body.page-mooc .sidebar-first #edit-redaction-wrapper {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
@@ -9656,25 +9658,50 @@ body.page-medialibrary .sidebar-first #edit-redaction-wrapper {
   padding: 10px 0 20px 25px;
   width: 100%;
 }
-/* line 432, ../scss/custom.scss */
-body.page-medialibrary .views-exposed-form label {
+/* line 433, ../scss/custom.scss */
+body.page-medialibrary .views-exposed-form label,
+body.page-mooc .views-exposed-form label {
   font-weight: 500;
 }
-/* line 438, ../scss/custom.scss */
+/* line 440, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
-body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button {
+body.page-medialibrary #views-exposed-form-views-search-page .views-submit-button,
+body.page-medialibrary #views-exposed-form-mooc-search-page #edit-search-api-views-fulltext-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page .views-submit-button,
+body.page-mooc #views-exposed-form-views-search-page #edit-search-api-views-fulltext-wrapper,
+body.page-mooc #views-exposed-form-views-search-page .views-submit-button,
+body.page-mooc #views-exposed-form-mooc-search-page #edit-search-api-views-fulltext-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page .views-submit-button {
   display: none;
 }
-/* line 450, ../scss/custom.scss */
+/* line 453, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-type-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-lang-wrapper,
 body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-field-redaction-wrapper,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button {
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-recorded-from-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-recorded-to-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-type-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-field-lang-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-field-redaction-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-reset-button,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-recorded-from-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-recorded-to-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-type-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-field-lang-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-field-redaction-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-reset-button,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-recorded-from-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-recorded-to-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-type-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-field-lang-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-field-redaction-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-reset-button {
   display: none;
 }
-/* line 460, ../scss/custom.scss */
+/* line 463, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date label,
@@ -9682,20 +9709,33 @@ body.page-medialibrary #edit-recorded-from-wrapper .form-item-recorded-to-date .
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-from-date label,
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-from-date .description,
 body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date label,
-body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
+body.page-medialibrary #edit-recorded-to-wrapper .form-item-recorded-to-date .description,
+body.page-mooc #edit-recorded-from-wrapper .form-item-recorded-from-date label,
+body.page-mooc #edit-recorded-from-wrapper .form-item-recorded-from-date .description,
+body.page-mooc #edit-recorded-from-wrapper .form-item-recorded-to-date label,
+body.page-mooc #edit-recorded-from-wrapper .form-item-recorded-to-date .description,
+body.page-mooc #edit-recorded-to-wrapper .form-item-recorded-from-date label,
+body.page-mooc #edit-recorded-to-wrapper .form-item-recorded-from-date .description,
+body.page-mooc #edit-recorded-to-wrapper .form-item-recorded-to-date label,
+body.page-mooc #edit-recorded-to-wrapper .form-item-recorded-to-date .description {
   display: none;
 }
-/* line 470, ../scss/custom.scss */
+/* line 473, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
 body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
-body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to-datepicker-popup-2 {
+body.page-medialibrary #edit-recorded-to-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
+body.page-mooc #edit-recorded-from-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
+body.page-mooc #edit-recorded-from-wrapper .views-widget #edit-recorded-to-datepicker-popup-2,
+body.page-mooc #edit-recorded-to-wrapper .views-widget #edit-recorded-from-datepicker-popup-2,
+body.page-mooc #edit-recorded-to-wrapper .views-widget #edit-recorded-to-datepicker-popup-2 {
   background: url(../images/calendar_icn.png) 95% 50% no-repeat #f8f8f8;
   width: 120px;
   padding: 2px 0 2px 10px;
 }
-/* line 478, ../scss/custom.scss */
-body.page-medialibrary #edit-recorded-from-wrapper:before {
+/* line 481, ../scss/custom.scss */
+body.page-medialibrary #edit-recorded-from-wrapper:before,
+body.page-mooc #edit-recorded-from-wrapper:before {
   color: #4d4d4d;
   content: "Дата записи";
   padding-bottom: .5em;
@@ -9705,62 +9745,87 @@ body.page-medialibrary #edit-recorded-from-wrapper:before {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-/* line 491, ../scss/custom.scss */
+/* line 494, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper,
-body.page-medialibrary #edit-recorded-to-wrapper {
+body.page-medialibrary #edit-recorded-to-wrapper,
+body.page-mooc #edit-recorded-from-wrapper,
+body.page-mooc #edit-recorded-to-wrapper {
   display: table-row;
 }
-/* line 495, ../scss/custom.scss */
+/* line 498, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
 body.page-medialibrary #edit-recorded-from-wrapper div.views-widget,
 body.page-medialibrary #edit-recorded-to-wrapper label,
-body.page-medialibrary #edit-recorded-to-wrapper div.views-widget {
+body.page-medialibrary #edit-recorded-to-wrapper div.views-widget,
+body.page-mooc #edit-recorded-from-wrapper label,
+body.page-mooc #edit-recorded-from-wrapper div.views-widget,
+body.page-mooc #edit-recorded-to-wrapper label,
+body.page-mooc #edit-recorded-to-wrapper div.views-widget {
   display: table-cell;
 }
-/* line 500, ../scss/custom.scss */
+/* line 503, ../scss/custom.scss */
 body.page-medialibrary #edit-recorded-from-wrapper label,
-body.page-medialibrary #edit-recorded-to-wrapper label {
+body.page-medialibrary #edit-recorded-to-wrapper label,
+body.page-mooc #edit-recorded-from-wrapper label,
+body.page-mooc #edit-recorded-to-wrapper label {
   width: 25px;
   padding-top: 10px;
   vertical-align: top;
 }
-/* line 507, ../scss/custom.scss */
-body.page-medialibrary #edit-redaction-wrapper {
+/* line 510, ../scss/custom.scss */
+body.page-medialibrary #edit-redaction-wrapper,
+body.page-mooc #edit-redaction-wrapper {
   background: #88c540;
   margin: 2em 0;
 }
-/* line 511, ../scss/custom.scss */
-body.page-medialibrary #edit-redaction-wrapper label {
+/* line 514, ../scss/custom.scss */
+body.page-medialibrary #edit-redaction-wrapper label,
+body.page-mooc #edit-redaction-wrapper label {
   color: white !important;
 }
-/* line 520, ../scss/custom.scss */
+/* line 523, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper,
 body.page-medialibrary #edit-university-t-wrapper,
 body.page-medialibrary #edit-subject-t-wrapper,
 body.page-medialibrary #edit-lang-wrapper,
-body.page-medialibrary #edit-redaction-wrapper {
+body.page-medialibrary #edit-redaction-wrapper,
+body.page-mooc #edit-type-wrapper,
+body.page-mooc #edit-university-t-wrapper,
+body.page-mooc #edit-subject-t-wrapper,
+body.page-mooc #edit-lang-wrapper,
+body.page-mooc #edit-redaction-wrapper {
   padding-bottom: .5em;
 }
-/* line 523, ../scss/custom.scss */
+/* line 526, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper label,
 body.page-medialibrary #edit-university-t-wrapper label,
 body.page-medialibrary #edit-subject-t-wrapper label,
 body.page-medialibrary #edit-lang-wrapper label,
-body.page-medialibrary #edit-redaction-wrapper label {
+body.page-medialibrary #edit-redaction-wrapper label,
+body.page-mooc #edit-type-wrapper label,
+body.page-mooc #edit-university-t-wrapper label,
+body.page-mooc #edit-subject-t-wrapper label,
+body.page-mooc #edit-lang-wrapper label,
+body.page-mooc #edit-redaction-wrapper label {
   font-family: intro;
   font-size: 110%;
   margin-bottom: 10px;
 }
-/* line 530, ../scss/custom.scss */
+/* line 533, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item,
+body.page-mooc #edit-type-wrapper .views-widget .form-item,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item {
   display: table-row;
   margin-bottom: 16px;
 }
-/* line 535, ../scss/custom.scss */
+/* line 538, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input,
@@ -9770,72 +9835,117 @@ body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label,
+body.page-mooc #edit-type-wrapper .views-widget .form-item input,
+body.page-mooc #edit-type-wrapper .views-widget .form-item label,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item input,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item label,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item input,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item label,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item input,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item label,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item input,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item label {
   color: #919191;
   display: table-cell;
   margin: .6em .2em 0 0;
 }
-/* line 541, ../scss/custom.scss */
+/* line 544, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input.bef-select-as-radios,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios,
+body.page-mooc #edit-type-wrapper .views-widget .form-item input.bef-select-as-radios,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item input.bef-select-as-radios,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item input.bef-select-as-radios,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item input.bef-select-as-radios,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item input.bef-select-as-radios {
   margin: .4em .6em .4em 0;
 }
-/* line 545, ../scss/custom.scss */
+/* line 548, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item label,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item label,
+body.page-mooc #edit-type-wrapper .views-widget .form-item label,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item label,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item label,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item label,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item label {
   font-size: .875em;
   font-family: Arial, Helvetica, Sans-serif;
   padding-left: .6em;
 }
-/* line 551, ../scss/custom.scss */
+/* line 554, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item :checked + label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item :checked + label,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item :checked + label {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item :checked + label,
+body.page-mooc #edit-type-wrapper .views-widget .form-item :checked + label,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item :checked + label,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item :checked + label,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item :checked + label,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item :checked + label {
   color: #777777;
 }
-/* line 555, ../scss/custom.scss */
+/* line 558, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"],
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input[type="checkbox"],
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"],
+body.page-mooc #edit-type-wrapper .views-widget .form-item input[type="checkbox"],
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"],
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"],
+body.page-mooc #edit-lang-wrapper .views-widget .form-item input[type="checkbox"],
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] {
   display: none;
 }
-/* line 559, ../scss/custom.scss */
+/* line 562, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input[type="checkbox"] + label,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] + label {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] + label,
+body.page-mooc #edit-type-wrapper .views-widget .form-item input[type="checkbox"] + label,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"] + label,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item input[type="checkbox"] + label,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"] + label {
   display: inline-block;
   padding-left: 25px;
   vertical-align: middle;
   background: url(../images/unchecked.png) left top no-repeat;
   cursor: pointer;
 }
-/* line 570, ../scss/custom.scss */
+/* line 573, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
 body.page-medialibrary #edit-lang-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
-body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"]:checked + label {
+body.page-medialibrary #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
+body.page-mooc #edit-type-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
+body.page-mooc #edit-university-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
+body.page-mooc #edit-subject-t-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
+body.page-mooc #edit-lang-wrapper .views-widget .form-item input[type="checkbox"]:checked + label,
+body.page-mooc #edit-redaction-wrapper .views-widget .form-item input[type="checkbox"]:checked + label {
   background: url(../images/checked.png) left top no-repeat;
   padding-left: 25px;
 }
-/* line 577, ../scss/custom.scss */
+/* line 580, ../scss/custom.scss */
 body.page-medialibrary #edit-type-wrapper a.toggler,
 body.page-medialibrary #edit-university-t-wrapper a.toggler,
 body.page-medialibrary #edit-subject-t-wrapper a.toggler,
 body.page-medialibrary #edit-lang-wrapper a.toggler,
-body.page-medialibrary #edit-redaction-wrapper a.toggler {
+body.page-medialibrary #edit-redaction-wrapper a.toggler,
+body.page-mooc #edit-type-wrapper a.toggler,
+body.page-mooc #edit-university-t-wrapper a.toggler,
+body.page-mooc #edit-subject-t-wrapper a.toggler,
+body.page-mooc #edit-lang-wrapper a.toggler,
+body.page-mooc #edit-redaction-wrapper a.toggler {
   border: 1px dashed #919191;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -9852,8 +9962,9 @@ body.page-medialibrary #edit-redaction-wrapper a.toggler {
   text-align: center;
   width: 100%;
 }
-/* line 592, ../scss/custom.scss */
-body.page-medialibrary #edit-lang-wrapper {
+/* line 595, ../scss/custom.scss */
+body.page-medialibrary #edit-lang-wrapper,
+body.page-mooc #edit-lang-wrapper {
   display: none;
  /*   label {
       width: 100px;
@@ -9871,12 +9982,18 @@ body.page-medialibrary #edit-lang-wrapper {
       }
     }*/
 }
-/* line 611, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page {
+/* line 615, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page,
+body.page-medialibrary #views-exposed-form-mooc-search-page,
+body.page-mooc #views-exposed-form-views-search-page,
+body.page-mooc #views-exposed-form-mooc-search-page {
   padding-top: .5em;
 }
-/* line 617, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button {
+/* line 621, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button,
+body.page-medialibrary #views-exposed-form-mooc-search-page .views-reset-button button,
+body.page-mooc #views-exposed-form-views-search-page .views-reset-button button,
+body.page-mooc #views-exposed-form-mooc-search-page .views-reset-button button {
   background: none;
   border: none;
   border-bottom: 1px #88c540 dashed;
@@ -9886,31 +10003,53 @@ body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button
   margin: 0;
   padding: 0;
 }
-/* line 628, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button:hover {
+/* line 632, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page .views-reset-button button:hover,
+body.page-medialibrary #views-exposed-form-mooc-search-page .views-reset-button button:hover,
+body.page-mooc #views-exposed-form-views-search-page .views-reset-button button:hover,
+body.page-mooc #views-exposed-form-mooc-search-page .views-reset-button button:hover {
   border-bottom: 1px #1a1e22 dashed;
   color: #1a1e22;
 }
-/* line 635, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page-1 {
+/* line 640, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1,
+body.page-mooc #views-exposed-form-views-search-page-1,
+body.page-mooc #views-exposed-form-mooc-search-page-1 {
   margin-bottom: 0;
 }
-/* line 638, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-exposed-widgets {
+/* line 643, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-exposed-widgets,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-exposed-widgets,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-exposed-widgets,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-exposed-widgets {
   margin-bottom: 0;
 }
-/* line 642, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper {
+/* line 647, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 #edit-search-api-views-fulltext-wrapper,
+body.page-mooc #views-exposed-form-views-search-page-1 #edit-search-api-views-fulltext-wrapper,
+body.page-mooc #views-exposed-form-mooc-search-page-1 #edit-search-api-views-fulltext-wrapper {
   padding-right: 0;
   width: 80%;
 }
-/* line 647, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button {
+/* line 652, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button {
   padding-right: 0;
   width: 20%;
 }
-/* line 651, ../scss/custom.scss */
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search {
+/* line 657, ../scss/custom.scss */
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search,
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-mooc-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button button#edit-submit-views-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button button#edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-views-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button button#edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button button#edit-submit-views-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button button#edit-submit-mooc-search {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
@@ -9928,66 +10067,125 @@ body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-but
   font-family: Arial, Helvetica, Sans-serif;
   width: 100%;
 }
-/* line 671, ../scss/custom.scss */
+/* line 678, ../scss/custom.scss */
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-views-search,
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-mooc-search,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-submit-button #edit-reset,
 body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-views-search,
-body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset {
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-mooc-search,
+body.page-medialibrary #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-submit-views-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-submit-mooc-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-reset,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-submit-views-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-submit-mooc-search,
+body.page-medialibrary #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-reset,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-views-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button #edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-submit-button #edit-reset,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-views-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-reset-button #edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-views-search-page-1 .views-reset-button #edit-reset,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-submit-views-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-submit-button #edit-reset,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-submit-views-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-submit-mooc-search,
+body.page-mooc #views-exposed-form-mooc-search-page-1 .views-reset-button #edit-reset {
   margin-top: 0;
 }
-/* line 679, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header {
+/* line 687, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header,
+body.page-medialibrary .view-mooc-search .view-header,
+body.page-mooc .view-views-search .view-header,
+body.page-mooc .view-mooc-search .view-header {
   padding-bottom: 2em;
   font-size: 85%;
   color: grey;
 }
-/* line 685, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header #total-label {
+/* line 693, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header #total-label,
+body.page-medialibrary .view-mooc-search .view-header #total-label,
+body.page-mooc .view-views-search .view-header #total-label,
+body.page-mooc .view-mooc-search .view-header #total-label {
   display: inline-block;
 }
-/* line 690, ../scss/custom.scss */
+/* line 698, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #sort-label,
-body.page-medialibrary .view-views-search .view-header #sort-popular {
+body.page-medialibrary .view-views-search .view-header #sort-popular,
+body.page-medialibrary .view-mooc-search .view-header #sort-label,
+body.page-medialibrary .view-mooc-search .view-header #sort-popular,
+body.page-mooc .view-views-search .view-header #sort-label,
+body.page-mooc .view-views-search .view-header #sort-popular,
+body.page-mooc .view-mooc-search .view-header #sort-label,
+body.page-mooc .view-mooc-search .view-header #sort-popular {
   display: inline-block;
 }
-/* line 694, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header #sort-popular {
+/* line 702, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header #sort-popular,
+body.page-medialibrary .view-mooc-search .view-header #sort-popular,
+body.page-mooc .view-views-search .view-header #sort-popular,
+body.page-mooc .view-mooc-search .view-header #sort-popular {
   color: #88c540;
   border-bottom: 1px dashed #88c540;
 }
-/* line 699, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header #view-display-label {
+/* line 707, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header #view-display-label,
+body.page-medialibrary .view-mooc-search .view-header #view-display-label,
+body.page-mooc .view-views-search .view-header #view-display-label,
+body.page-mooc .view-mooc-search .view-header #view-display-label {
   margin-left: 1em;
 }
-/* line 704, ../scss/custom.scss */
+/* line 712, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .view-header #list,
-body.page-medialibrary .view-views-search .view-header #thumb {
+body.page-medialibrary .view-views-search .view-header #thumb,
+body.page-medialibrary .view-mooc-search .view-header #list,
+body.page-medialibrary .view-mooc-search .view-header #thumb,
+body.page-mooc .view-views-search .view-header #list,
+body.page-mooc .view-views-search .view-header #thumb,
+body.page-mooc .view-mooc-search .view-header #list,
+body.page-mooc .view-mooc-search .view-header #thumb {
   display: inline-block;
   width: 26px;
   height: 26px;
   position: relative;
   top: 8px;
 }
-/* line 712, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header #list {
+/* line 720, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header #list,
+body.page-medialibrary .view-mooc-search .view-header #list,
+body.page-mooc .view-views-search .view-header #list,
+body.page-mooc .view-mooc-search .view-header #list {
   background: url(../images/text_list.png) no-repeat;
 }
-/* line 716, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-header #thumb {
+/* line 724, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-header #thumb,
+body.page-medialibrary .view-mooc-search .view-header #thumb,
+body.page-mooc .view-views-search .view-header #thumb,
+body.page-mooc .view-mooc-search .view-header #thumb {
   background: url(../images/thumb_list.png) no-repeat;
 }
-/* line 722, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .view-content {
+/* line 730, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .view-content,
+body.page-medialibrary .view-mooc-search .view-content,
+body.page-mooc .view-views-search .view-content,
+body.page-mooc .view-mooc-search .view-content {
   padding: 0 15px;
 }
-/* line 726, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row {
+/* line 734, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row,
+body.page-medialibrary .view-mooc-search .views-row,
+body.page-mooc .view-views-search .views-row,
+body.page-mooc .view-mooc-search .views-row {
   background: #f9f9f5;
   margin-bottom: 1em;
   border: 1px solid #eaeaea;
 }
-/* line 731, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .badges {
+/* line 739, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges,
+body.page-medialibrary .view-mooc-search .views-row .badges,
+body.page-mooc .view-views-search .views-row .badges,
+body.page-mooc .view-mooc-search .views-row .badges {
   color: white;
   font-size: 70%;
   position: relative;
@@ -9996,51 +10194,93 @@ body.page-medialibrary .view-views-search .views-row .badges {
   top: -5px;
   z-index: 1;
 }
-/* line 740, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .badges .hit-new {
+/* line 748, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new,
+body.page-medialibrary .view-mooc-search .views-row .badges .hit-new,
+body.page-mooc .view-views-search .views-row .badges .hit-new,
+body.page-mooc .view-mooc-search .views-row .badges .hit-new {
   text-align: right;
 }
-/* line 743, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .badges .hit-new span {
+/* line 751, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .badges .hit-new span,
+body.page-medialibrary .view-mooc-search .views-row .badges .hit-new span,
+body.page-mooc .view-views-search .views-row .badges .hit-new span,
+body.page-mooc .view-mooc-search .views-row .badges .hit-new span {
   margin-left: 1em;
 }
-/* line 749, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .result-item {
+/* line 757, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .result-item,
+body.page-medialibrary .view-mooc-search .views-row .result-item,
+body.page-mooc .view-views-search .views-row .result-item,
+body.page-mooc .view-mooc-search .views-row .result-item {
   padding: 1em;
 }
-/* line 752, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .result-item .views-likes-comments {
+/* line 760, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .result-item .views-likes-comments,
+body.page-medialibrary .view-mooc-search .views-row .result-item .views-likes-comments,
+body.page-mooc .view-views-search .views-row .result-item .views-likes-comments,
+body.page-mooc .view-mooc-search .views-row .result-item .views-likes-comments {
   color: #b7b7b7;
   font-size: .875em;
   padding-top: 1em;
 }
-/* line 760, ../scss/custom.scss */
+/* line 768, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
-body.page-medialibrary .view-views-search .views-row .result-item .university {
+body.page-medialibrary .view-views-search .views-row .result-item .university,
+body.page-medialibrary .view-mooc-search .views-row .result-item h2,
+body.page-medialibrary .view-mooc-search .views-row .result-item .speaker,
+body.page-medialibrary .view-mooc-search .views-row .result-item .university,
+body.page-mooc .view-views-search .views-row .result-item h2,
+body.page-mooc .view-views-search .views-row .result-item .speaker,
+body.page-mooc .view-views-search .views-row .result-item .university,
+body.page-mooc .view-mooc-search .views-row .result-item h2,
+body.page-mooc .view-mooc-search .views-row .result-item .speaker,
+body.page-mooc .view-mooc-search .views-row .result-item .university {
   font-family: Arial, Helvetica, Sans-serif;
 }
-/* line 762, ../scss/custom.scss */
+/* line 770, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item h2 a,
 body.page-medialibrary .view-views-search .views-row .result-item .speaker a,
-body.page-medialibrary .view-views-search .views-row .result-item .university a {
+body.page-medialibrary .view-views-search .views-row .result-item .university a,
+body.page-medialibrary .view-mooc-search .views-row .result-item h2 a,
+body.page-medialibrary .view-mooc-search .views-row .result-item .speaker a,
+body.page-medialibrary .view-mooc-search .views-row .result-item .university a,
+body.page-mooc .view-views-search .views-row .result-item h2 a,
+body.page-mooc .view-views-search .views-row .result-item .speaker a,
+body.page-mooc .view-views-search .views-row .result-item .university a,
+body.page-mooc .view-mooc-search .views-row .result-item h2 a,
+body.page-mooc .view-mooc-search .views-row .result-item .speaker a,
+body.page-mooc .view-mooc-search .views-row .result-item .university a {
   color: #5e619b;
 }
-/* line 767, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .result-item h2 {
+/* line 775, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .result-item h2,
+body.page-medialibrary .view-mooc-search .views-row .result-item h2,
+body.page-mooc .view-views-search .views-row .result-item h2,
+body.page-mooc .view-mooc-search .views-row .result-item h2 {
   font-size: 1em;
   font-weight: bold;
   line-height: 1;
   margin-top: 0;
   margin-bottom: .2em;
 }
-/* line 776, ../scss/custom.scss */
+/* line 784, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .speaker,
-body.page-medialibrary .view-views-search .views-row .result-item .university {
+body.page-medialibrary .view-views-search .views-row .result-item .university,
+body.page-medialibrary .view-mooc-search .views-row .result-item .speaker,
+body.page-medialibrary .view-mooc-search .views-row .result-item .university,
+body.page-mooc .view-views-search .views-row .result-item .speaker,
+body.page-mooc .view-views-search .views-row .result-item .university,
+body.page-mooc .view-mooc-search .views-row .result-item .speaker,
+body.page-mooc .view-mooc-search .views-row .result-item .university {
   font-size: 80%;
 }
-/* line 780, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
+/* line 788, ../scss/custom.scss */
+body.page-medialibrary .view-views-search .views-row .result-item #body-desc,
+body.page-medialibrary .view-mooc-search .views-row .result-item #body-desc,
+body.page-mooc .view-views-search .views-row .result-item #body-desc,
+body.page-mooc .view-mooc-search .views-row .result-item #body-desc {
   color: #919191;
   font-size: 90%;
   line-height: 1em;
@@ -10049,7 +10289,7 @@ body.page-medialibrary .view-views-search .views-row .result-item #body-desc {
   overflow: hidden;
 }
 
-/* line 797, ../scss/custom.scss */
+/* line 805, ../scss/custom.scss */
 body.node-type-course main,
 body.node-type-lecture main,
 body.node-type-speaker main,
@@ -10057,7 +10297,7 @@ body.university main {
   color: #656565;
   padding-top: 3em;
 }
-/* line 803, ../scss/custom.scss */
+/* line 811, ../scss/custom.scss */
 body.node-type-course main h1,
 body.node-type-course main h2,
 body.node-type-course main h3,
@@ -10072,7 +10312,7 @@ body.university main h2,
 body.university main h3 {
   color: #656565;
 }
-/* line 807, ../scss/custom.scss */
+/* line 815, ../scss/custom.scss */
 body.node-type-course main h1,
 body.node-type-lecture main h1,
 body.node-type-speaker main h1,
@@ -10080,26 +10320,26 @@ body.university main h1 {
   line-height: 1;
 }
 
-/* line 816, ../scss/custom.scss */
+/* line 824, ../scss/custom.scss */
 body.node-type-speaker main .field,
 body.university main .field {
   padding-bottom: 1em;
 }
-/* line 821, ../scss/custom.scss */
+/* line 829, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-speaker-photo,
 body.node-type-speaker main .field-name-field-picture,
 body.university main .field-name-field-speaker-photo,
 body.university main .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 827, ../scss/custom.scss */
+/* line 835, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges,
 body.university main .field-name-field-view-courses .badges {
   color: white;
   letter-spacing: .15em;
   text-transform: lowercase;
 }
-/* line 834, ../scss/custom.scss */
+/* line 842, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
@@ -10108,53 +10348,53 @@ body.university main .field-name-field-view-courses .badges .badge-hit,
 body.university main .field-name-field-view-courses .badges .badge-new {
   font-size: 70%;
 }
-/* line 838, ../scss/custom.scss */
+/* line 846, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social,
 body.university main .field-name-field-view-courses .badges .social {
   margin-left: 1em;
   letter-spacing: 0;
 }
-/* line 842, ../scss/custom.scss */
+/* line 850, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social span,
 body.university main .field-name-field-view-courses .badges .social span {
   color: #919191;
   margin-right: 1em;
 }
-/* line 849, ../scss/custom.scss */
+/* line 857, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course,
 body.university main .field-name-field-view-courses .course {
   color: #5e619b;
   padding-top: .5em;
   line-height: 1.2em;
 }
-/* line 855, ../scss/custom.scss */
+/* line 863, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course a.course-title,
 body.university main .field-name-field-view-courses .course a.course-title {
   color: #5e619b;
 }
-/* line 859, ../scss/custom.scss */
+/* line 867, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t,
 body.university main .field-name-field-view-courses .course .field-name-field-university-t {
   padding: 0;
 }
-/* line 862, ../scss/custom.scss */
+/* line 870, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul,
 body.university main .field-name-field-view-courses .course .field-name-field-university-t ul {
   list-style-type: none;
   margin-bottom: 0;
 }
-/* line 866, ../scss/custom.scss */
+/* line 874, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .course .field-name-field-university-t ul a,
 body.university main .field-name-field-view-courses .course .field-name-field-university-t ul a {
   color: #5e619b;
 }
-/* line 873, ../scss/custom.scss */
+/* line 881, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses hr,
 body.university main .field-name-field-view-courses hr {
   margin-bottom: 1em;
 }
 
-/* line 885, ../scss/custom.scss */
+/* line 893, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-lecture .field,
 body.node-type-course .label,
@@ -10167,7 +10407,7 @@ body.university .field {
   padding: 0;
   margin: 0;
 }
-/* line 891, ../scss/custom.scss */
+/* line 899, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-course .label,
 body.node-type-mooc-description .label,
@@ -10180,14 +10420,14 @@ body.university .label {
   text-align: left;
   margin-bottom: 1em;
 }
-/* line 901, ../scss/custom.scss */
+/* line 909, ../scss/custom.scss */
 body.node-type-lecture .label-date,
 body.node-type-course .label-date,
 body.node-type-mooc-description .label-date,
 body.university .label-date {
   width: 160px;
 }
-/* line 913, ../scss/custom.scss */
+/* line 921, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t ul,
 body.node-type-lecture .field-name-field-subject-t ul,
 body.node-type-lecture .field-name-field-view-courses ul,
@@ -10225,7 +10465,7 @@ body.university .field-name-field-status-mooc ul {
   padding: 0;
   margin: 0;
 }
-/* line 921, ../scss/custom.scss */
+/* line 929, ../scss/custom.scss */
 body.node-type-lecture .badges,
 body.node-type-course .badges,
 body.node-type-mooc-description .badges,
@@ -10235,28 +10475,28 @@ body.university .badges {
   font-size: 1em;
   margin-bottom: 1em;
 }
-/* line 927, ../scss/custom.scss */
+/* line 935, ../scss/custom.scss */
 body.node-type-lecture .badges .social,
 body.node-type-course .badges .social,
 body.node-type-mooc-description .badges .social,
 body.university .badges .social {
   color: #919191;
 }
-/* line 930, ../scss/custom.scss */
+/* line 938, ../scss/custom.scss */
 body.node-type-lecture .badges .social span,
 body.node-type-course .badges .social span,
 body.node-type-mooc-description .badges .social span,
 body.university .badges .social span {
   padding: 4px 8px;
 }
-/* line 936, ../scss/custom.scss */
+/* line 944, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
 body.node-type-course #code-for-blog,
 body.node-type-mooc-description #code-for-blog,
 body.university #code-for-blog {
   margin-top: 1em;
 }
-/* line 940, ../scss/custom.scss */
+/* line 948, ../scss/custom.scss */
 body.node-type-lecture .social,
 body.node-type-course .social,
 body.node-type-mooc-description .social,
@@ -10264,7 +10504,7 @@ body.university .social {
   margin-top: 2em;
   margin-bottom: 3em;
 }
-/* line 944, ../scss/custom.scss */
+/* line 952, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap,
 body.node-type-course .social .social-link-wrap,
 body.node-type-mooc-description .social .social-link-wrap,
@@ -10278,7 +10518,7 @@ body.university .social .social-link-wrap {
   background: #f8f8f8;
   border: 1px solid #919191;
 }
-/* line 951, ../scss/custom.scss */
+/* line 959, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap i,
 body.node-type-course .social .social-link-wrap i,
 body.node-type-mooc-description .social .social-link-wrap i,
@@ -10287,7 +10527,7 @@ body.university .social .social-link-wrap i {
   padding-right: .5em;
   border-right: 1px solid #919191;
 }
-/* line 960, ../scss/custom.scss */
+/* line 968, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures,
 body.node-type-lecture .view-university-lectures,
 body.node-type-course .view-course-lectures,
@@ -10298,7 +10538,7 @@ body.university .view-course-lectures,
 body.university .view-university-lectures {
   margin-top: 2em;
 }
-/* line 963, ../scss/custom.scss */
+/* line 971, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures .badges,
 body.node-type-lecture .view-university-lectures .badges,
 body.node-type-course .view-course-lectures .badges,
@@ -10317,7 +10557,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 977, ../scss/custom.scss */
+/* line 985, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10326,24 +10566,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 983, ../scss/custom.scss */
+/* line 991, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 985, ../scss/custom.scss */
+/* line 993, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 987, ../scss/custom.scss */
+/* line 995, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 990, ../scss/custom.scss */
+/* line 998, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10353,7 +10593,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 996, ../scss/custom.scss */
+/* line 1004, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";

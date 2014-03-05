@@ -416,7 +416,8 @@ footer {
 }
 
 
-body.page-medialibrary {
+body.page-medialibrary,
+body.page-mooc {
   .sidebar-first {
     padding-left: 25px;
 
@@ -433,14 +434,16 @@ body.page-medialibrary {
     font-weight: 500;
   }
 
-  #views-exposed-form-views-search-page {
+  #views-exposed-form-views-search-page,
+  #views-exposed-form-mooc-search-page {
     #edit-search-api-views-fulltext-wrapper,
     .views-submit-button {
       display: none;
     }
   }
 
-  #views-exposed-form-views-search-page-1 {
+  #views-exposed-form-views-search-page-1,
+  #views-exposed-form-mooc-search-page-1 {
     #edit-recorded-from-wrapper,
     #edit-recorded-to-wrapper,
     #edit-type-wrapper,
@@ -608,7 +611,8 @@ body.page-medialibrary {
     }*/
   }
 
-  #views-exposed-form-views-search-page {
+  #views-exposed-form-views-search-page,
+  #views-exposed-form-mooc-search-page {
     padding-top: .5em;
 
     .views-reset-button {
@@ -632,7 +636,8 @@ body.page-medialibrary {
     }
   }
 
-  #views-exposed-form-views-search-page-1 {
+  #views-exposed-form-views-search-page-1,
+  #views-exposed-form-mooc-search-page-1 {
     margin-bottom: 0;
 
     .views-exposed-widgets {
@@ -648,7 +653,8 @@ body.page-medialibrary {
       padding-right: 0;
       width: 20%;
 
-      button#edit-submit-views-search {
+      button#edit-submit-views-search,
+      button#edit-submit-mooc-search {
         @include border-top-right-radius(5px);
         @include border-bottom-right-radius(5px);
 
@@ -668,6 +674,7 @@ body.page-medialibrary {
     .views-submit-button,
     .views-reset-button {
       #edit-submit-views-search,
+      #edit-submit-mooc-search,
       #edit-reset {
         margin-top: 0;
       }
@@ -675,7 +682,8 @@ body.page-medialibrary {
   }
 
   // поисковая выдача
-  .view-views-search {
+  .view-views-search,
+  .view-mooc-search {
     .view-header {
       padding-bottom: 2em;
       font-size: 85%;
