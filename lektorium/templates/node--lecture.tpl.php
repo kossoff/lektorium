@@ -118,7 +118,7 @@
       <div class="label label-date">Дата публикации:</div><?php print $date; ?>
     </div>
   </div>
-  <div id="badges" class="row">
+  <div class="row badges">
     <div class="large-12 columns">
       <?php
       $hitcount = statistics_get ( $node->nid );
@@ -141,7 +141,7 @@
     <div class="large-8 large-uncentered columns">
       <div class="row"><div class="large-12 columns"><?php print render($content['field_video']); ?></div></div>
       <div id="code-for-blog" class="row"><div class="large-12 columns"><div class="">Код для блога:</div><?php print render($content['field_code_for_blog']); ?></div></div>
-      <div id="social" class="row">
+      <div class="row social">
         <div class="large-12 columns">
           <span class="social-link-wrap"><i class="fi-eye"></i><span class="totalcount"><?php print $hitcount['totalcount']; ?></span></span>
           <span class="social-link-wrap"><i class="fi-like"></i><span class="likes">Нравится 89</span></span>
@@ -156,7 +156,6 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
-    hide($content['field_university_t']);
     print render($content);
   ?>
 
