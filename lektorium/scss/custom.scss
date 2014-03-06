@@ -866,6 +866,13 @@ body.university {
       padding-right:1em;
     }
 
+    .view-courses-context {
+      .course {
+        ul {
+          list-style-type: none;
+        }
+      }
+    }
     .field-name-field-view-courses {
       .badges {
         color: white;
@@ -899,17 +906,17 @@ body.university {
           color: $l-violet;
         }
 
+        ul {
+          list-style-type: none;
+          margin-bottom: 0;
+
+          a {
+            color: $l-violet;
+          }
+        }
+
         .field-name-field-university-t {
           padding: 0;
-
-          ul {
-            list-style-type: none;
-            margin-bottom: 0;
-
-            a {
-              color: $l-violet;
-            }
-          }
         }
       }
 
