@@ -69,8 +69,8 @@
       <div class="row social">
         <div class="large-12 columns">
           <span class="social-link-wrap"><i class="fi-eye"></i><span class="totalcount"><?php print $hitcount['totalcount']; ?></span></span>
-          <span class="social-link-wrap"><i class="fi-like"></i><span class="likes">Нравится 89</span></span>
-        </div>
+<!--          <span class="social-link-wrap"><i class="fi-like"></i><span class="likes">Нравится 89</span></span>
+-->        </div>
       </div>
       <div class="row"><div class="large-12 columns"><?php print render($content['body']); ?></div></div>
     </div>

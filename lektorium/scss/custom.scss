@@ -73,6 +73,16 @@ $default-text-shadow-v-offset: 1px;
 
 $border-radius: 3px;
 
+// !!!
+
+#sort-label,
+#sort-popular,
+.likes,
+.comments {
+  display: none !important;
+}
+
+// !!!
 .prepend-top { margin-top: 1em; }
 .append-bottom { margin-bottom: 1em; }
 .prepend-left { margin-left: 1em; }
