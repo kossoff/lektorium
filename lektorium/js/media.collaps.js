@@ -7,7 +7,6 @@ $("div.bef-checkboxes").collapsorz({
         , hideText: "<i class='fi-arrow-up'></i> Свернуть"
         , toggle: "div.form-type-bef-checkbox"
     });
-
 $('#list').click(
     function(){
         $('div.picture').removeClass('small-4');
@@ -66,3 +65,4 @@ $('#thumb').click(
     });
 
 });
+

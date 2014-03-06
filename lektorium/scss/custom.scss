@@ -778,14 +778,24 @@ body.page-mooc {
           color: $l-grey;
           //font-size: .875em;
           font-size: 1.2em;
-          span {
-            margin-left:1em;
+
+          .badge {
+            color: $l-grey;
+            background: #fff;
+            border: 1px solid lighten($l-grey, 25%);
           }
         }
       }
 
       .result-item {
         padding: 1em;
+
+        .title.small-6 {
+          h2 {
+            font-size: 90%;
+            font-weight: 100;
+          }
+        }
 
         h2,
         .speaker,
