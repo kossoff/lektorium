@@ -763,16 +763,20 @@ body.page-mooc {
             margin-left: 1em;
           }
         }
+
+        .views-likes-comments {
+          //color: lighten($l-grey, 15%);
+          color: $l-grey;
+          //font-size: .875em;
+          font-size: 1.2em;
+          span {
+            margin-left:1em;
+          }
+        }
       }
 
       .result-item {
         padding: 1em;
-
-        .views-likes-comments {
-          color: lighten($l-grey, 15%);
-          font-size: .875em;
-          padding-top: 1em;
-        }
 
         h2,
         .speaker,
@@ -812,6 +816,7 @@ body.page-mooc {
 body.node-type-course,
 body.node-type-lecture,
 body.node-type-speaker,
+body.node-type-mooc-description,
 body.university {
    main {
     color: $l-text-grey;
@@ -900,6 +905,10 @@ body.node-type-lecture,
 body.node-type-course,
 body.node-type-mooc-description,
 body.university {
+  .row {
+    margin-bottom: 1em;
+  }
+
   .label,
   .field {
     font-size: 100%;
@@ -910,8 +919,8 @@ body.university {
   .label {
     background: none;
     color: $l-text-grey;
+    display: table-cell;
     font-weight: normal;
-    float: left;
     min-width: 120px;
     text-align: left;
     margin-bottom:1em;
@@ -924,16 +933,30 @@ body.university {
   .field-name-field-university-t,
   .field-name-field-subject-t,
   .field-name-field-view-courses,
+  .field-name-field-speaker,
   .field-name-field-university-t-mooc,
   .field-name-field-subject-t-mooc,
   .field-name-field-language-mooc,
   .field-name-field-audition-mooc,
-  .field-name-field-status-mooc, {
+  .field-name-field-status-mooc,
+  .field-name-field-date-recorded {
+    display: table-cell;
+
     ul {
       list-style-type: none;
       line-height: 1;
       padding: 0;
       margin: 0;
+    }
+  }
+
+  .label-date + span {
+    display: table-cell;
+  }
+
+  .field-name-field-speaker {
+    a {
+      display: block;
     }
   }
 
