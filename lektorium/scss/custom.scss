@@ -105,6 +105,12 @@ $border-radius: 3px;
   background: $l-blue;
 }
 
+.total-title {
+  float: left;
+  line-height: 2em;
+  margin-right: 1em;
+}
+
 .total {
   background: url(../images/total.png) 0 50% no-repeat;
   display: inline-block;
@@ -854,6 +860,7 @@ body.university {
 }
 
 body.node-type-speaker,
+body.node-type-lecture,
 body.university {
   main {
     .field {
@@ -867,10 +874,19 @@ body.university {
     }
 
     .view-courses-context,
-    .view-university-lectures {
+    .view-university-lectures,
+    .view-other-lectures {
       .course {
+        padding-top: .5em;
+
         ul {
           list-style-type: none;
+
+          li {
+            a {
+              line-height: 1;
+            }
+          }
         }
       }
     }
@@ -897,29 +913,7 @@ body.university {
         }
       }
 
-      .course {
-        color: $l-violet;
-        padding-top: .5em;
 
-        line-height: 1.2em;
-
-        a.course-title {
-          color: $l-violet;
-        }
-
-        ul {
-          list-style-type: none;
-          margin-bottom: 0;
-
-          a {
-            color: $l-violet;
-          }
-        }
-
-        .field-name-field-university-t {
-          padding: 0;
-        }
-      }
 
       hr {
         margin-bottom: 1em;
@@ -1028,16 +1022,6 @@ body.university {
   .view-course-lectures,
   .view-university-lectures {
     margin-top: 2em;
-
-    .view-header {
-      margin-bottom: 1em;
-
-      .title {
-        display: inline-block;
-        margin-right: 1em;
-      }
-    }
-
     .badges {
       display: inline-block;
       font-size: 85%;
