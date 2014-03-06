@@ -970,6 +970,15 @@ body.university {
   .view-university-lectures {
     margin-top: 2em;
 
+    .view-header {
+      margin-bottom: 1em;
+
+      .title {
+        display: inline-block;
+        margin-right: 1em;
+      }
+    }
+
     .badges {
       display: inline-block;
       font-size: 85%;
