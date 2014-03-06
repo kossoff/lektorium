@@ -26,11 +26,13 @@
       <div class="label">Лектор:</div><?php print render($content['field_speaker']); ?>
     </div>
   </div>
+  <?php if (!strripos(render($content['field_view_courses']), 'view-empty')): ?>
   <div class="row">
     <div class="large-12 columns">
       <div class="label">Курс лекций:</div><?php print render($content['field_view_courses']); ?>
     </div>
   </div>
+  <?php endif; ?>
   <div class="row">
     <div class="large-12 columns">
       <div class="label label-date">Дата записи:</div><?php print render($content['field_date_recorded']); ?>
