@@ -8,5 +8,61 @@ $("div.bef-checkboxes").collapsorz({
         , toggle: "div.form-type-bef-checkbox"
     });
 
-//$("input").removeClass("bef-select-as-radios");
+$('#list').click(
+    function(){
+        $('div.picture').removeClass('small-4');
+        $('div.picture').removeClass('columns');
+        $('div.picture').addClass('hide');
+        $('div.picture').addClass('hide');
+        $('div.title').addClass('small-6');
+        $('div.title').addClass('columns');
+        $('div.body-desc').addClass('hide');
+        $('div.info').removeClass('small-8');
+        $('div.info').removeClass('columns');
+        $('div.speaker-and-univer').removeClass('row');
+        $('div.speaker').removeClass('small-5');
+        $('div.speaker').addClass('small-3');
+        $('div.speaker').addClass('push-3');
+        $('div.university').removeClass('small-7');
+        $('div.university').addClass('small-3');
+        $('div.university').addClass('pull-3');
+
+        $(this).addClass('active');
+        $(this).removeClass('inactive');
+
+        $('#thumb').removeClass('active');
+        $('#thumb').addClass('inactive');
+
+
+        return false;
+    });
+
+$('#thumb').click(
+    function(){
+        $('div.picture').addClass('small-4');
+        $('div.picture').addClass('columns');
+        $('div.picture').removeClass('hide');
+        $('div.picture').removeClass('hide');
+        $('div.title').removeClass('small-6');
+        $('div.title').removeClass('columns');
+        $('div.body-desc').removeClass('hide');
+        $('div.info').addClass('small-8');
+        $('div.info').addClass('columns');
+        $('div.speaker-and-univer').addClass('row');
+        $('div.speaker').addClass('small-5');
+        $('div.speaker').removeClass('small-3');
+        $('div.speaker').removeClass('push-3');
+        $('div.university').addClass('small-7');
+        $('div.university').removeClass('small-3');
+        $('div.university').removeClass('pull-3');
+
+        $(this).addClass('active');
+        $(this).removeClass('inactive');
+
+        $('#list').removeClass('active');
+        $('#list').addClass('inactive');
+
+        return false;
+    });
+
 });
