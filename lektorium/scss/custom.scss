@@ -127,78 +127,87 @@ $border-radius: 3px;
   font-size: 1em;
 }
 
-// по мотивам http://red-team-design.com/css3-breadcrumbs/
+// по мотивам http://line25.com/tutorials/how-to-create-flat-style-breadcrumb-links-with-css
+
+.breadcrumbs > *:before {
+  content: "";
+  margin: 0;
+}
+
+.breadcrumbs > .current a {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      max-width: 220px;
+}
 
 ul.breadcrumbs {
   margin: 0;
+  margin-bottom: 1em;
   padding: 0;
-  list-style: none;
 
   background: none;
   border: none;
 
-  overflow: hidden;
-  width: 100%;
-
-  margin-bottom: 1em;
-
   li {
-    float: left;
-    margin: 0 .5em 0 1em;
+    a {
+      display: block;
+      float: left;
+      //height: 2em;
+      background: $l-violet;
+      text-align: center;
+      //padding: 30px 1.5em 0 1.5em;
+      padding: 0 15px 0 20px;
+      line-height: 2em;
+      position: relative;
+      margin: 0 .5em 0 0;
+
+      font-size: 1em;
+      text-decoration: none;
+      color: #fff !important;
+    }
+
+    a:before {
+      content: "";
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      border-left: 1em solid white;
+      position: absolute; left: 0; top: 0;
+      z-index: 0;
+    }
+
+    a:after {
+      content: "";
+      border-top: 1em solid transparent;
+      border-bottom: 1em solid transparent;
+      border-left: 1em solid $l-violet;
+      position: absolute; right: -1em; top: 0;
+      z-index: 1;
+    }
   }
 
-  a {
-    @include border-top-left-radius(5px);
-    @include border-bottom-left-radius(5px);
+  li:first-child {
+    a {
+      @include border-top-left-radius(5px);
+      @include border-bottom-left-radius(5px);
+    }
 
-    background: $l-violet;
-    float: left;
-    padding: .4em 1em;
-    text-decoration: none;
-    color: white !important;
-    position: relative;
+    a:before {
+      display: none;
+    }
   }
 
-  .current a,
-  a.active {
-    @include border-top-left-radius(0);
-    @include border-bottom-left-radius(0);
-  }
+  li:last-child {
+    a {
+      @include border-top-right-radius(5px);
+      @include border-bottom-right-radius(5px);
 
-  .current a::before,
-  a.active::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    margin-top: -1.5em;
-    border-width: 1.5em 0 1.5em 1em;
-    border-style: solid;
-    border-color: $l-violet $l-violet $l-violet transparent;
-    left: -1em;
-  }
+      padding-right: 40px;
+    }
 
-  a::after,
-  a.active::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    margin-top: -1.5em;
-    border-top: 1.5em solid transparent;
-    border-bottom: 1.5em solid transparent;
-    border-left: 1em solid $l-violet;
-    right: -1em;
-  }
-
-  .current,
-  .current:hover {
-    background: none;
-  }
-
-  .current::after,
-  .current::before,
-  li::before,
-  li::after {
-    content: normal;
+    a:after {
+      display: none;
+    }
   }
 }
 
