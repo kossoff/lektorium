@@ -68,7 +68,7 @@
       <?php
       $hitcount = statistics_get ( $node->nid );
 
-      if ( $hitcount['totalcount'] >= 5 )
+      if ( $hitcount['totalcount'] >= 5000 )
         print '<span class="badge badge-hit">Хит</span>';
       ?>
       <?php
