@@ -10400,8 +10400,9 @@ body.page-mooc .view-mooc-search .views-row .result-item .body-desc {
   overflow: hidden;
 }
 
-/* line 856, ../scss/custom.scss */
+/* line 857, ../scss/custom.scss */
 body.node-type-course main,
+body.node-type-conference main,
 body.node-type-lecture main,
 body.node-type-speaker main,
 body.node-type-mooc-description main,
@@ -10409,10 +10410,13 @@ body.university main {
   color: #656565;
   padding-top: 3em;
 }
-/* line 862, ../scss/custom.scss */
+/* line 863, ../scss/custom.scss */
 body.node-type-course main h1,
 body.node-type-course main h2,
 body.node-type-course main h3,
+body.node-type-conference main h1,
+body.node-type-conference main h2,
+body.node-type-conference main h3,
 body.node-type-lecture main h1,
 body.node-type-lecture main h2,
 body.node-type-lecture main h3,
@@ -10427,8 +10431,9 @@ body.university main h2,
 body.university main h3 {
   color: #656565;
 }
-/* line 866, ../scss/custom.scss */
+/* line 867, ../scss/custom.scss */
 body.node-type-course main h1,
+body.node-type-conference main h1,
 body.node-type-lecture main h1,
 body.node-type-speaker main h1,
 body.node-type-mooc-description main h1,
@@ -10436,13 +10441,13 @@ body.university main h1 {
   line-height: 1;
 }
 
-/* line 876, ../scss/custom.scss */
+/* line 877, ../scss/custom.scss */
 body.node-type-speaker main .field,
 body.node-type-lecture main .field,
 body.university main .field {
   padding-bottom: 1em;
 }
-/* line 881, ../scss/custom.scss */
+/* line 882, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-speaker-photo,
 body.node-type-speaker main .field-name-field-picture,
 body.node-type-lecture main .field-name-field-speaker-photo,
@@ -10451,7 +10456,7 @@ body.university main .field-name-field-speaker-photo,
 body.university main .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 889, ../scss/custom.scss */
+/* line 890, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context .course,
 body.node-type-speaker main .view-university-lectures .course,
 body.node-type-speaker main .view-other-lectures .course,
@@ -10463,7 +10468,7 @@ body.university main .view-university-lectures .course,
 body.university main .view-other-lectures .course {
   padding-top: .5em;
 }
-/* line 892, ../scss/custom.scss */
+/* line 893, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context .course ul,
 body.node-type-speaker main .view-university-lectures .course ul,
 body.node-type-speaker main .view-other-lectures .course ul,
@@ -10475,7 +10480,7 @@ body.university main .view-university-lectures .course ul,
 body.university main .view-other-lectures .course ul {
   list-style-type: none;
 }
-/* line 896, ../scss/custom.scss */
+/* line 897, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context .course ul li a,
 body.node-type-speaker main .view-university-lectures .course ul li a,
 body.node-type-speaker main .view-other-lectures .course ul li a,
@@ -10487,7 +10492,7 @@ body.university main .view-university-lectures .course ul li a,
 body.university main .view-other-lectures .course ul li a {
   line-height: 1;
 }
-/* line 904, ../scss/custom.scss */
+/* line 905, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges,
 body.node-type-lecture main .field-name-field-view-courses .badges,
 body.university main .field-name-field-view-courses .badges {
@@ -10495,7 +10500,7 @@ body.university main .field-name-field-view-courses .badges {
   letter-spacing: .15em;
   text-transform: lowercase;
 }
-/* line 911, ../scss/custom.scss */
+/* line 912, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-type,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-hit,
 body.node-type-speaker main .field-name-field-view-courses .badges .badge-new,
@@ -10507,39 +10512,42 @@ body.university main .field-name-field-view-courses .badges .badge-hit,
 body.university main .field-name-field-view-courses .badges .badge-new {
   font-size: 70%;
 }
-/* line 915, ../scss/custom.scss */
+/* line 916, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social,
 body.node-type-lecture main .field-name-field-view-courses .badges .social,
 body.university main .field-name-field-view-courses .badges .social {
   margin-left: 1em;
   letter-spacing: 0;
 }
-/* line 919, ../scss/custom.scss */
+/* line 920, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social span,
 body.node-type-lecture main .field-name-field-view-courses .badges .social span,
 body.university main .field-name-field-view-courses .badges .social span {
   color: #919191;
   margin-right: 1em;
 }
-/* line 928, ../scss/custom.scss */
+/* line 929, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses hr,
 body.node-type-lecture main .field-name-field-view-courses hr,
 body.university main .field-name-field-view-courses hr {
   margin-bottom: 1em;
 }
 
-/* line 939, ../scss/custom.scss */
+/* line 941, ../scss/custom.scss */
 body.node-type-lecture .row,
 body.node-type-course .row,
+body.node-type-conference .row,
 body.node-type-mooc-description .row,
 body.university .row {
   margin-bottom: 1em;
 }
-/* line 944, ../scss/custom.scss */
+/* line 946, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-lecture .field,
 body.node-type-course .label,
 body.node-type-course .field,
+body.node-type-conference .label,
+body.node-type-conference .field,
 body.node-type-mooc-description .label,
 body.node-type-mooc-description .field,
 body.university .label,
@@ -10548,9 +10556,10 @@ body.university .field {
   padding: 0;
   margin: 0;
 }
-/* line 950, ../scss/custom.scss */
+/* line 952, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-course .label,
+body.node-type-conference .label,
 body.node-type-mooc-description .label,
 body.university .label {
   background: none;
@@ -10561,14 +10570,15 @@ body.university .label {
   text-align: left;
   margin-bottom: 1em;
 }
-/* line 960, ../scss/custom.scss */
+/* line 962, ../scss/custom.scss */
 body.node-type-lecture .label-date,
 body.node-type-course .label-date,
+body.node-type-conference .label-date,
 body.node-type-mooc-description .label-date,
 body.university .label-date {
   width: 160px;
 }
-/* line 973, ../scss/custom.scss */
+/* line 975, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t,
 body.node-type-lecture .field-name-field-subject-t,
 body.node-type-lecture .field-name-field-view-courses,
@@ -10589,6 +10599,16 @@ body.node-type-course .field-name-field-language-mooc,
 body.node-type-course .field-name-field-audition-mooc,
 body.node-type-course .field-name-field-status-mooc,
 body.node-type-course .field-name-field-date-recorded,
+body.node-type-conference .field-name-field-university-t,
+body.node-type-conference .field-name-field-subject-t,
+body.node-type-conference .field-name-field-view-courses,
+body.node-type-conference .field-name-field-speaker,
+body.node-type-conference .field-name-field-university-t-mooc,
+body.node-type-conference .field-name-field-subject-t-mooc,
+body.node-type-conference .field-name-field-language-mooc,
+body.node-type-conference .field-name-field-audition-mooc,
+body.node-type-conference .field-name-field-status-mooc,
+body.node-type-conference .field-name-field-date-recorded,
 body.node-type-mooc-description .field-name-field-university-t,
 body.node-type-mooc-description .field-name-field-subject-t,
 body.node-type-mooc-description .field-name-field-view-courses,
@@ -10611,7 +10631,7 @@ body.university .field-name-field-status-mooc,
 body.university .field-name-field-date-recorded {
   display: table-cell;
 }
-/* line 976, ../scss/custom.scss */
+/* line 978, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t ul,
 body.node-type-lecture .field-name-field-subject-t ul,
 body.node-type-lecture .field-name-field-view-courses ul,
@@ -10632,6 +10652,16 @@ body.node-type-course .field-name-field-language-mooc ul,
 body.node-type-course .field-name-field-audition-mooc ul,
 body.node-type-course .field-name-field-status-mooc ul,
 body.node-type-course .field-name-field-date-recorded ul,
+body.node-type-conference .field-name-field-university-t ul,
+body.node-type-conference .field-name-field-subject-t ul,
+body.node-type-conference .field-name-field-view-courses ul,
+body.node-type-conference .field-name-field-speaker ul,
+body.node-type-conference .field-name-field-university-t-mooc ul,
+body.node-type-conference .field-name-field-subject-t-mooc ul,
+body.node-type-conference .field-name-field-language-mooc ul,
+body.node-type-conference .field-name-field-audition-mooc ul,
+body.node-type-conference .field-name-field-status-mooc ul,
+body.node-type-conference .field-name-field-date-recorded ul,
 body.node-type-mooc-description .field-name-field-university-t ul,
 body.node-type-mooc-description .field-name-field-subject-t ul,
 body.node-type-mooc-description .field-name-field-view-courses ul,
@@ -10657,23 +10687,26 @@ body.university .field-name-field-date-recorded ul {
   padding: 0;
   margin: 0;
 }
-/* line 984, ../scss/custom.scss */
+/* line 986, ../scss/custom.scss */
 body.node-type-lecture .label-date + span,
 body.node-type-course .label-date + span,
+body.node-type-conference .label-date + span,
 body.node-type-mooc-description .label-date + span,
 body.university .label-date + span {
   display: table-cell;
 }
-/* line 989, ../scss/custom.scss */
+/* line 991, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-speaker a,
 body.node-type-course .field-name-field-speaker a,
+body.node-type-conference .field-name-field-speaker a,
 body.node-type-mooc-description .field-name-field-speaker a,
 body.university .field-name-field-speaker a {
   display: block;
 }
-/* line 994, ../scss/custom.scss */
+/* line 996, ../scss/custom.scss */
 body.node-type-lecture .badges,
 body.node-type-course .badges,
+body.node-type-conference .badges,
 body.node-type-mooc-description .badges,
 body.university .badges {
   color: white;
@@ -10681,38 +10714,43 @@ body.university .badges {
   font-size: 1em;
   margin-bottom: 1em;
 }
-/* line 1000, ../scss/custom.scss */
+/* line 1002, ../scss/custom.scss */
 body.node-type-lecture .badges .social,
 body.node-type-course .badges .social,
+body.node-type-conference .badges .social,
 body.node-type-mooc-description .badges .social,
 body.university .badges .social {
   color: #919191;
 }
-/* line 1003, ../scss/custom.scss */
+/* line 1005, ../scss/custom.scss */
 body.node-type-lecture .badges .social span,
 body.node-type-course .badges .social span,
+body.node-type-conference .badges .social span,
 body.node-type-mooc-description .badges .social span,
 body.university .badges .social span {
   padding: 4px 8px;
 }
-/* line 1009, ../scss/custom.scss */
+/* line 1011, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
 body.node-type-course #code-for-blog,
+body.node-type-conference #code-for-blog,
 body.node-type-mooc-description #code-for-blog,
 body.university #code-for-blog {
   margin-top: 1em;
 }
-/* line 1013, ../scss/custom.scss */
+/* line 1015, ../scss/custom.scss */
 body.node-type-lecture .social,
 body.node-type-course .social,
+body.node-type-conference .social,
 body.node-type-mooc-description .social,
 body.university .social {
   margin-top: 2em;
   margin-bottom: 3em;
 }
-/* line 1017, ../scss/custom.scss */
+/* line 1019, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap,
 body.node-type-course .social .social-link-wrap,
+body.node-type-conference .social .social-link-wrap,
 body.node-type-mooc-description .social .social-link-wrap,
 body.university .social .social-link-wrap {
   -webkit-border-radius: 3px;
@@ -10724,31 +10762,36 @@ body.university .social .social-link-wrap {
   background: #f8f8f8;
   border: 1px solid #919191;
 }
-/* line 1024, ../scss/custom.scss */
+/* line 1026, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap i,
 body.node-type-course .social .social-link-wrap i,
+body.node-type-conference .social .social-link-wrap i,
 body.node-type-mooc-description .social .social-link-wrap i,
 body.university .social .social-link-wrap i {
   margin-right: .5em;
   padding-right: .5em;
   border-right: 1px solid #919191;
 }
-/* line 1033, ../scss/custom.scss */
+/* line 1035, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures,
 body.node-type-lecture .view-university-lectures,
 body.node-type-course .view-course-lectures,
 body.node-type-course .view-university-lectures,
+body.node-type-conference .view-course-lectures,
+body.node-type-conference .view-university-lectures,
 body.node-type-mooc-description .view-course-lectures,
 body.node-type-mooc-description .view-university-lectures,
 body.university .view-course-lectures,
 body.university .view-university-lectures {
   margin-top: 2em;
 }
-/* line 1035, ../scss/custom.scss */
+/* line 1037, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures .badges,
 body.node-type-lecture .view-university-lectures .badges,
 body.node-type-course .view-course-lectures .badges,
 body.node-type-course .view-university-lectures .badges,
+body.node-type-conference .view-course-lectures .badges,
+body.node-type-conference .view-university-lectures .badges,
 body.node-type-mooc-description .view-course-lectures .badges,
 body.node-type-mooc-description .view-university-lectures .badges,
 body.university .view-course-lectures .badges,
@@ -10763,7 +10806,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 1049, ../scss/custom.scss */
+/* line 1051, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10772,24 +10815,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 1055, ../scss/custom.scss */
+/* line 1057, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 1057, ../scss/custom.scss */
+/* line 1059, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 1059, ../scss/custom.scss */
+/* line 1061, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 1062, ../scss/custom.scss */
+/* line 1064, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10799,7 +10842,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 1068, ../scss/custom.scss */
+/* line 1070, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
