@@ -123,12 +123,26 @@ $border-radius: 3px;
   margin-right: 1em;
 }
 
+.total:before {
+  content: "";
+  background: url(../images/triangle_left.png) no-repeat;
+  width: 4px;
+  height: 8px;
+  position: relative;
+  left: -8px;
+  display: inline-block;
+}
+
 .total {
-  background: url(../images/total.png) 0 50% no-repeat;
+  @include border-radius($border-radius);
+
+  background: url(../images/total.png) 0 50% no-repeat #ebebeb;
   display: inline-block;
   font-weight: bold;
-  padding: 1em;
-  width: 100px;
+  padding: .6em 0;
+  padding-right: .6em;
+  padding-left: 4px;
+  margin-left: .6em;
 }
 
 .top-bar-section li a:not(.button).active {
@@ -879,6 +893,10 @@ body.university {
       .badge {
         font-size:70%;
         letter-spacing: .15em; 
+      }
+
+      .total {
+        margin-top: .4em;
       }
     }
   }
