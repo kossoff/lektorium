@@ -873,6 +873,7 @@ body.university {
 
     .badge {
       font-size: 100%;
+      letter-spacing: 0; 
     }
 
     .view {
@@ -887,11 +888,6 @@ body.node-type-speaker,
 body.node-type-lecture,
 body.university {
   main {
-    .field {
-      padding-bottom:1em;
-    }
-
-
     .field-name-field-speaker-photo,
     .field-name-field-picture {
       @extend .left !optional;
@@ -904,7 +900,6 @@ body.university {
       clear: both;
 
       .course {
-        padding-top: .5em;
 
         ul {
           list-style-type: none;
