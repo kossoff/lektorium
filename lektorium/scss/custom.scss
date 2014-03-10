@@ -93,6 +93,8 @@ $border-radius: 3px;
 
   color: white;
   display: inline-block;
+  font-size: 70%;
+  letter-spacing: .15em;
   line-height: 1.2em;
   margin-right: 5px;
   text-transform: lowercase;
@@ -773,11 +775,8 @@ body.page-mooc {
       border: 1px solid lighten($l-grey, 35%);
 
       .badges {
-        color: white;
-        font-size: 70%;
         position: relative;
-        letter-spacing: .15em;
-        text-transform: lowercase;
+
         top: -5px;
         z-index: 1;
 
@@ -867,6 +866,16 @@ body.university {
     h1 {
       line-height: 1;
     }
+
+    .badge {
+      font-size: 100%;
+    }
+
+    .view {
+      .badge {
+        font-size:70%;
+      }
+    }
   }
 }
 
@@ -889,7 +898,7 @@ body.university {
     .view-university-lectures,
     .view-other-lectures {
       clear: both;
-      
+
       .course {
         padding-top: .5em;
 
@@ -904,18 +913,9 @@ body.university {
         }
       }
     }
-    .field-name-field-view-courses {
+    .field-name-field-view-courses,
+    .field-name-field-view-lectures {
       .badges {
-        color: white;
-        letter-spacing: .15em;
-        text-transform: lowercase;
-
-        .badge-type,
-        .badge-hit,
-        .badge-new {
-          font-size: 70%;
-        }
-
         .social {
           margin-left: 1em;
           letter-spacing: 0;
@@ -926,8 +926,6 @@ body.university {
           }
         }
       }
-
-
 
       hr {
         margin-bottom: 1em;
@@ -1037,10 +1035,6 @@ body.university {
   .view-course-lectures,
   .view-university-lectures {
     margin-top: 2em;
-    .badges {
-      display: inline-block;
-      font-size: 85%;
-    }
   }
 }
 
