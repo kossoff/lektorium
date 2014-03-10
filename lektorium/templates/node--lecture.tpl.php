@@ -40,7 +40,7 @@
   </div>
   <div class="row">
     <div class="large-12 columns">
-      <div class="label label-date">Дата публикации:</div><?php print $date; ?>
+      <div class="label label-date">Дата публикации:</div><span><?php print format_date($created, 'ru_std'); ?></span>
     </div>
   </div>
   <div class="row badges">
@@ -59,7 +59,7 @@
        
         if (!empty($content['field_redaction'])){
           $tags = field_view_field('node', $node, 'field_redaction', array('default'));
-          
+
           foreach($tags["#items"] as $tag){
             $name = $tag["taxonomy_term"]->name;
             print '<span class="badge badge-redaction">' . $name . '</span>';
