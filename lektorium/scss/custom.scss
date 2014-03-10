@@ -879,6 +879,7 @@ body.university {
     .view {
       .badge {
         font-size:70%;
+        letter-spacing: .15em; 
       }
     }
   }
@@ -900,7 +901,6 @@ body.university {
       clear: both;
 
       .course {
-
         ul {
           list-style-type: none;
 
@@ -994,11 +994,6 @@ body.university {
   }
 
   .badges {
-    color: white;
-    text-transform: lowercase;
-    font-size: 1em;
-    margin-bottom: 1em;
-
     .social {
       color: $l-grey;
 
@@ -1032,8 +1027,14 @@ body.university {
   }
 
   .view-course-lectures,
-  .view-university-lectures {
+  .view-university-lectures,
+  .view-conference-lectures,
+  .view-other-lectures {
     margin-top: 2em;
+
+    .row {
+      margin-bottom: 0;
+    }
   }
 }
 
