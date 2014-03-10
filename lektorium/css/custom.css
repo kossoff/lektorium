@@ -10330,7 +10330,7 @@ body.page-medialibrary .view-views-search .views-row .result-item .title.small-6
 body.page-medialibrary .view-mooc-search .views-row .result-item .title.small-6 h2,
 body.page-mooc .view-views-search .views-row .result-item .title.small-6 h2,
 body.page-mooc .view-mooc-search .views-row .result-item .title.small-6 h2 {
-  font-size: 90%;
+  font-size: 13px;
   font-weight: 100;
 }
 /* line 817, ../scss/custom.scss */
@@ -10390,7 +10390,7 @@ body.page-mooc .view-views-search .views-row .result-item .speaker,
 body.page-mooc .view-views-search .views-row .result-item .university,
 body.page-mooc .view-mooc-search .views-row .result-item .speaker,
 body.page-mooc .view-mooc-search .views-row .result-item .university {
-  font-size: 90%;
+  font-size: 13px;
 }
 /* line 841, ../scss/custom.scss */
 body.page-medialibrary .view-views-search .views-row .result-item .body-desc,
