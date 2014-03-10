@@ -791,8 +791,7 @@ body.page-mooc {
         .views-likes-comments {
           //color: lighten($l-grey, 15%);
           color: $l-grey;
-          //font-size: .875em;
-          font-size: 1.2em;
+          font-size: 1em;
 
           .badge {
             color: $l-grey;
@@ -1034,6 +1033,11 @@ body.university {
 
     .row {
       margin-bottom: 0;
+    }
+
+    .badges {
+      font-size: 12px;
+      margin-bottom: .5em;
     }
   }
 }
