@@ -124,7 +124,7 @@
 
       <?php if (isset($node) && $breadcrumb): print $breadcrumb; endif; ?>
 
-      <?php if (isset($node) && $title && $node->type != 'speaker' && $node->type != 'course' && $node->type != 'conference'): ?>
+      <?php if (isset($node) && $title && $node->type != 'speaker' && $node->type != 'lecture' && $node->type != 'course' && $node->type != 'conference'): ?>
         <?php print render($title_prefix); ?>
         <h1 id="page-title" class="title"><?php print $title; ?></h1>
         <?php print render($title_suffix); ?>

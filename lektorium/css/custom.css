@@ -10585,7 +10585,7 @@ body.node-type-course .row,
 body.node-type-conference .row,
 body.node-type-mooc-description .row,
 body.university .row {
-  margin-bottom: 1em;
+  margin-bottom: .1em;
 }
 /* line 974, ../scss/custom.scss */
 body.node-type-lecture .label,

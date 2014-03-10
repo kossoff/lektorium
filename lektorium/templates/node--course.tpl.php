@@ -66,11 +66,6 @@
       <div class="label label-date">Дата публикации:</div><?php print $date; ?>
     </div>
   </div>-->
-  <div class="row badges">
-    <div class="large-12 columns">
-
-    </div>
-  </div>
 
   <div class="row">
     <div class="large-5 columns"><?php print render ($content['field_picture']); ?></div>
