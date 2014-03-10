@@ -952,6 +952,17 @@ body.university {
 
 body.node-type-lecture,
 body.node-type-course,
+body.node-type-conference {
+  h1#page-title {
+    @extend .append-bottom !optional;
+    @extend .append-right !optional;
+
+    display: inline-block;
+  }
+}
+
+body.node-type-lecture,
+body.node-type-course,
 body.node-type-conference,
 body.node-type-mooc-description,
 body.university {
