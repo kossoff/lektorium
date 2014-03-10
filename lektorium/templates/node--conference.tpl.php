@@ -46,19 +46,26 @@
   <div class="row badges">
     <div class="large-12 columns">
       <?php
-      $hitcount = statistics_get ( $node->nid );
+        $hitcount = statistics_get ( $node->nid );
 
-      if ( $hitcount['totalcount'] >= 5000 )
-        print '<span class="badge badge-hit">Хит</span>';
-      ?>
-      <?php
+        if ( $hitcount['totalcount'] >= 5000 )
+          print '<span class="badge badge-hit">Хит</span>';
+
         $time_now = time ();
         $time_distinction = $time_now - $node->created;
 
         if ( $time_distinction <= 1209600 )
           print '<span class="badge badge-new">Новинка</span>';
+       
+        if (!empty($content['field_redaction'])){
+          $tags = field_view_field('node', $node, 'field_redaction', array('default'));
+          
+          foreach($tags["#items"] as $tag){
+            $name = $tag["taxonomy_term"]->name;
+            print '<span class="badge badge-redaction">' . $name . '</span>';
+          }
+        }
       ?>
-      <?php if (!empty($content['field_redaction'])): ?><span class="badge badge-redaction"><?php print render($content['field_redaction']); ?></span><?php endif; ?>
     </div>
   </div>
 
