@@ -878,6 +878,7 @@ body.university {
       padding-bottom:1em;
     }
 
+
     .field-name-field-speaker-photo,
     .field-name-field-picture {
       @extend .left !optional;
@@ -887,6 +888,8 @@ body.university {
     .view-courses-context,
     .view-university-lectures,
     .view-other-lectures {
+      clear: both;
+      
       .course {
         padding-top: .5em;
 
