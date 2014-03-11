@@ -93,12 +93,12 @@ $border-radius: 3px;
 
   color: white;
   display: inline-block;
-  font-size: 70%;
-  letter-spacing: .15em;
+  font-size: 12px;
+  letter-spacing: .1em;
   line-height: 1.2em;
-  margin-right: 5px;
+  margin-right: 4px;
   text-transform: lowercase;
-  padding: 2px 8px;
+  padding: 2px 4px;
 }
 
 .badge-type {
@@ -884,11 +884,6 @@ body.university {
       line-height: 1;
     }
 
-    .badge {
-      font-size: 100%;
-      letter-spacing: 0; 
-    }
-
     .view {
       .badge {
         letter-spacing: .15em; 
@@ -1021,7 +1016,7 @@ body.university {
       color: $l-grey;
 
       span {
-        padding: 4px 8px;
+        padding: 2px 4px;
       }
     }
   }
@@ -1054,11 +1049,6 @@ body.university {
 
     .row {
       margin-bottom: 0;
-    }
-
-    .badges {
-      font-size: 12px;
-      margin-bottom: .5em;
     }
   }
 }
