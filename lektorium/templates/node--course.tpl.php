@@ -9,31 +9,35 @@
   <?php print render($title_suffix); ?>
 
   <?php if ($page): ?>
-    <h1 id="page-title"><?php print $title; ?></h1>
-    <span class="badges">
-      <span class="badge badge-type">Курс</span>
-        <?php
-          $hitcount = statistics_get ( $node->nid );
+    <div id="page-title" class="row">
+      <div class="large-12 columns">
+        <h1><?php print $title; ?></h1>
+        <span class="badges">
+          <span class="badge badge-type">Курс</span>
+            <?php
+              $hitcount = statistics_get ( $node->nid );
 
-          if ( $hitcount['totalcount'] >= 5000 )
-            print '<span class="badge badge-hit">Хит</span>';
+              if ( $hitcount['totalcount'] >= 5000 )
+                print '<span class="badge badge-hit">Хит</span>';
 
-          $time_now = time ();
-          $time_distinction = $time_now - $node->created;
+              $time_now = time ();
+              $time_distinction = $time_now - $node->created;
 
-          if ( $time_distinction <= 1209600 )
-            print '<span class="badge badge-new">Новинка</span>';
-         
-          if (!empty($content['field_redaction'])){
-            $tags = field_view_field('node', $node, 'field_redaction', array('default'));
-            
-            foreach($tags["#items"] as $tag){
-              $name = $tag["taxonomy_term"]->name;
-              print '<span class="badge badge-redaction">' . $name . '</span>';
-            }
-          }
-        ?>
-    </span>
+              if ( $time_distinction <= 1209600 )
+                print '<span class="badge badge-new">Новинка</span>';
+             
+              if (!empty($content['field_redaction'])){
+                $tags = field_view_field('node', $node, 'field_redaction', array('default'));
+                
+                foreach($tags["#items"] as $tag){
+                  $name = $tag["taxonomy_term"]->name;
+                  print '<span class="badge badge-redaction">' . $name . '</span>';
+                }
+              }
+            ?>
+        </span>
+      </div>
+    </div>
   <?php endif; ?>
 
   <div class="row">

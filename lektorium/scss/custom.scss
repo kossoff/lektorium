@@ -953,12 +953,15 @@ body.university {
 body.node-type-lecture,
 body.node-type-course,
 body.node-type-conference {
-  h1#page-title {
+  #page-title {
     @extend .append-bottom !optional;
-    @extend .append-right !optional;
 
-    display: inline-block;
-  }
+    h1 {
+        @extend .append-right !optional;
+    
+        display: inline;
+      }
+    }
 }
 
 body.node-type-lecture,
