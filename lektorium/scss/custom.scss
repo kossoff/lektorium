@@ -891,7 +891,6 @@ body.university {
 
     .view {
       .badge {
-        font-size:70%;
         letter-spacing: .15em; 
       }
 
@@ -933,18 +932,11 @@ body.university {
     .field-name-field-view-lectures {
       .badges {
         .social {
-          margin-left: 1em;
-          letter-spacing: 0;
-
           span {
             color: $l-grey;
             margin-right: 1em;
           }
         }
-      }
-
-      hr {
-        margin-bottom: 1em;
       }
     }
   }
@@ -1039,9 +1031,6 @@ body.university {
   }
 
   .social {
-    margin-top: 2em;
-    margin-bottom: 3em;
-
     .social-link-wrap {
       @include border-radius($border-radius);
 
