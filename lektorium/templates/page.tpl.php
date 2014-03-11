@@ -122,7 +122,7 @@
 
       <a id="main-content"></a>
 
-      <?php if (isset($node) && $breadcrumb): print $breadcrumb; endif; ?>
+      <?php if ( $breadcrumb): print $breadcrumb; endif; ?>
 
       <?php if (isset($node) && $title && $node->type != 'speaker' && $node->type != 'lecture' && $node->type != 'course' && $node->type != 'conference'): ?>
         <?php print render($title_prefix); ?>
