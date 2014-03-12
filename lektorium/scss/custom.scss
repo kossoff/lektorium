@@ -884,9 +884,27 @@ body.university {
       line-height: 1;
     }
 
+    #page-title {
+      @extend .append-bottom !optional;
+
+      h1 {
+          @extend .append-right !optional;
+
+          display: inline;
+      }
+    }
+
+    #social {
+      margin-bottom: 1em;
+    }
+
+    #body {
+
+    }
+
     .view {
       .badge {
-        letter-spacing: .15em; 
+        letter-spacing: .15em;
       }
 
       .total {
@@ -939,23 +957,12 @@ body.university {
 
 body.node-type-lecture,
 body.node-type-course,
-body.node-type-conference {
-  #page-title {
-    @extend .append-bottom !optional;
-
-    h1 {
-        @extend .append-right !optional;
-    
-        display: inline;
-      }
-    }
-}
-
-body.node-type-lecture,
-body.node-type-course,
 body.node-type-conference,
 body.node-type-mooc-description,
 body.university {
+  #meta-desc-fields {
+    margin-bottom: 1em;
+  }
   .row {
     margin-bottom: .1em;
   }
