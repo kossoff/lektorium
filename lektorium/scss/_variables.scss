@@ -31,6 +31,7 @@ $l-yellow: #ece451;
 $l-red: #e74c3c;
 $l-header-grey: #56616a;
 $l-text-grey: #656565;
+$l-text-header-grey: #75767e;
 
 $primary-color: $l-violet;
 $secondary-color: $l-black;
@@ -216,7 +217,7 @@ $global-radius: 3px;
 $header-font-family: Intro, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $header-font-weight: normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: $l-text-header-grey;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;

@@ -864,6 +864,39 @@ body.page-mooc {
   }
 }
 
+body.page-user {
+  h2 {
+    font-size: 1.15em;
+  }
+
+  .view-mooc {
+    .views-row {
+      background: $l-lightyellow;
+      padding: 1em;
+      margin-bottom: 10px;
+
+      .small-9 {
+        padding-left:1em;
+        color: $l-grey;
+        font-size: 90%;
+
+        .flag-wrapper {
+          @include border-radius($border-radius);
+
+          display: inline-block;
+          background: $l-red;
+          font-size: 80%;
+          padding: .5em 1em;
+
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
 body.node-type-course,
 body.node-type-conference,
 body.node-type-lecture,
