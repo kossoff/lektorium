@@ -14,13 +14,27 @@
             <li class="name"><h1><?php print $linked_site_name; ?></h1></li>
             <li class="toggle-topbar"><a href="#"><span><?php print $top_bar_menu_text; ?></span></a></li>
           </ul>
-          <section class="top-bar-section">
+          <section class="top-bar-section right">
             <?php if ($top_bar_main_menu) :?>
               <?php print $top_bar_main_menu; ?>
             <?php endif; ?>
             <?php if ($top_bar_secondary_menu) :?>
               <?php print $top_bar_secondary_menu; ?>
             <?php endif; ?>
+            <ul>
+            <?php if ($logged_in): ?>
+              <li class="has-dropdown"><a><?php global $user; print $user->name; ?></a>
+                <ul class="dropdown">
+                  <li><a href="<?php print drupal_get_path_alias('user/' . $node->uid); ?>">Личный кабинет</a></li>
+                  <li><a href="/user/logout">Выход</a></li>
+                </ul>
+              </li>
+            <?php else: ?>
+              <li class="">
+                <a class="" href="/user">Вход</a>
+              </li>
+            <?php endif; ?>
+            </ul>
           </section>
         </nav>
       <?php if ($top_bar_classes): ?>
