@@ -195,9 +195,10 @@ $border-radius: 3px;
         margin-bottom: 2px;
 
         a {
+          color: $l-violet;
           background: white;
           border: 1px solid $l-lightgrey;
-          color: $l-violet;
+          text-shadow: none;
         }
       }
     }
