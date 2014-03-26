@@ -146,7 +146,7 @@ $border-radius: 3px;
 }
 
 .top-bar-section li a:not(.button).active {
-    color: $l-green;
+  color: $l-green;
 }
 
 .top-bar-section ul li > a {
@@ -160,7 +160,6 @@ $border-radius: 3px;
 }
 
 // по мотивам http://line25.com/tutorials/how-to-create-flat-style-breadcrumb-links-with-css
-
 .breadcrumbs > *:before {
   content: "";
   margin: 0;
@@ -413,12 +412,13 @@ body.front {
 }
 
 #main-menu {
-  @extend .right !optional;
+//  @extend .right !optional;
 }
 
 body.not-front {
   main {
     padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
 
@@ -879,22 +879,25 @@ body.page-user {
         padding-left:1em;
         color: $l-grey;
         font-size: 90%;
-
-        .flag-wrapper {
-          @include border-radius($border-radius);
-
-          display: inline-block;
-          background: $l-red;
-          font-size: 80%;
-          padding: .5em 1em;
-
-          a {
-            color: white;
-          }
-        }
       }
     }
   }
+}
+
+a.flag-link-toggle {
+  @include border-radius($border-radius);
+
+  color: white;
+  font-size: 80%;
+  padding: .5em 1em;
+}
+
+a.unflag-action {
+  background: $l-red;
+}
+
+a.flag-action {
+  background: $l-green;
 }
 
 body.node-type-course,

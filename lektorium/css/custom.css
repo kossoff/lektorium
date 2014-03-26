@@ -549,7 +549,7 @@ body.university main .field-name-field-picture {
 }
 
 /* line 334, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_global.scss */
-.right, #main-menu {
+.right {
   float: right !important;
 }
 
@@ -2777,7 +2777,7 @@ label {
   /* Styles for required inputs */
 }
 /* line 271, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_forms.scss */
-label.right, label#main-menu {
+label.right {
   float: none;
   text-align: right;
 }
@@ -5105,12 +5105,12 @@ label.error {
     height: 80px;
   }
   /* line 534, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-  .top-bar-section ul.right li .dropdown, .top-bar-section ul#main-menu li .dropdown {
+  .top-bar-section ul.right li .dropdown {
     left: auto;
     right: 0;
   }
   /* line 538, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_top-bar.scss */
-  .top-bar-section ul.right li .dropdown li .dropdown, .top-bar-section ul#main-menu li .dropdown li .dropdown {
+  .top-bar-section ul.right li .dropdown li .dropdown {
     right: 100%;
   }
 
@@ -5626,7 +5626,7 @@ label.error {
   bottom: -28px;
 }
 /* line 98, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-.joyride-tip-guide .joyride-nub.right, .joyride-tip-guide .joyride-nub#main-menu {
+.joyride-tip-guide .joyride-nub.right {
   right: -28px;
 }
 /* line 99, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
@@ -5750,7 +5750,7 @@ body.university main .joyride-tip-guide .joyride-nub.field-name-field-picture {
     bottom: -28px;
   }
   /* line 196, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_joyride.scss */
-  .joyride-tip-guide .joyride-nub.right, .joyride-tip-guide .joyride-nub#main-menu {
+  .joyride-tip-guide .joyride-nub.right {
     border-color: black !important;
     border-top-color: transparent !important;
     border-right-color: transparent !important;
@@ -7299,12 +7299,12 @@ a.th {
   z-index: 98;
 }
 /* line 91, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown.scss */
-.f-dropdown.right:before, .f-dropdown#main-menu:before {
+.f-dropdown.right:before {
   left: auto;
   right: 10px;
 }
 /* line 95, ../../../../../../../../.rvm/gems/ruby-1.9.3-p545@FOUNDATION/gems/zurb-foundation-4.3.2/scss/foundation/components/_dropdown.scss */
-.f-dropdown.right:after, .f-dropdown#main-menu:after {
+.f-dropdown.right:after {
   left: auto;
   right: 9px;
 }
@@ -9243,13 +9243,13 @@ body.university main #page-title h1 {
   font-size: 1em;
 }
 
-/* line 164, ../scss/custom.scss */
+/* line 163, ../scss/custom.scss */
 .breadcrumbs > *:before {
   content: "";
   margin: 0;
 }
 
-/* line 169, ../scss/custom.scss */
+/* line 168, ../scss/custom.scss */
 .breadcrumbs > .current a {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -9257,7 +9257,7 @@ body.university main #page-title h1 {
   max-width: 220px;
 }
 
-/* line 176, ../scss/custom.scss */
+/* line 175, ../scss/custom.scss */
 ul.breadcrumbs {
   margin: 0;
   margin-bottom: 1em;
@@ -9265,7 +9265,7 @@ ul.breadcrumbs {
   background: none;
   border: none;
 }
-/* line 185, ../scss/custom.scss */
+/* line 184, ../scss/custom.scss */
 ul.breadcrumbs li a {
   display: block;
   float: left;
@@ -9279,7 +9279,7 @@ ul.breadcrumbs li a {
   text-decoration: none;
   color: #fff !important;
 }
-/* line 202, ../scss/custom.scss */
+/* line 201, ../scss/custom.scss */
 ul.breadcrumbs li a:before {
   content: "";
   border-top: 1em solid transparent;
@@ -9290,7 +9290,7 @@ ul.breadcrumbs li a:before {
   top: 0;
   z-index: 0;
 }
-/* line 211, ../scss/custom.scss */
+/* line 210, ../scss/custom.scss */
 ul.breadcrumbs li a:after {
   content: "";
   border-top: 1em solid transparent;
@@ -9301,7 +9301,7 @@ ul.breadcrumbs li a:after {
   top: 0;
   z-index: 1;
 }
-/* line 222, ../scss/custom.scss */
+/* line 221, ../scss/custom.scss */
 ul.breadcrumbs li:first-child a {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -9310,11 +9310,11 @@ ul.breadcrumbs li:first-child a {
   -webkit-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-/* line 227, ../scss/custom.scss */
+/* line 226, ../scss/custom.scss */
 ul.breadcrumbs li:first-child a:before {
   display: none;
 }
-/* line 233, ../scss/custom.scss */
+/* line 232, ../scss/custom.scss */
 ul.breadcrumbs li:last-child a {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -9324,17 +9324,17 @@ ul.breadcrumbs li:last-child a {
   border-bottom-right-radius: 5px;
   padding-right: 40px;
 }
-/* line 240, ../scss/custom.scss */
+/* line 239, ../scss/custom.scss */
 ul.breadcrumbs li:last-child a:after {
   display: none;
 }
 
-/* line 246, ../scss/custom.scss */
+/* line 245, ../scss/custom.scss */
 body.front {
   text-align: center;
   font-size: 110%;
 }
-/* line 250, ../scss/custom.scss */
+/* line 249, ../scss/custom.scss */
 body.front header {
   text-shadow: 0px 1px 3px rgba(26, 30, 34, 0.6);
   background: #f8f8f8;
@@ -9342,7 +9342,7 @@ body.front header {
   height: auto;
   position: relative;
 }
-/* line 258, ../scss/custom.scss */
+/* line 257, ../scss/custom.scss */
 body.front header #bg-wrap {
   background: url(../images/top.jpg) no-repeat;
   background-size: cover;
@@ -9351,34 +9351,34 @@ body.front header #bg-wrap {
   max-width: 100%;
   vertical-align: middle;
 }
-/* line 268, ../scss/custom.scss */
+/* line 267, ../scss/custom.scss */
 body.front header h1#site-name,
 body.front header h2.site-slogan {
   color: white;
   text-transform: uppercase;
 }
-/* line 273, ../scss/custom.scss */
+/* line 272, ../scss/custom.scss */
 body.front header h1#site-name {
   font-size: 3.75em;
   line-height: 1;
   margin-top: 200px;
   margin-bottom: 0;
 }
-/* line 279, ../scss/custom.scss */
+/* line 278, ../scss/custom.scss */
 body.front header h1#site-name span {
   background-color: rgba(0, 0, 0, 0.35);
   display: inline-block;
   letter-spacing: .2em;
   padding-left: .2em;
 }
-/* line 287, ../scss/custom.scss */
+/* line 286, ../scss/custom.scss */
 body.front header h2.site-slogan {
   font-size: 1.155em;
   font-weight: 100;
   margin-top: .2em;
   letter-spacing: .24em;
 }
-/* line 294, ../scss/custom.scss */
+/* line 293, ../scss/custom.scss */
 body.front header span#numbers {
   font-size: 1.4em;
   font-weight: 100;
@@ -9386,42 +9386,42 @@ body.front header span#numbers {
   letter-spacing: .04em;
   margin-top: 3em;
 }
-/* line 302, ../scss/custom.scss */
+/* line 301, ../scss/custom.scss */
 body.front header h2 {
   font-size: 1.6875em;
 }
-/* line 307, ../scss/custom.scss */
+/* line 306, ../scss/custom.scss */
 body.front .main {
   background: white;
   color: #1a1e22;
 }
-/* line 311, ../scss/custom.scss */
+/* line 310, ../scss/custom.scss */
 body.front .main .panel-pane {
   margin: 0;
 }
-/* line 319, ../scss/custom.scss */
+/* line 318, ../scss/custom.scss */
 body.front .main .panel-pane h2,
 body.front .main .panel-pane h3 {
   color: #56616a;
   letter-spacing: .1em;
   padding-top: 2em;
 }
-/* line 325, ../scss/custom.scss */
+/* line 324, ../scss/custom.scss */
 body.front .main .panel-pane h2 {
   font-size: 2.2em;
 }
-/* line 329, ../scss/custom.scss */
+/* line 328, ../scss/custom.scss */
 body.front .main .panel-pane h3 {
   font-size: 1.3em;
   padding-bottom: 1em;
 }
-/* line 334, ../scss/custom.scss */
+/* line 333, ../scss/custom.scss */
 body.front .main .panel-pane h2:after {
   display: block;
   content: url(../images/underline.png);
   overflow: auto;
 }
-/* line 341, ../scss/custom.scss */
+/* line 340, ../scss/custom.scss */
 body.front .main .panel-pane .button-violet {
   border-style: solid;
   border-width: 1px;
@@ -9462,7 +9462,7 @@ body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-violet:hover, body.front .main .panel-pane .button-violet:focus {
   color: white;
 }
-/* line 346, ../scss/custom.scss */
+/* line 345, ../scss/custom.scss */
 body.front .main .panel-pane .button-green {
   border-style: solid;
   border-width: 1px;
@@ -9503,7 +9503,7 @@ body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .
 body.front .main .panel-pane .button-green:hover, body.front .main .panel-pane .button-green:focus {
   color: white;
 }
-/* line 351, ../scss/custom.scss */
+/* line 350, ../scss/custom.scss */
 body.front .main .panel-pane .button-red {
   border-style: solid;
   border-width: 1px;
@@ -9546,7 +9546,7 @@ body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .bu
 body.front .main .panel-pane .button-red:hover, body.front .main .panel-pane .button-red:focus {
   color: white;
 }
-/* line 359, ../scss/custom.scss */
+/* line 358, ../scss/custom.scss */
 body.front .main .panel-pane .button-yellow {
   border-style: solid;
   border-width: 1px;
@@ -9588,7 +9588,7 @@ body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane 
 body.front .main .panel-pane .button-yellow:hover, body.front .main .panel-pane .button-yellow:focus {
   color: white;
 }
-/* line 366, ../scss/custom.scss */
+/* line 365, ../scss/custom.scss */
 body.front .main .panel-pane .button-lightgrey {
   border-style: solid;
   border-width: 1px;
@@ -9630,42 +9630,43 @@ body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pa
 body.front .main .panel-pane .button-lightgrey:hover, body.front .main .panel-pane .button-lightgrey:focus {
   color: #333333;
 }
-/* line 373, ../scss/custom.scss */
+/* line 372, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap {
   padding: 1em 0 2em 0;
 }
-/* line 376, ../scss/custom.scss */
+/* line 375, ../scss/custom.scss */
 body.front .main .panel-pane .button-wrap a {
   font-family: intro;
   font-weight: 100;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-/* line 384, ../scss/custom.scss */
+/* line 383, ../scss/custom.scss */
 body.front .main .panel-pane .row {
   padding: 2em 0;
 }
-/* line 392, ../scss/custom.scss */
+/* line 391, ../scss/custom.scss */
 body.front .main .panel-pane #medialibrary {
   background: #f8f8f8;
 }
-/* line 396, ../scss/custom.scss */
+/* line 395, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants {
   background: #1a1e22;
   color: #f8f8f8;
 }
-/* line 400, ../scss/custom.scss */
+/* line 399, ../scss/custom.scss */
 body.front .main .panel-pane #mediagrants h2 {
   color: #f8f8f8;
 }
-/* line 406, ../scss/custom.scss */
+/* line 405, ../scss/custom.scss */
 body.front .main .panel-pane #studio h3 {
   background: #f8f8f8;
 }
 
-/* line 420, ../scss/custom.scss */
+/* line 419, ../scss/custom.scss */
 body.not-front main {
   padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 /* line 425, ../scss/custom.scss */
@@ -10449,24 +10450,30 @@ body.page-user .view-mooc .views-row .small-9 {
   color: #919191;
   font-size: 90%;
 }
-/* line 883, ../scss/custom.scss */
-body.page-user .view-mooc .views-row .small-9 .flag-wrapper {
+
+/* line 887, ../scss/custom.scss */
+a.flag-link-toggle {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  display: inline-block;
-  background: #e74c3c;
+  color: white;
   font-size: 80%;
   padding: .5em 1em;
 }
-/* line 891, ../scss/custom.scss */
-body.page-user .view-mooc .views-row .small-9 .flag-wrapper a {
-  color: white;
+
+/* line 895, ../scss/custom.scss */
+a.unflag-action {
+  background: #e74c3c;
 }
 
-/* line 906, ../scss/custom.scss */
+/* line 899, ../scss/custom.scss */
+a.flag-action {
+  background: #88c540;
+}
+
+/* line 909, ../scss/custom.scss */
 body.node-type-course main,
 body.node-type-conference main,
 body.node-type-lecture main,
@@ -10476,7 +10483,7 @@ body.university main {
   color: #656565;
   padding-top: 3em;
 }
-/* line 912, ../scss/custom.scss */
+/* line 915, ../scss/custom.scss */
 body.node-type-course main h1,
 body.node-type-course main h2,
 body.node-type-course main h3,
@@ -10497,7 +10504,7 @@ body.university main h2,
 body.university main h3 {
   color: #656565;
 }
-/* line 916, ../scss/custom.scss */
+/* line 919, ../scss/custom.scss */
 body.node-type-course main h1,
 body.node-type-conference main h1,
 body.node-type-lecture main h1,
@@ -10506,7 +10513,7 @@ body.node-type-mooc-description main h1,
 body.university main h1 {
   line-height: 1;
 }
-/* line 923, ../scss/custom.scss */
+/* line 926, ../scss/custom.scss */
 body.node-type-course main #page-title h1,
 body.node-type-conference main #page-title h1,
 body.node-type-lecture main #page-title h1,
@@ -10515,7 +10522,7 @@ body.node-type-mooc-description main #page-title h1,
 body.university main #page-title h1 {
   display: inline;
 }
-/* line 930, ../scss/custom.scss */
+/* line 933, ../scss/custom.scss */
 body.node-type-course main #social,
 body.node-type-conference main #social,
 body.node-type-lecture main #social,
@@ -10524,7 +10531,7 @@ body.node-type-mooc-description main #social,
 body.university main #social {
   margin-bottom: 1em;
 }
-/* line 939, ../scss/custom.scss */
+/* line 942, ../scss/custom.scss */
 body.node-type-course main .view .badge,
 body.node-type-conference main .view .badge,
 body.node-type-lecture main .view .badge,
@@ -10533,7 +10540,7 @@ body.node-type-mooc-description main .view .badge,
 body.university main .view .badge {
   letter-spacing: .15em;
 }
-/* line 943, ../scss/custom.scss */
+/* line 946, ../scss/custom.scss */
 body.node-type-course main .view .total,
 body.node-type-conference main .view .total,
 body.node-type-lecture main .view .total,
@@ -10543,7 +10550,7 @@ body.university main .view .total {
   margin-top: .4em;
 }
 
-/* line 955, ../scss/custom.scss */
+/* line 958, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-speaker-photo,
 body.node-type-speaker main .field-name-field-picture,
 body.node-type-lecture main .field-name-field-speaker-photo,
@@ -10552,7 +10559,7 @@ body.university main .field-name-field-speaker-photo,
 body.university main .field-name-field-picture {
   padding-right: 1em;
 }
-/* line 962, ../scss/custom.scss */
+/* line 965, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context,
 body.node-type-speaker main .view-university-lectures,
 body.node-type-speaker main .view-other-lectures,
@@ -10564,7 +10571,7 @@ body.university main .view-university-lectures,
 body.university main .view-other-lectures {
   clear: both;
 }
-/* line 966, ../scss/custom.scss */
+/* line 969, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context .course ul,
 body.node-type-speaker main .view-university-lectures .course ul,
 body.node-type-speaker main .view-other-lectures .course ul,
@@ -10576,7 +10583,7 @@ body.university main .view-university-lectures .course ul,
 body.university main .view-other-lectures .course ul {
   list-style-type: none;
 }
-/* line 970, ../scss/custom.scss */
+/* line 973, ../scss/custom.scss */
 body.node-type-speaker main .view-courses-context .course ul li a,
 body.node-type-speaker main .view-university-lectures .course ul li a,
 body.node-type-speaker main .view-other-lectures .course ul li a,
@@ -10588,7 +10595,7 @@ body.university main .view-university-lectures .course ul li a,
 body.university main .view-other-lectures .course ul li a {
   line-height: 1;
 }
-/* line 981, ../scss/custom.scss */
+/* line 984, ../scss/custom.scss */
 body.node-type-speaker main .field-name-field-view-courses .badges .social span,
 body.node-type-speaker main .field-name-field-view-lectures .badges .social span,
 body.node-type-lecture main .field-name-field-view-courses .badges .social span,
@@ -10599,7 +10606,7 @@ body.university main .field-name-field-view-lectures .badges .social span {
   margin-right: 1em;
 }
 
-/* line 996, ../scss/custom.scss */
+/* line 999, ../scss/custom.scss */
 body.node-type-lecture #meta-desc-fields,
 body.node-type-course #meta-desc-fields,
 body.node-type-conference #meta-desc-fields,
@@ -10607,7 +10614,7 @@ body.node-type-mooc-description #meta-desc-fields,
 body.university #meta-desc-fields {
   margin-bottom: 1em;
 }
-/* line 999, ../scss/custom.scss */
+/* line 1002, ../scss/custom.scss */
 body.node-type-lecture .row,
 body.node-type-course .row,
 body.node-type-conference .row,
@@ -10615,7 +10622,7 @@ body.node-type-mooc-description .row,
 body.university .row {
   margin-bottom: .1em;
 }
-/* line 1004, ../scss/custom.scss */
+/* line 1007, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-lecture .field,
 body.node-type-course .label,
@@ -10630,7 +10637,7 @@ body.university .field {
   padding: 0;
   margin: 0;
 }
-/* line 1010, ../scss/custom.scss */
+/* line 1013, ../scss/custom.scss */
 body.node-type-lecture .label,
 body.node-type-course .label,
 body.node-type-conference .label,
@@ -10644,7 +10651,7 @@ body.university .label {
   text-align: left;
   margin-bottom: 1em;
 }
-/* line 1020, ../scss/custom.scss */
+/* line 1023, ../scss/custom.scss */
 body.node-type-lecture .label-date,
 body.node-type-course .label-date,
 body.node-type-conference .label-date,
@@ -10652,7 +10659,7 @@ body.node-type-mooc-description .label-date,
 body.university .label-date {
   width: 160px;
 }
-/* line 1033, ../scss/custom.scss */
+/* line 1036, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t,
 body.node-type-lecture .field-name-field-subject-t,
 body.node-type-lecture .field-name-field-view-courses,
@@ -10705,7 +10712,7 @@ body.university .field-name-field-status-mooc,
 body.university .field-name-field-date-recorded {
   display: table-cell;
 }
-/* line 1036, ../scss/custom.scss */
+/* line 1039, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t ul,
 body.node-type-lecture .field-name-field-subject-t ul,
 body.node-type-lecture .field-name-field-view-courses ul,
@@ -10761,7 +10768,7 @@ body.university .field-name-field-date-recorded ul {
   padding: 0;
   margin: 0;
 }
-/* line 1044, ../scss/custom.scss */
+/* line 1047, ../scss/custom.scss */
 body.node-type-lecture .label-date + span,
 body.node-type-course .label-date + span,
 body.node-type-conference .label-date + span,
@@ -10769,7 +10776,7 @@ body.node-type-mooc-description .label-date + span,
 body.university .label-date + span {
   display: table-cell;
 }
-/* line 1049, ../scss/custom.scss */
+/* line 1052, ../scss/custom.scss */
 body.node-type-lecture .badges .social,
 body.node-type-course .badges .social,
 body.node-type-conference .badges .social,
@@ -10777,7 +10784,7 @@ body.node-type-mooc-description .badges .social,
 body.university .badges .social {
   color: #919191;
 }
-/* line 1052, ../scss/custom.scss */
+/* line 1055, ../scss/custom.scss */
 body.node-type-lecture .badges .social span,
 body.node-type-course .badges .social span,
 body.node-type-conference .badges .social span,
@@ -10785,7 +10792,7 @@ body.node-type-mooc-description .badges .social span,
 body.university .badges .social span {
   padding: 2px 4px;
 }
-/* line 1058, ../scss/custom.scss */
+/* line 1061, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
 body.node-type-course #code-for-blog,
 body.node-type-conference #code-for-blog,
@@ -10793,7 +10800,7 @@ body.node-type-mooc-description #code-for-blog,
 body.university #code-for-blog {
   margin-top: 1em;
 }
-/* line 1063, ../scss/custom.scss */
+/* line 1066, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap,
 body.node-type-course .social .social-link-wrap,
 body.node-type-conference .social .social-link-wrap,
@@ -10808,7 +10815,7 @@ body.university .social .social-link-wrap {
   background: #f8f8f8;
   border: 1px solid #919191;
 }
-/* line 1070, ../scss/custom.scss */
+/* line 1073, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap i,
 body.node-type-course .social .social-link-wrap i,
 body.node-type-conference .social .social-link-wrap i,
@@ -10818,7 +10825,7 @@ body.university .social .social-link-wrap i {
   padding-right: .5em;
   border-right: 1px solid #919191;
 }
-/* line 1081, ../scss/custom.scss */
+/* line 1084, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures,
 body.node-type-lecture .view-university-lectures,
 body.node-type-lecture .view-conference-lectures,
@@ -10841,7 +10848,7 @@ body.university .view-conference-lectures,
 body.university .view-other-lectures {
   margin-top: 2em;
 }
-/* line 1084, ../scss/custom.scss */
+/* line 1087, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures .row,
 body.node-type-lecture .view-university-lectures .row,
 body.node-type-lecture .view-conference-lectures .row,
@@ -10871,7 +10878,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 1097, ../scss/custom.scss */
+/* line 1100, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10880,24 +10887,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 1103, ../scss/custom.scss */
+/* line 1106, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 1105, ../scss/custom.scss */
+/* line 1108, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 1107, ../scss/custom.scss */
+/* line 1110, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 1110, ../scss/custom.scss */
+/* line 1113, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10907,7 +10914,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 1116, ../scss/custom.scss */
+/* line 1119, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
