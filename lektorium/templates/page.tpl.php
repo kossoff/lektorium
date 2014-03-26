@@ -21,9 +21,9 @@
             <?php if ($top_bar_secondary_menu) :?>
               <?php print $top_bar_secondary_menu; ?>
             <?php endif; ?>
-            <ul>
+            <ul id="login">
             <?php if ($logged_in): ?>
-              <li class="has-dropdown"><a><?php global $user; print $user->name; ?></a>
+              <li class="has-dropdown"><a class="user"><?php global $user; print $user->name; ?></a>
                 <ul class="dropdown">
                   <li><a href="<?php print drupal_get_path_alias('user/' . $node->uid); ?>">Личный кабинет</a></li>
                   <li><a href="/user/logout">Выход</a></li>
@@ -31,7 +31,7 @@
               </li>
             <?php else: ?>
               <li class="">
-                <a class="" href="/user">Вход</a>
+                <a class="enter" href="/user">Войти</a>
               </li>
             <?php endif; ?>
             </ul>

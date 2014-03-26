@@ -159,6 +159,51 @@ $border-radius: 3px;
   font-size: 1em;
 }
 
+#login {
+  li {
+    line-height: $topbar-height;
+
+    a {
+      @include border-radius($border-radius);
+
+      display: inline-block;
+      letter-spacing: 1px;
+      line-height: 1em;
+      //margin: 0 26.6667px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    a.enter {
+      background: $l-green;
+    }
+
+    a.enter:hover {
+      background: darken($l-green, 10%);
+    }
+
+    a.user {
+      background: lighten($l-darkgrey, 10%);
+      padding-right: 0;
+    }
+
+    ul {
+      margin-top: -20px;
+
+      li {
+        line-height: 1em;
+        margin-bottom: 2px;
+
+        a {
+          background: white;
+          border: 1px solid $l-lightgrey;
+          color: $l-violet;
+        }
+      }
+    }
+  }
+}
+
 // по мотивам http://line25.com/tutorials/how-to-create-flat-style-breadcrumb-links-with-css
 .breadcrumbs > *:before {
   content: "";
