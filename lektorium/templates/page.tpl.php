@@ -25,7 +25,7 @@
             <?php if ($logged_in): ?>
               <li class="has-dropdown"><a class="user"><?php global $user; print $user->name; ?></a>
                 <ul class="dropdown">
-                  <li><a href="<?php print drupal_get_path_alias('user/' . $node->uid); ?>">Личный кабинет</a></li>
+                  <li><a href="/user">Личный кабинет</a></li>
                   <li><a href="/user/logout">Выход</a></li>
                 </ul>
               </li>
