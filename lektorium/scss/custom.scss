@@ -1136,6 +1136,37 @@ body.university {
   }
 }
 
+body.node-type-lecture {
+  .social {
+    .hitcount,
+    .field-name-field-likebtn {
+      display: inline-block;
+    }
+
+    .hitcount {
+      @include border-radius(2px);
+
+      color: #787869;
+      display: inline-block;
+      //outline: medium none;
+      //overflow: visible;
+      position: relative;
+      text-decoration: none;
+      top: 2px;
+      background-color: #FAFAFA;
+      border: 1px solid #C6C6C6;
+      color: #555;
+      padding: 9px;
+      padding-bottom: 10px;
+
+      .fi-eye,
+      .totalcount {
+
+     }
+    }
+  }
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher
