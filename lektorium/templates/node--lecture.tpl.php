@@ -99,6 +99,7 @@
     hide($content['links']);
     hide($content['field_tags']);
     print render($content);
+    print render($content['comments']);
   ?>
 
 
