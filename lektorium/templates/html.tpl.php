@@ -55,7 +55,6 @@
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-<meta name="likebtn-website-verification" content="11ddd9c8ffe89840" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div class="skip-link">
