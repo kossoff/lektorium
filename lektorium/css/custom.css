@@ -10919,13 +10919,37 @@ body.university .view-other-lectures .row {
   margin-bottom: 0;
 }
 
+/* line 1142, ../scss/custom.scss */
+body.node-type-lecture .social .hitcount,
+body.node-type-lecture .social .field-name-field-likebtn {
+  display: inline-block;
+}
+/* line 1146, ../scss/custom.scss */
+body.node-type-lecture .social .hitcount {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  color: #787869;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  top: 2px;
+  background-color: #FAFAFA;
+  border: 1px solid #C6C6C6;
+  color: #555;
+  padding: 9px;
+  padding-bottom: 10px;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 1146, ../scss/custom.scss */
+/* line 1177, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10934,24 +10958,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 1152, ../scss/custom.scss */
+/* line 1183, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 1154, ../scss/custom.scss */
+/* line 1185, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 1156, ../scss/custom.scss */
+/* line 1187, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 1159, ../scss/custom.scss */
+/* line 1190, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10961,7 +10985,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 1165, ../scss/custom.scss */
+/* line 1196, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
