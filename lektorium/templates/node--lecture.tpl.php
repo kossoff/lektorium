@@ -80,19 +80,11 @@
       <div id="social">
         <div class="row social">
           <div class="large-12 columns">
-<<<<<<< HEAD
-            <span class="social-link-wrap"><i class="fi-eye"></i><span class="totalcount"><?php print $hitcount['totalcount']; ?></span></span>
-            <!--span class="social-link-wrap">
-		<i class="fi-like"></i><span class="likes">Нравится 89</span>
-	    </span-->
-         </div>
-=======
             <div class="hitcount">
               <i class="fi-eye"></i> <span class="totalcount"><?php print $hitcount['totalcount']; ?></span>
             </div>
             <?php print render($content['field_likebtn']); ?>
           </div>
->>>>>>> dev_x
         </div>
       </div>
       <div id="body">
