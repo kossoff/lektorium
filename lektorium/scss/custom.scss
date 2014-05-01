@@ -893,15 +893,7 @@ body.page-mooc {
           margin-bottom:.2em;
         }
 
-        .speaker a {
-          padding-left:2px;
-        }
-
-        .speaker,
-        .university {
-          font-size: 13px;
-        }
-
+        .dates,
         .body-desc {
           color: $l-grey;
           font-size: 90%;
@@ -910,6 +902,17 @@ body.page-mooc {
           padding-top: .4em;
           overflow: hidden;
         }
+
+        .dates,
+        .speaker,
+        .university {
+          font-size: 13px;
+        }
+
+        .speaker a {
+          padding-left:2px;
+        }
+
       }
     }
   }
