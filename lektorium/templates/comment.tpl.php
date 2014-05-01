@@ -66,12 +66,7 @@
     <span class="new"><?php print $new ?></span>
   <?php endif; ?>
 
-<!--  <?php print render($title_prefix); ?>
-  <h3<?php print $title_attributes; ?>><?php print $title ?></h3>
-  <?php print render($title_suffix); ?>
--->
   <div class="submitted">
-   <!-- <?php print $permalink; ?>-->
     <?php print $submitted; ?>
   </div>
 
@@ -87,6 +82,4 @@
     </div>
     <?php endif; ?>
   </div>
-
-  <?php print render($content['links']) ?>
 </div>
