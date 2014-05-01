@@ -236,3 +236,15 @@ function lektorium_form_views_exposed_form_alter(&$form, &$form_state, $form_id)
   $form['recorded_to']['#size'] = 9;
   $form['recorded_to']['#maxlength'] = 10;
 }
+
+function lektorium_form_comment_form_alter(&$form, &$form_state) {
+  $form['author']['#type'] = 'fieldset';
+  $form['author']['#attributes'] = array(
+      'placeholder' => t('Например: Математика'),
+      'class' => array('hide'),
+    );
+}
+
+function lektorium_preprocess_comment(&$vars) {
+  $vars['submitted'] = $vars['created'] . ' — ' . $vars['author'];
+}

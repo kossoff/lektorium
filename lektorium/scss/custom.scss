@@ -287,6 +287,12 @@ ul.breadcrumbs {
   }
 }
 
+#comment-form {
+  label {
+    display: none;
+  }
+}
+
 body.front {
   text-align: center;
   font-size: 110%;
