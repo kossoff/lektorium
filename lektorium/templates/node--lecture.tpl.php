@@ -62,6 +62,13 @@
       </div>
     </div>
     <?php endif; ?>
+    <?php if (!strripos(render($content['field_view_conf']), 'view-empty')): ?>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="label">Конференция:</div><?php print render($content['field_view_conf']); ?>
+      </div>
+    </div>
+    <?php endif; ?>
     <div class="row">
       <div class="large-12 columns">
         <div class="label label-date">Дата записи:</div><?php print render($content['field_date_recorded']); ?>

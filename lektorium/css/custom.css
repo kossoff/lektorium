@@ -10718,10 +10718,11 @@ body.node-type-mooc-description .label-date,
 body.university .label-date {
   width: 160px;
 }
-/* line 1090, ../scss/custom.scss */
+/* line 1091, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t,
 body.node-type-lecture .field-name-field-subject-t,
 body.node-type-lecture .field-name-field-view-courses,
+body.node-type-lecture .field-name-field-view-conf,
 body.node-type-lecture .field-name-field-speaker,
 body.node-type-lecture .field-name-field-university-t-mooc,
 body.node-type-lecture .field-name-field-subject-t-mooc,
@@ -10732,6 +10733,7 @@ body.node-type-lecture .field-name-field-date-recorded,
 body.node-type-course .field-name-field-university-t,
 body.node-type-course .field-name-field-subject-t,
 body.node-type-course .field-name-field-view-courses,
+body.node-type-course .field-name-field-view-conf,
 body.node-type-course .field-name-field-speaker,
 body.node-type-course .field-name-field-university-t-mooc,
 body.node-type-course .field-name-field-subject-t-mooc,
@@ -10742,6 +10744,7 @@ body.node-type-course .field-name-field-date-recorded,
 body.node-type-conference .field-name-field-university-t,
 body.node-type-conference .field-name-field-subject-t,
 body.node-type-conference .field-name-field-view-courses,
+body.node-type-conference .field-name-field-view-conf,
 body.node-type-conference .field-name-field-speaker,
 body.node-type-conference .field-name-field-university-t-mooc,
 body.node-type-conference .field-name-field-subject-t-mooc,
@@ -10752,6 +10755,7 @@ body.node-type-conference .field-name-field-date-recorded,
 body.node-type-mooc-description .field-name-field-university-t,
 body.node-type-mooc-description .field-name-field-subject-t,
 body.node-type-mooc-description .field-name-field-view-courses,
+body.node-type-mooc-description .field-name-field-view-conf,
 body.node-type-mooc-description .field-name-field-speaker,
 body.node-type-mooc-description .field-name-field-university-t-mooc,
 body.node-type-mooc-description .field-name-field-subject-t-mooc,
@@ -10762,6 +10766,7 @@ body.node-type-mooc-description .field-name-field-date-recorded,
 body.university .field-name-field-university-t,
 body.university .field-name-field-subject-t,
 body.university .field-name-field-view-courses,
+body.university .field-name-field-view-conf,
 body.university .field-name-field-speaker,
 body.university .field-name-field-university-t-mooc,
 body.university .field-name-field-subject-t-mooc,
@@ -10771,10 +10776,11 @@ body.university .field-name-field-status-mooc,
 body.university .field-name-field-date-recorded {
   display: table-cell;
 }
-/* line 1093, ../scss/custom.scss */
+/* line 1094, ../scss/custom.scss */
 body.node-type-lecture .field-name-field-university-t ul,
 body.node-type-lecture .field-name-field-subject-t ul,
 body.node-type-lecture .field-name-field-view-courses ul,
+body.node-type-lecture .field-name-field-view-conf ul,
 body.node-type-lecture .field-name-field-speaker ul,
 body.node-type-lecture .field-name-field-university-t-mooc ul,
 body.node-type-lecture .field-name-field-subject-t-mooc ul,
@@ -10785,6 +10791,7 @@ body.node-type-lecture .field-name-field-date-recorded ul,
 body.node-type-course .field-name-field-university-t ul,
 body.node-type-course .field-name-field-subject-t ul,
 body.node-type-course .field-name-field-view-courses ul,
+body.node-type-course .field-name-field-view-conf ul,
 body.node-type-course .field-name-field-speaker ul,
 body.node-type-course .field-name-field-university-t-mooc ul,
 body.node-type-course .field-name-field-subject-t-mooc ul,
@@ -10795,6 +10802,7 @@ body.node-type-course .field-name-field-date-recorded ul,
 body.node-type-conference .field-name-field-university-t ul,
 body.node-type-conference .field-name-field-subject-t ul,
 body.node-type-conference .field-name-field-view-courses ul,
+body.node-type-conference .field-name-field-view-conf ul,
 body.node-type-conference .field-name-field-speaker ul,
 body.node-type-conference .field-name-field-university-t-mooc ul,
 body.node-type-conference .field-name-field-subject-t-mooc ul,
@@ -10805,6 +10813,7 @@ body.node-type-conference .field-name-field-date-recorded ul,
 body.node-type-mooc-description .field-name-field-university-t ul,
 body.node-type-mooc-description .field-name-field-subject-t ul,
 body.node-type-mooc-description .field-name-field-view-courses ul,
+body.node-type-mooc-description .field-name-field-view-conf ul,
 body.node-type-mooc-description .field-name-field-speaker ul,
 body.node-type-mooc-description .field-name-field-university-t-mooc ul,
 body.node-type-mooc-description .field-name-field-subject-t-mooc ul,
@@ -10815,6 +10824,7 @@ body.node-type-mooc-description .field-name-field-date-recorded ul,
 body.university .field-name-field-university-t ul,
 body.university .field-name-field-subject-t ul,
 body.university .field-name-field-view-courses ul,
+body.university .field-name-field-view-conf ul,
 body.university .field-name-field-speaker ul,
 body.university .field-name-field-university-t-mooc ul,
 body.university .field-name-field-subject-t-mooc ul,
@@ -10827,7 +10837,7 @@ body.university .field-name-field-date-recorded ul {
   padding: 0;
   margin: 0;
 }
-/* line 1101, ../scss/custom.scss */
+/* line 1102, ../scss/custom.scss */
 body.node-type-lecture .label-date + span,
 body.node-type-course .label-date + span,
 body.node-type-conference .label-date + span,
@@ -10835,7 +10845,7 @@ body.node-type-mooc-description .label-date + span,
 body.university .label-date + span {
   display: table-cell;
 }
-/* line 1106, ../scss/custom.scss */
+/* line 1107, ../scss/custom.scss */
 body.node-type-lecture .badges .social,
 body.node-type-course .badges .social,
 body.node-type-conference .badges .social,
@@ -10843,7 +10853,7 @@ body.node-type-mooc-description .badges .social,
 body.university .badges .social {
   color: #919191;
 }
-/* line 1109, ../scss/custom.scss */
+/* line 1110, ../scss/custom.scss */
 body.node-type-lecture .badges .social span,
 body.node-type-course .badges .social span,
 body.node-type-conference .badges .social span,
@@ -10851,7 +10861,7 @@ body.node-type-mooc-description .badges .social span,
 body.university .badges .social span {
   padding: 2px 4px;
 }
-/* line 1115, ../scss/custom.scss */
+/* line 1116, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
 body.node-type-course #code-for-blog,
 body.node-type-conference #code-for-blog,
@@ -10859,7 +10869,7 @@ body.node-type-mooc-description #code-for-blog,
 body.university #code-for-blog {
   margin-top: 1em;
 }
-/* line 1120, ../scss/custom.scss */
+/* line 1121, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap,
 body.node-type-course .social .social-link-wrap,
 body.node-type-conference .social .social-link-wrap,
@@ -10874,7 +10884,7 @@ body.university .social .social-link-wrap {
   background: #f8f8f8;
   border: 1px solid #919191;
 }
-/* line 1127, ../scss/custom.scss */
+/* line 1128, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap i,
 body.node-type-course .social .social-link-wrap i,
 body.node-type-conference .social .social-link-wrap i,
@@ -10884,7 +10894,7 @@ body.university .social .social-link-wrap i {
   padding-right: .5em;
   border-right: 1px solid #919191;
 }
-/* line 1138, ../scss/custom.scss */
+/* line 1139, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures,
 body.node-type-lecture .view-university-lectures,
 body.node-type-lecture .view-conference-lectures,
@@ -10907,7 +10917,7 @@ body.university .view-conference-lectures,
 body.university .view-other-lectures {
   margin-top: 2em;
 }
-/* line 1141, ../scss/custom.scss */
+/* line 1142, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures .row,
 body.node-type-lecture .view-university-lectures .row,
 body.node-type-lecture .view-conference-lectures .row,
@@ -10931,12 +10941,12 @@ body.university .view-other-lectures .row {
   margin-bottom: 0;
 }
 
-/* line 1150, ../scss/custom.scss */
+/* line 1151, ../scss/custom.scss */
 body.node-type-lecture .social .hitcount,
 body.node-type-lecture .social .field-name-field-likebtn {
   display: inline-block;
 }
-/* line 1154, ../scss/custom.scss */
+/* line 1155, ../scss/custom.scss */
 body.node-type-lecture .social .hitcount {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -10961,7 +10971,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 1185, ../scss/custom.scss */
+/* line 1186, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -10970,24 +10980,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 1191, ../scss/custom.scss */
+/* line 1192, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 1193, ../scss/custom.scss */
+/* line 1194, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 1195, ../scss/custom.scss */
+/* line 1196, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 1198, ../scss/custom.scss */
+/* line 1199, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -10997,7 +11007,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 1204, ../scss/custom.scss */
+/* line 1205, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";
