@@ -243,6 +243,8 @@ function lektorium_form_comment_form_alter(&$form, &$form_state) {
       'placeholder' => t('Например: Математика'),
       'class' => array('hide'),
     );
+  $form['actions']['submit']['#value'] = t('Добавить комментарий');
+
 }
 
 function lektorium_preprocess_comment(&$vars) {
