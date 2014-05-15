@@ -303,6 +303,12 @@ ul.breadcrumbs {
   .field-name-comment-body {
     font-size: 1.23em;
   }
+
+  ul.links {
+    li {
+      list-style-type: none;
+    }
+  }
 }
 
 body.front {
