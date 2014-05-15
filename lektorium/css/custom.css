@@ -10495,11 +10495,11 @@ body.page-mooc .view-mooc-search .views-row .result-item .university {
   font-size: 13px;
 }
 /* line 920, ../scss/custom.scss */
-body.page-medialibrary .view-views-search .views-row .result-item .speaker a,
-body.page-medialibrary .view-mooc-search .views-row .result-item .speaker a,
-body.page-mooc .view-views-search .views-row .result-item .speaker a,
-body.page-mooc .view-mooc-search .views-row .result-item .speaker a {
-  padding-left: 2px;
+body.page-medialibrary .view-views-search .views-row .result-item .speaker,
+body.page-medialibrary .view-mooc-search .views-row .result-item .speaker,
+body.page-mooc .view-views-search .views-row .result-item .speaker,
+body.page-mooc .view-mooc-search .views-row .result-item .speaker {
+  padding-left: 14px;
 }
 
 /* line 930, ../scss/custom.scss */
