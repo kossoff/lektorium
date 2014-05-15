@@ -72,6 +72,7 @@
       hide($content['links']);
       print render($content);
     ?>
+    <?php print render($content['links']) ?>
     <?php if ($signature): ?>
     <div class="user-signature clearfix">
       <?php print $signature ?>
