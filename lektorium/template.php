@@ -248,5 +248,6 @@ function lektorium_form_comment_form_alter(&$form, &$form_state) {
 }
 
 function lektorium_preprocess_comment(&$vars) {
-  $vars['submitted'] = $vars['created'] . ' — ' . $vars['author'];
+  $vars['submitted'] = $vars['author'] . ' — ' . $vars['created'];
+  //unset($vars['content']['links']['comment']['#links']['comment-reply']);
 }

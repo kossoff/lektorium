@@ -300,6 +300,18 @@ ul.breadcrumbs {
 #comments {
   font-size: .8em;
 
+  .submitted {
+    color: $l-grey;
+    font-size: .8em;
+
+    a.username {
+      color: #5E619B;
+      font-size: 1.333em;
+      font-weight: bold;
+    }
+  }
+
+
   .field-name-comment-body {
     font-size: 1.23em;
   }
