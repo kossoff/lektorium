@@ -251,3 +251,7 @@ function lektorium_preprocess_comment(&$vars) {
   $vars['submitted'] = $vars['author'] . ' — ' . $vars['created'];
   //unset($vars['content']['links']['comment']['#links']['comment-reply']);
 }
+
+function lektorium_comment_post_forbidden($node) {
+    return '';
+}
