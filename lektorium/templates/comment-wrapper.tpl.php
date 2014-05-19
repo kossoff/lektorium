@@ -52,15 +52,4 @@
   <?php endif; ?>
 
   <?php print render($content['comments']); ?>
-<?php if ( !user_is_logged_in() ): ?>
-<ul class="links inline">
-  <li class="comment_forbidden first last">
-    <span>
-<?php
-   print '<a href="/user?destination=node/' . arg(1) . '">Войдите</a> или <a href="/user/register?destination=node/' . arg(1) . '">зарегистрируйтесь</a>' . ', чтобы отправлять комментарии';
-?>
-    </span>
-  </li>
-</ul>
-<?php endif; ?>
 </div>
