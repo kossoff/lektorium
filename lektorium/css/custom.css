@@ -9394,9 +9394,9 @@ ul.breadcrumbs li:last-child a:after {
   font-size: .8em;
 }
 /* line 307, ../scss/custom.scss */
-#comments .submitted a.username {
+#comments .submitted .username {
   color: #5E619B;
-  font-size: 1.333em;
+  font-size: 1.222em;
   font-weight: bold;
 }
 /* line 314, ../scss/custom.scss */
