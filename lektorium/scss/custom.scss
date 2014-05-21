@@ -300,16 +300,28 @@ ul.breadcrumbs {
 #comments {
   font-size: .8em;
 
-  .submitted {
-    color: $l-grey;
-    font-size: .8em;
+  .comment {
+    .user-picture {
+      position: absolute !important;
+    }
 
-    .username {
-      color: #5E619B;
-      font-size: 1.222em;
-      font-weight: bold;
+    .submitted {
+      color: $l-grey;
+      font-size: .8em;
+
+      .username {
+        color: #5E619B;
+        font-size: 1.222em;
+        font-weight: bold;
+      }
+    }
+
+    .submitted,
+    .content {
+      margin-left: 50px;
     }
   }
+
 
   .field-name-comment-body {
     font-size: 1.23em;
@@ -324,6 +336,7 @@ ul.breadcrumbs {
   .filter-wrapper {
     padding: 0;
   }
+
 }
 
 body.front {
