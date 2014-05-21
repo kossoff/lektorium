@@ -322,7 +322,6 @@ ul.breadcrumbs {
     }
   }
 
-
   .field-name-comment-body {
     font-size: 1.23em;
   }
@@ -335,6 +334,12 @@ ul.breadcrumbs {
 
   .filter-wrapper {
     padding: 0;
+  }
+
+  form.comment-form {
+    label {
+      display: none;
+    }
   }
 
 }
