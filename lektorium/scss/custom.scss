@@ -1055,6 +1055,12 @@ body.university {
   }
 }
 
+body.node-type-speaker {
+  .field-name-body {
+    display: table-cell;
+  }
+}
+
 body.node-type-speaker,
 body.node-type-lecture,
 body.university {
