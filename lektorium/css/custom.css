@@ -10911,6 +10911,22 @@ body.university .badges .social span {
   padding: 2px 4px;
 }
 /* line 1172, ../scss/custom.scss */
+body.node-type-lecture .social,
+body.node-type-course .social,
+body.node-type-conference .social,
+body.node-type-mooc-description .social,
+body.university .social {
+  color: #656565;
+}
+/* line 1175, ../scss/custom.scss */
+body.node-type-lecture .social span,
+body.node-type-course .social span,
+body.node-type-conference .social span,
+body.node-type-mooc-description .social span,
+body.university .social span {
+  padding: 0px 4px;
+}
+/* line 1180, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
 body.node-type-course #code-for-blog,
 body.node-type-conference #code-for-blog,
@@ -10918,7 +10934,7 @@ body.node-type-mooc-description #code-for-blog,
 body.university #code-for-blog {
   margin-top: 1em;
 }
-/* line 1177, ../scss/custom.scss */
+/* line 1185, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap,
 body.node-type-course .social .social-link-wrap,
 body.node-type-conference .social .social-link-wrap,
@@ -10933,7 +10949,7 @@ body.university .social .social-link-wrap {
   background: #f8f8f8;
   border: 1px solid #919191;
 }
-/* line 1184, ../scss/custom.scss */
+/* line 1192, ../scss/custom.scss */
 body.node-type-lecture .social .social-link-wrap i,
 body.node-type-course .social .social-link-wrap i,
 body.node-type-conference .social .social-link-wrap i,
@@ -10943,7 +10959,7 @@ body.university .social .social-link-wrap i {
   padding-right: .5em;
   border-right: 1px solid #919191;
 }
-/* line 1195, ../scss/custom.scss */
+/* line 1203, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures,
 body.node-type-lecture .view-university-lectures,
 body.node-type-lecture .view-conference-lectures,
@@ -10966,7 +10982,7 @@ body.university .view-conference-lectures,
 body.university .view-other-lectures {
   margin-top: 2em;
 }
-/* line 1198, ../scss/custom.scss */
+/* line 1206, ../scss/custom.scss */
 body.node-type-lecture .view-course-lectures .row,
 body.node-type-lecture .view-university-lectures .row,
 body.node-type-lecture .view-conference-lectures .row,
@@ -10990,12 +11006,12 @@ body.university .view-other-lectures .row {
   margin-bottom: 0;
 }
 
-/* line 1207, ../scss/custom.scss */
+/* line 1215, ../scss/custom.scss */
 body.node-type-lecture .social .hitcount,
 body.node-type-lecture .social .field-name-field-likebtn {
   display: inline-block;
 }
-/* line 1211, ../scss/custom.scss */
+/* line 1219, ../scss/custom.scss */
 body.node-type-lecture .social .hitcount {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -11020,7 +11036,7 @@ by Steve Hatcher
 http://stever.ca
 http://www.cssstickyfooter.com
 */
-/* line 1242, ../scss/custom.scss */
+/* line 1250, ../scss/custom.scss */
 * {
   margin: 0;
   padding: 0;
@@ -11029,24 +11045,24 @@ http://www.cssstickyfooter.com
 /* must declare 0 margins on everything, also for main layout components use padding, not
 vertical margins (top and bottom) to add spacing, else those margins get added to total height
 and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
-/* line 1248, ../scss/custom.scss */
+/* line 1256, ../scss/custom.scss */
 html, body {
   height: 100%;
 }
 
-/* line 1250, ../scss/custom.scss */
+/* line 1258, ../scss/custom.scss */
 .page {
   min-height: 100%;
 }
 
-/* line 1252, ../scss/custom.scss */
+/* line 1260, ../scss/custom.scss */
 .wrapper-main {
   overflow: auto;
   padding-bottom: 220px;
 }
 
 /* must be same height as the footer */
-/* line 1255, ../scss/custom.scss */
+/* line 1263, ../scss/custom.scss */
 footer {
   position: relative;
   margin-top: -220px;
@@ -11056,7 +11072,7 @@ footer {
 }
 
 /*Opera Fix*/
-/* line 1261, ../scss/custom.scss */
+/* line 1269, ../scss/custom.scss */
 body:before {
   /* thanks to Maleika (Kohoutec)*/
   content: "";

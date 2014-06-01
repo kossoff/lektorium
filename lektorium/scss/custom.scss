@@ -1169,6 +1169,14 @@ body.university {
     }
   }
 
+  .social {
+    color: $l-text-grey;
+
+    span {
+      padding: 0px 4px;
+    }
+  }
+
   #code-for-blog {
     margin-top: 1em;
   }
