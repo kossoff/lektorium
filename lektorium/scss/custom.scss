@@ -1172,6 +1172,10 @@ body.university {
   .social {
     color: $l-text-grey;
 
+    i {
+      padding-right: 1px;
+    }
+
     span {
       padding: 0px 2px;
     }
