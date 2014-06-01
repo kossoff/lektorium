@@ -10924,7 +10924,7 @@ body.node-type-course .social span,
 body.node-type-conference .social span,
 body.node-type-mooc-description .social span,
 body.university .social span {
-  padding: 0px 4px;
+  padding: 0px 2px;
 }
 /* line 1180, ../scss/custom.scss */
 body.node-type-lecture #code-for-blog,
